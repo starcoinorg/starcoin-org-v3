@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir={{ .Site.Language.LanguageDirection }}>
+
+<head>
+    {{ partial "docs/html-head" . }}
+    {{ partial "docs/inject/head" . }}
+</head>
+
+<body>
+    {{ template "nav" . }}
+
+    <div class="container">
+        <div class="developer m-column-drawer">
+            <div class="developer_left">
+                {{ template "menu" . }}
+            </div>
+            <div class="developer_right">
+
+                <!-- Page Content -->
+
+                {{ template "menu-nav" . }}
+                <div class="content m-d-content">
+                    {{ template "main" . }}
+
+                </div>
+            </div>
+        </div>
+		<div id="dev_fixed_back" class="code_fixed_back">
+			<div class="code_model">
+				<div class="head">
+					<div id="popup_close" class="popup_close"><img src="/img/close.png" /></div>
+				</div>
+				<div class="m_dev_list">
+					{{ partial "docs/menu-filetree" . }}
+				</div>
+			</div>
+		</div>
+    </div>
+
+    {{ template "footer" . }}
+
+</body>
+
+</html>
+<script>
+	$(document).ready(function () {
+		$("#popup_close").click(function () {
+			$("#dev_fixed_back").hide()
+		});
+		
+		$(".m-d-title").click(function () {
+			$("#dev_fixed_back").show()
+		});
+
+		$(".developer_right a").each(function(index, element) {
+			if($(this).attr('href').indexOf('http') != -1){
+				$(this).attr('target', '_blank')
+			}
+		})
+	})
+</script>
+
+{{ define "menu" }}
+{{ partial "docs/menu" . }}
+{{ end }}
+
+
+{{ define "main" }}
+<article class="markdown">
+    {{- .Content -}}
+</article>
+{{ end }}
+
+{{ define "menu-nav" }}
+{{ partial "docs/menu-nav" . }}
+{{ end }}
+
+{{ define "nav" }}
+{{ partial "docs/nav" . }}
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "docs/footer" . }}
+{{ end }}

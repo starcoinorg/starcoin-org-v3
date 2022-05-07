@@ -1,0 +1,201 @@
+- id: Search
+  translation: 搜索
+
+- id: Edit this page
+  translation: 编辑本页
+
+- id: Last modified by
+  translation: 最后修改者
+
+- id: Expand
+  translation: 展开
+
+- id: More
+  translation: 更多
+
+- id: bookSearchConfig
+  translation: |
+    {
+      encode: false,
+      tokenize: function(str) {
+        return str.replace(/[\x00-\x7F]/g, '').split('');
+      }
+    }
+
+- id: check other language version
+  translation: 当前语言文档的版本尚在完善中，请查看其他语言的版本
+
+- id: navOverview
+  translation: 首页
+- id: navLearn
+  translation: 使用指南
+- id: navDeveloper
+  translation: 开发者
+- id: navCommunity
+  translation: 社区
+- id: navQA
+  translation: 问答
+- id: navNews
+  translation: 新闻
+- id: navOverviewIntroduction
+  translation: 整体介绍
+- id: navOverviewWhatIsStarcoin
+  translation: 什么是Starcoin
+- id: navOverviewTechnologyWhitepaper
+  translation: 技术白皮书
+- id: navOverviewEconomyWhitepaper
+  translation: 经济模型白皮书
+- id: navLearnStarcoinWallet
+  translation: Starcoin钱包
+- id: navLearnStarmask
+  translation: StarMask浏览器钱包
+- id: navLearnNodeMining
+  translation: 节点挖矿
+- id: navLearnNodeCommand
+  translation: 节点命令
+- id: navLearnYoutube
+  translation: Youtube教程
+- id: navLearnYoutubeStcscan
+  translation: Starcoin浏览器使用教程
+- id: navLearnYoutubeStarmask
+  translation: StarMask使用教程
+- id: navLearnYoutubeStarmaskInstall
+  translation: 如何安装StarMask钱包
+- id: navLearnYoutubePoll
+  translation: 如何参与Starcoin投票
+- id: navLearnYoutubeAirdrop
+  translation: 领取STC空投教程
+- id: navGuideExplorer
+  translation: 区块链浏览器
+- id: navGuideMining
+  translation: STC挖矿
+- id: navGuideNodeCommand
+  translation: 节点命令行
+- id: navDeveloperHowToDapp
+  translation: Dapp 开发指南
+- id: navDeveloperOracleGuide
+  translation: Oracle 开发指南
+- id: navDeveloperGetStarted
+  translation: 开始
+- id: navDeveloperStartInstall
+  translation: 安装
+- id: navDeveloperStartBuild
+  translation: 从源码编译
+- id: navDeveloperStartDocker
+  translation: 从 Docker 运行
+- id: navDeveloperStartNetwork
+  translation: 运行和加入网络
+- id: navDeveloperNode
+  translation: 节点
+- id: navDeveloperNodeKeyConcept
+  translation: 关键概念
+- id: navDeveloperInstallAndJoin
+  translation: 安装并加入网络
+- id: navDeveloperNodeRPCProtocol
+  translation: RPC 协议
+- id: navDeveloperNodeSIP
+  translation: SIPs
+- id: navDeveloperNodeSDK
+  translation: SDK
+- id: navDeveloperFaucet
+  translation: 水龙头
+- id: navDeveloperMove
+  translation: Move
+- id: navDeveloperMoveBook
+  translation: Move 开发指南
+- id: navDeveloperMove1.2ChangeLog
+  translation: Move 1.2 更新
+- id: navDeveloperMoveIDE
+  translation: Move IDE
+- id: navDeveloperMoveCLI
+  translation: Move CLI
+- id: navDeveloperMoveExamples
+  translation: Move 合约示例
+- id: navDeveloperStratumPool
+  translation: 矿池接入
+- id: navDeveloperStratumPoolGuide
+  translation: 矿池接入指南
+- id: navDeveloperStratumPoolStratumMiningProtocol
+  translation: 矿池协议
+- id: navDeveloperProtocol
+  translation: 协议
+- id: navDeveloperNFTProtocol
+  translation: NFT 协议
+- id: navDeveloperOracleProtocol
+  translation: Oracle 协议
+- id: navCommunityWestar
+  translation: Westar 实验室
+- id: navCommunityTwitter
+  translation: Twitter
+- id: navCommunityMoveChinese
+  translation: Move 中文社区
+- id: navCommunityDocumentation
+  translation: 文档
+- id: navCommunityExplorer
+  translation: Starcoin 浏览器
+- id: navCommunityPoll
+  translation: Starcoin 投票
+- id: navCommunityAirdrop
+  translation: 空投 Dapp
+- id: navCommunityDownloadLogo
+  translation: 下载 logo.zip
+- id: navQAGitHub
+  translation: GitHub 讨论区
+- id: navQAFAQ
+  translation: Starcoin 常见问题
+- id: navQAAMA
+  translation: AMA
+- id: navBlog
+  translation: 博客
+- id: navAbout
+  translation: 关于
+- id: navAboutStarcoin
+  translation: 关于 Starcoin
+
+- id: footerContactUs
+  translation: 联系我们
+- id: footerTechnology
+  translation: 技术
+- id: footerCommunity
+  translation: 社区
+- id: footerWechatPublicAccount
+  translation: "微信公众号: Starcoin区块链"
+- id: footerStarMaskWallet
+  translation: StarMask 插件钱包
+- id: footerBlockchainExplorer
+  translation: 区块浏览器
+- id: footerNews
+  translation: 新闻
+- id: footerTwitter
+  translation: "推特: StarcoinSTC"
+- id: footerTelegram
+  translation: "电报: Starcoin_STC"
+- id: footerTwitterChinese
+  translation: "Twitter中文: StarcoinZH"
+- id: footerMedium
+  translation: "Medium: Starcoin"
+- id: footerMediumChinese
+  translation: "Medium博客: StarcoinZH"
+- id: footerWestarLab
+  translation: Westar 实验室
+- id: footerWechatGroup
+  translation: "微信群请加: starcoinorg"
+- id: footerDeveloperDocs
+  translation: 开发者文档
+- id: footerSDK
+  translation: SDK
+- id: footerMoveChineseCommunity
+  translation: Move 中文社区
+- id: footerDiscord
+  translation: "Discord 群: Discord Spaceship"
+- id: footerGitHubDiscussion
+  translation: "GitHub 讨论区"
+- id: footerAllRightsReserved
+  translation: 保留一切权利
+
+- id: next
+  translation: 下一页
+- id: previous
+  translation: 上一页
+- id: back
+  translation: 返回

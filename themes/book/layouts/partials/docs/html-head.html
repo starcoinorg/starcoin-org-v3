@@ -1,0 +1,91 @@
+<meta charset="UTF-8">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> -->
+<meta id="i18n_pagename" content="index-common">
+<link rel="icon" type="image/svg" href="/img/stc.svg" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+<link rel="stylesheet" href="/css/swiper-bundle.css">
+<link rel="stylesheet" type="text/css" href="/css/nav.css" />
+<link rel="stylesheet" type="text/css" href="/css/nav_developer.css" />
+<link rel="stylesheet" type="text/css" href="/css/banner.css" />
+<link rel="stylesheet" type="text/css" href="/css/font_{{ .Site.Language.Lang }}.css" />
+<link rel="stylesheet" type="text/css" href="/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/css/developer.css" />
+<link rel="stylesheet" type="text/css" href="/css/markdown.css" />
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/swiper.min.js"> </script>
+<script>
+    (function (doc, win) {
+        const baseSize = 196
+        function change() {
+            // 当前页面宽度相对于 1920 宽的缩放比例，可根据自己需要修改。
+            const scale =
+                (document.documentElement.clientWidth) / 1920            // 设置页面根节点字体大小
+            const fontSize = baseSize * Math.min(scale, 2)
+            document.documentElement.style.fontSize = fontSize + 'px'
+        }
+        change();
+        addEventListener('resize', change, false);
+    })(document, window);
+</script>
+<script>
+    $(document).ready(function () {
+        isMobile()
+        $(window).resize(function () {
+            isMobile()
+        });
+        $(function () {
+            $('.footer [data-toggle="tooltip"]').tooltip({
+            })
+        })
+        function isMobile() {
+            // if (window.innerWidth <= 768) {
+            //     $(".m-d-title").css("width", document.body.clientWidth - 30 + 'px');
+            //     $(".m-d-content").css("width", document.body.clientWidth - 30 + 'px');
+            //     $(".developer").css("marginLeft", "-221px");
+            // } else {
+            //     $(".m-d-title").css("width", "auto");
+            //     $(".m-d-content").css("width", "auto");
+            //     $(".developer").css("marginLeft", "auto");
+            // }
+        }
+        $("#developer_open_move").click(function () {
+            if ($(this).parent().attr("class").indexOf("active") > -1) {
+                $(this).find(".icon img").attr("src", "/img/icon_block.png")
+                $(this).parent().removeClass("active")
+            } else {
+                $(this).find(".icon img").attr("src", "/img/icon_block_active.png")
+                $(this).parent().addClass("active")
+            }
+        })
+        // $(".m_left_nav_click").click(function () {
+        //     if ($(this).attr("state") == 0) {
+        //         $(this).attr("state", 1);
+        //         $(".m_mask").show();
+        //         $(".m-column-drawer").animate({ marginLeft: "100px" });
+        //     } else {
+        //         $(this).attr("state", 0);
+        //         $(".m_mask").hide();
+        //         $(".m-column-drawer").animate({ marginLeft: "-212px" });
+        //     }
+
+        // })
+        // $(".m_mask").click(function () {
+        //     $(this).hide()
+        //     $(".m_left_nav_click").attr("state", 0);
+        //     $(".m-column-drawer").animate({ marginLeft: "-212px" });
+        // })
+    })
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-40FBSF4MFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-40FBSF4MFT');
+</script>
+<title>{{ partial "docs/title" . }} | {{ .Site.Title -}}</title>

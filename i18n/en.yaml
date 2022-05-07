@@ -1,0 +1,199 @@
+- id: Search
+  translation: Search
+
+- id: Edit this page
+  translation: Edit this page
+
+- id: Last modified by
+  translation: Last modified by
+
+- id: Expand
+  translation: Expand
+
+- id: More
+  translation: More
+
+- id: bookSearchConfig
+  translation: "{ cache: true }"
+
+- id: check other language version
+  translation: The current language version of this document is still under improvement, please check other language versions
+
+- id: navOverview
+  translation: Overview
+- id: navLearn
+  translation: Learn
+- id: navDeveloper
+  translation: Developer
+- id: navCommunity
+  translation: Community
+- id: navQA
+  translation: Q&A
+- id: navNews
+  translation: News
+- id: navOverviewIntroduction
+  translation: Introduction
+- id: navOverviewWhatIsStarcoin
+  translation: What is Starcoin
+- id: navOverviewTechnologyWhitepaper
+  translation: Technology Whitepaper
+- id: navOverviewEconomyWhitepaper
+  translation: Economy Whitepaper
+- id: navLearnStarcoinWallet
+  translation: Starcoin Wallet
+- id: navLearnNodeMining
+  translation: Node Mining
+- id: navLearnNodeCommand
+  translation: Node Command
+- id: navLearnStarmask
+  translation: StarMask Chrome Wallet
+- id: navLearnYoutube
+  translation: Youtube Videos
+- id: navLearnYoutubeStcscan
+  translation: Starcoin StcScan Guide
+- id: navLearnYoutubeStarmask
+  translation: StarMask Guide
+- id: navLearnYoutubeStarmaskInstall
+  translation: How To Install StarMask
+- id: navLearnYoutubePoll
+  translation: Starcoin Poll Guide
+- id: navLearnYoutubeAirdrop
+  translation: Starcoin Airdrop Guide
+- id: navGuideExplorer
+  translation: Starcoin Explorer
+- id: navGuideMining
+  translation: Mining STC
+- id: navGuideNodeCommand
+  translation: Node Command
+- id: navDeveloperHowToDapp
+  translation: How To Dapp
+- id: navDeveloperOracleGuide
+  translation: Oracle Guide
+- id: navDeveloperGetStarted
+  translation: Get Started
+- id: navDeveloperStartInstall
+  translation: Install
+- id: navDeveloperStartBuild
+  translation: Build from Source
+- id: navDeveloperStartDocker
+  translation: Run by Docker
+- id: navDeveloperStartNetwork
+  translation: Run/Join Network
+- id: navDeveloperNode
+  translation: Node
+- id: navDeveloperNodeKeyConcept
+  translation: Key Concept
+- id: navDeveloperInstallAndJoin
+  translation: Install and Join
+- id: navDeveloperNodeRPCProtocol
+  translation: RPC Protocol & APIs
+- id: navDeveloperNodeSIP
+  translation: SIPs
+- id: navDeveloperNodeSDK
+  translation: SDK
+- id: navDeveloperFaucet
+  translation: Faucet
+- id: navDeveloperMove
+  translation: Move
+- id: navDeveloperMoveBook
+  translation: Move Book
+- id: navDeveloperMove1.2ChangeLog
+  translation: Move ChangeLog 1.2
+- id: navDeveloperMoveIDE
+  translation: Move IDE
+- id: navDeveloperMoveCLI
+  translation: Move CLI
+- id: navDeveloperMoveExamples
+  translation: Move Examples
+- id: navDeveloperStratumPool
+  translation: Stratum Pool
+- id: navDeveloperStratumPool
+  translation: Stratum Pool Guide
+- id: navDeveloperStratumPoolStratumMiningProtocol
+  translation: Stratum mining protocol
+- id: navDeveloperProtocol
+  translation: Protocols
+- id: navDeveloperNFTProtocol
+  translation: NFT Protocol
+- id: navDeveloperOracleProtocol
+  translation: Oracle Protocol
+- id: navCommunityWestar
+  translation: Westar Labs
+- id: navCommunityTwitter
+  translation: Twitter
+- id: navCommunityMoveChinese
+  translation: Move Chinese Community
+- id: navCommunityDocumentation
+  translation: Documentation
+- id: navCommunityExplorer
+  translation: Starcoin Explorer
+- id: navCommunityPoll
+  translation: Starcoin Polls
+- id: navCommunityAirdrop
+  translation: Airdrop Dapp
+- id: navCommunityDownloadLogo
+  translation: Download logo.zip
+- id: navQAGitHub
+  translation: GitHub Discussion
+- id: navQAFAQ
+  translation: Starcoin FAQ
+- id: navQAAMA
+  translation: AMA
+- id: navBlog
+  translation: Blog
+- id: navAbout
+  translation: About
+- id: navAboutStarcoin
+  translation: About Starcoin
+
+- id: footerContactUs
+  translation: Contact Us
+- id: footerTechnology
+  translation: Technology
+- id: footerCommunity
+  translation: Community
+- id: footerWechatPublicAccount
+  translation: "WeChat Public Account: Starcoin区块链"
+- id: footerStarMaskWallet
+  translation: StarMask Wallet
+- id: footerBlockchainExplorer
+  translation: Blockchain Explorer
+- id: footerNews
+  translation: News
+- id: footerTwitter
+  translation: "Twitter: StarcoinSTC"
+- id: footerTwitterChinese
+  translation: "Twitter中文: StarcoinZH"
+- id: footerTelegram
+  translation: "Telegram: Starcoin_STC"
+- id: footerTelegramChinese
+  translation: "Telegram中文社群: StarcoinZH"
+- id: footerMedium
+  translation: "Medium: Starcoin"
+- id: footerMediumChinese
+  translation: "Medium博客: StarcoinZH"
+- id: footerWestarLab
+  translation: Westar Labs
+- id: footerWestarLab
+  translation: Westar Labs
+- id: footerWechatGroup
+  translation: "Join WeChat Group: starcoinorg"
+- id: footerDeveloperDocs
+  translation: Developer Docs
+- id: footerSDK
+  translation: SDK
+- id: footerMoveChineseCommunity
+  translation: Move Chinese Community
+- id: footerDiscord
+  translation: "Discord: Starcoin Spaceship"
+- id: footerGitHubDiscussion
+  translation: "GitHub Discussion"
+- id: footerAllRightsReserved
+  translation: All Rights Reserved
+
+- id: next
+  translation: Next
+- id: previous
+  translation: Previous
+- id: back
+  translation: Back
