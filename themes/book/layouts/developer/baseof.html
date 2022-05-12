@@ -4,12 +4,13 @@
 <head>
     {{ partial "docs/html-head" . }}
     {{ partial "docs/inject/head" . }}
+	{{ partial "developer/inject/head" . }}
 </head>
 
 <body>
     {{ template "nav" . }}
 
-    <div class="container">
+    <div class="container-developer">
         <div class="developer m-column-drawer">
             <div class="developer_left">
                 {{ template "menu" . }}
