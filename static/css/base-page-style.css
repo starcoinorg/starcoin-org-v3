@@ -634,3 +634,199 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.team a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'proxima_novaregular';
+
+}
+.team-4 p{
+    text-align: right;
+}
+.team-4 h2{
+    text-align: right;
+    padding:0;
+}
+.team-4 .blue-text{
+    text-align: right;
+}
+
+.roadmap{
+    width:100%;
+    margin:5em auto;
+}
+.roadmap h2{
+    text-align:left;
+}
+.roadmap .btns{
+    width:40%;
+    float: left;
+    margin-top: 1em;
+
+}
+.right-box{
+    text-align: right;
+    
+}
+.roadmap .blue-text{
+    text-align: left;
+}
+.right-box h3{
+    padding-right:3em
+}
+.right-box .flex-box-icon h3{
+    font-size:40px;
+    padding:0 1em
+}
+.right-box .flex-box-icon{
+    justify-content: end;
+
+}
+.fifth-section .blue-text{
+    font-size: 24px;
+}
+
+.article-i h2{
+    text-align: left;
+    font-size:56px;
+    margin:0 1em
+}
+.article-i img{
+    margin:2em 0;
+}
+.article-i h3{
+    font-size:28px;
+    letter-spacing: 5px;
+}
+.blue-i, .green-i{
+    padding:3em 5em 
+}
+.green-i h2{
+    letter-spacing: 5px;
+    padding-left: 0.5em;
+}
+.green-i a{
+    color: #0a1239 !important;
+    margin-left:1em
+}
+.blue-i h2{
+    letter-spacing: 5px;
+    padding-left: 0.5em;
+}
+.blue-i  ul li{
+    color: #fff;
+    font-family: 'proxima_novaregular';
+    padding-left:-1em;
+    font-size: 20px
+}
+.fifth-section-i h2{
+    letter-spacing: 5px;
+    text-align: left;
+}
+.fourth-section-i{
+    width:100%
+}
+.col-2-i{
+    margin:5em 3em 0 ;
+   
+}
+.col-2-i a{
+    color: #fff;
+    text-decoration: none;
+}
+.col-2-i h2{
+    text-align: left;
+}
+.third-section-i .btns{
+    width:70%;
+    float: left;
+    margin-top:1em
+
+}
+.third-section-i h3{
+    margin-top:3em
+}
+
+.hardcore{
+    margin-top:5em;
+    
+}
+.hardcore-1 p{
+    margin-top:7em
+}
+.hardcore h2{
+    text-align: right;
+}
+.fifth-section-i{
+    width:90%;
+    margin:3em auto;
+}
+.fifth-section-i a{
+    color: #fff;
+    text-decoration: none;
+}
+.blue-box-i{
+    margin-top:2em
+}
+.green-box-i{
+    margin-top:2em
+}
+.blue-box-i .btns{
+    width:40%;
+    float: left;
+    margin-top:1em
+}
+.green-box-i .btns{
+    width:40%;
+    float: left;
+    margin-top:1em
+}
+.blue-box-i h2{
+    text-align: left;
+    font-size:36px;
+    line-height:1.2;
+    letter-spacing: 5px;
+    display: block;
+    margin:0 auto
+
+}
+.green-box-i h2{
+    text-align: left;
+    font-size:36px;
+    line-height:1.2;
+    letter-spacing: 5px;
+    display: block;
+    margin:0 auto
+
+}
+.blue-box-i img{
+    display: block;
+    margin:0 auto
+}
+.green-box-i img{
+    display: block;
+    margin:0 auto
+}
+.col-4-i img{
+    margin:1em
+}
+.col-4-i p{
+    margin-top:1em
+}
+.col-90{
+    flex: 1 1 80%;
+}
+.mobile-center p{
+    text-align: right;
+}
+.third-section-i .btns{
+    font-size:16px
+}
+.col-image img{
+    margin: 0 auto;
+    display: block;
+}
+.left-3{
+    margin-left:3em
+}
