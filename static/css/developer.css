@@ -749,3 +749,7 @@ body {
     margin-top: -8px;
   }
 }
+
+.copyright p {
+  color: #fff;
+}
