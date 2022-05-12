@@ -1,0 +1,16 @@
+.team a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'proxima_novaregular';
+
+}
+.team-4 p{
+    text-align: right;
+}
+.team-4 h2{
+    text-align: right;
+    padding:0;
+}
+.team-4 .blue-text{
+    text-align: right;
+}
