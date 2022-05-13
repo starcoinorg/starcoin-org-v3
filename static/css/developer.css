@@ -752,4 +752,16 @@ body {
 
 .copyright p {
   color: #fff;
+  font-family: 'proxima_novaregular';
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.f-title {
+    font-family: 'unnamedregular';
+    font-size:18px;
+    line-height:1.2;
+    letter-spacing: 1px;
+    margin-top: 0;
 }

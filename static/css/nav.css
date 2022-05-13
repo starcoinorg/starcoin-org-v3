@@ -143,14 +143,21 @@
   }
   
   .dropdown .dropbtn {
+    width: 8.125rem /* 130/16 */;
     font-size: 16px;  
-    border: none;
     outline: none;
     color: white;
-    padding: 18px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    border: 2px #fff solid;
+    margin:0 1em;
+    padding:0em 1em;
+    border-radius: 30px;
+    color: #fff ;
+    text-decoration: none;
+    font-family: 'proxima_novaregular';
+    letter-spacing: 1px;
   }
   
  
@@ -174,7 +181,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #03f47b;
+   color: #03f47b;
   }
   
   .dropdown:hover .dropdown-content {
