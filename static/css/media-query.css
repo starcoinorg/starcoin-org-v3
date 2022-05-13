@@ -573,7 +573,7 @@
 --------------------------------------------- */
 @media all and (max-width : 768px) {
     .flex-box-icon-end{
-        justify-content: inherit;
+        justify-content: left;
     }
     
     .top-header{
@@ -590,7 +590,7 @@
 		width: 100%;
 		text-align: center;
 		float: none;
-        margin-top: 3.5em;
+        margin-top: 2.5em;
 	}
     .mobile-center{
         text-align: center;
@@ -599,8 +599,8 @@
 }
 @media all and (max-width : 768px) {
     
-	nav {
-		margin-top: -1em;
+	.header-nav > nav {
+		top: 2.5em;
 	}
 
 	/* Hide the navigation menu by default */
@@ -716,7 +716,7 @@
 --------------------------------------------- */
 @media all and (max-width : 768px) {
     .flex-box-icon-end{
-        justify-content: inherit;
+        justify-content: left;
     }
     
     .top-header{
@@ -732,7 +732,7 @@
 		width: 100%;
 		text-align: center;
 		float: none;
-        margin-top: 3.5em;
+        margin-top: 2.5em;
 	}
     .mobile-center{
         text-align: center;
@@ -744,8 +744,8 @@
 
 @media all and (max-width : 768px) {
     
-	nav {
-		margin-top: -1em;
+    .header-nav > nav {
+		top:2.5em;
 	}
 
 	/* Hide the navigation menu by default */

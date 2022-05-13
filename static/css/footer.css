@@ -8,7 +8,7 @@
 
 .new_footer_top {
     padding: 120px 0px 60px;
-    position: relative;
+    position: static;
     overflow-x: hidden;
 }
 .new_footer_area .footer_bottom {
