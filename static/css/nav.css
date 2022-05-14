@@ -337,6 +337,7 @@ li > a:only-child:after { content: ''; }
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
+    margin:0 1px;
 }
 .ti-facebook:before {
     content: "\e741";

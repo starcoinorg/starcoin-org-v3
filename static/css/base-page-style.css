@@ -16,9 +16,9 @@ body {
 }
 .green-box{
     background-color: #03f47b;
-    padding:0em 1.2em;
+    padding:0em 0.6em;
     border-radius: 15px;
-    margin:1em;
+    margin:1.25em;
     text-align: center;
     font-family: 'unnamedregular';
     font-size:30px
@@ -75,6 +75,9 @@ body {
 .fifth-section{
     margin:8em 0em;
 }
+.fifth-section-home{
+    justify-content: space-around;
+}
 .fifth-section .btns{
     width:60%;
     float: left;
@@ -89,7 +92,6 @@ body {
     display: none;
 }
 .fifth-section p{
-    padding:0 1em;
     font-size: 20px;
 
 }
@@ -151,6 +153,10 @@ body {
 }
 
 /* ECOSYSTEM */
+.ecosystem{
+    width:95%;
+    margin:0 auto
+}
 .ecosystem h2{
     text-align:left;
 }
@@ -191,6 +197,16 @@ body {
 }
 .transparent-box-green .p-title{
     text-align: right;
+}
+.news-section p{
+    margin:1em 3em
+}
+.news-section-2{
+    margin-top:3em
+}
+.news .p-title{
+    font-size: 28px;
+    line-height: 1.4;
 }
 /* NEWS */
 .news{
@@ -280,6 +296,17 @@ body {
     color: #03f47b;
 }
 
+.article-d h3{
+    line-height: 0.1;
+}
+.article-d p{
+    margin-top: 1.5em;
+}
+.fifth-section-discovery .blue-text{
+    font-size:20px;
+    padding-left:1.5em
+}
+
 .single-image img{
     display: block;
     margin: 5em auto;
@@ -302,7 +329,7 @@ body {
 }
 .dapp .btns{
     width:40%;
-    float: left;
+    float: right;
 }
 .dapp-1, .dapp-2{
     margin:3em 2em
@@ -351,6 +378,9 @@ body {
 .terms-2 h2{
     text-align: right;
 }
+.box-2{
+    margin-left: 3em;
+}
 
 .dome-c{
     margin-top:5em
@@ -398,7 +428,8 @@ body {
     text-align: left;
 }
 .social {
-    margin-top:5em
+    margin:0 auto;
+    width:95%;
 }
 .branding{
     width:50%;
@@ -631,7 +662,7 @@ body {
  .fifth-section-discovery h2{
     text-align:left;
     font-size:56px;
-    padding:0.5em;
+    padding:0 0.5em;
     
 }
 .h2-d{
@@ -697,11 +728,16 @@ body {
 .fifth-section .blue-text{
     font-size: 24px;
 }
-
+.stc .box{
+    margin:1em
+}
+.stc{
+    width:95%;
+    margin:0 auto
+}
 .article-i h2{
     text-align: left;
     font-size:56px;
-    margin:0 1em
 }
 .article-i img{
     margin:2em 0;
@@ -719,7 +755,6 @@ body {
 }
 .green-i a{
     color: #0a1239 !important;
-    margin-left:1em
 }
 .blue-i h2{
     letter-spacing: 5px;
@@ -840,4 +875,60 @@ body {
 }
 .left-3{
     margin-left:3em
+}
+
+.cn-p{
+    font-family: 'source_han_sans_cnregular';
+}
+
+.dropdown .cn-p{
+    font-family: 'source_han_sans_cnregular';
+}
+.cn p{
+    font-family: 'source_han_sans_cnregular';
+    font-size:18px
+}
+.cn-p a{
+    font-family: 'source_han_sans_cnregular';
+}
+.cn-title{
+    font-family: 'source_han_sans_cnregular';
+    font-size:24px
+}
+.cn-nav a{
+    font-family: 'source_han_sans_cnregular';
+}
+.cn h2{
+    font-family: 'source_han_sans_cnbold';
+    font-size:80px;
+    letter-spacing: 5px;
+}
+.cn h3{
+    font-family: 'source_han_sans_cnbold';
+    font-size:48px;
+    letter-spacing: 5px;
+}
+.cn h4{
+    font-family: 'source_han_sans_cnbold';
+    font-size:28px;
+    letter-spacing: 5px;
+}
+.cn span{
+    font-family: 'source_han_sans_cnbold';
+}
+.cn-btns a{
+    font-family: 'source_han_sans_cnregular';
+    letter-spacing: 3px;
+}
+.cn-blue {
+    font-family: 'source_han_sans_cnregular';
+}
+.cn-footer-main h3{
+    font-family: 'source_han_sans_cnbold';
+}
+.cn-footer a{
+    font-family: 'source_han_sans_cnlight';
+}
+.cn-right-box h3{
+    padding-right:2em
 }
