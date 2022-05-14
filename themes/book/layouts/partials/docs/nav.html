@@ -55,3 +55,15 @@
                     </ul>
                 </nav>
 </div>
+
+<script>
+    $(document).ready(function () {
+        const url = window.location.href
+        const list = $("ul.menu > li > a")
+        list.each((i) =>{
+            if (url.indexOf(list[i].href) === 0){
+                list[i].classList.add('active-nav')
+            }
+        })
+    });
+</script>
