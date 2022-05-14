@@ -25,38 +25,40 @@
 - id: check other language version
   translation: 当前语言文档的版本尚在完善中，请查看其他语言的版本
 
-- id: navOverview
-  translation: 首页
-- id: navLearn
-  translation: 使用指南
-- id: navDeveloper
+- id: Whitepaper
+  translation: 白皮书
+- id: navDiscovery
+  translation: 发现
+- id: navDevelopers
   translation: 开发者
+- id: navIndividuals
+  translation: 个人用户
 - id: navCommunity
-  translation: 社区
-- id: navQA
-  translation: 问答
+  translation: 社区社群
+- id: navEcosystem
+  translation: 生态系统
 - id: navNews
   translation: 新闻
-- id: navOverviewIntroduction
-  translation: 整体介绍
-- id: navOverviewWhatIsStarcoin
-  translation: 什么是Starcoin
-- id: navOverviewTechnologyWhitepaper
-  translation: 技术白皮书
-- id: navOverviewEconomyWhitepaper
-  translation: 经济模型白皮书
-- id: navLearnStarcoinWallet
-  translation: Starcoin钱包
-- id: navLearnStarmask
-  translation: StarMask浏览器钱包
-- id: navLearnNodeMining
-  translation: 节点挖矿
-- id: navLearnNodeCommand
-  translation: 节点命令
-- id: navLearnYoutube
-  translation: Youtube教程
-- id: navLearnYoutubeStcscan
-  translation: Starcoin浏览器使用教程
+- id: navDiscoveryTechnology
+  translation: 相关技术
+- id: navDiscoveryStarcoinMove
+  translation: Starcoin与Move
+- id: navDiscoveryDesignIdeas
+  translation: 设计理念与准则
+- id: navDiscoveryRoadmap
+  translation: 路线图
+- id: navIndividualsSTC
+  translation: STC
+- id: navIndividualsWallets
+  translation: 钱包
+- id: navIndividualsOneKey
+  translation: OneKey
+- id: navIndividualsStarcoinNodes
+  translation: Starcoin 节点
+- id: navIndividualsHardcorePlayers
+  translation: 硬核玩家
+- id: navIndividualsGrant
+  translation: Grant
 - id: navLearnYoutubeStarmask
   translation: StarMask使用教程
 - id: navLearnYoutubeStarmaskInstall

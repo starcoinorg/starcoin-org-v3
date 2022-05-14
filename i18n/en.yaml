@@ -19,38 +19,40 @@
 - id: check other language version
   translation: The current language version of this document is still under improvement, please check other language versions
 
-- id: navOverview
-  translation: Overview
-- id: navLearn
-  translation: Learn
-- id: navDeveloper
-  translation: Developer
+- id: Whitepaper
+  translation: Whitepaper
+- id: navDiscovery
+  translation: Discovery
+- id: navDevelopers
+  translation: Developers
+- id: navIndividuals
+  translation: Individuals
 - id: navCommunity
   translation: Community
-- id: navQA
-  translation: Q&A
+- id: navEcosystem
+  translation: Ecosystem&A
 - id: navNews
   translation: News
-- id: navOverviewIntroduction
-  translation: Introduction
-- id: navOverviewWhatIsStarcoin
-  translation: What is Starcoin
-- id: navOverviewTechnologyWhitepaper
-  translation: Technology Whitepaper
-- id: navOverviewEconomyWhitepaper
-  translation: Economy Whitepaper
-- id: navLearnStarcoinWallet
-  translation: Starcoin Wallet
-- id: navLearnNodeMining
-  translation: Node Mining
-- id: navLearnNodeCommand
-  translation: Node Command
-- id: navLearnStarmask
-  translation: StarMask Chrome Wallet
-- id: navLearnYoutube
-  translation: Youtube Videos
-- id: navLearnYoutubeStcscan
-  translation: Starcoin StcScan Guide
+- id: navDiscoveryTechnology
+  translation: Technology
+- id: navDiscoveryStarcoinMove
+  translation: Starcoin & Move
+- id: navDiscoveryDesignIdeas
+  translation: Design Ideas & Philosophy
+- id: navDiscoveryRoadmap
+  translation: Roadmap
+- id: navIndividualsSTC
+  translation: STC
+- id: navIndividualsWallets
+  translation: Wallets
+- id: navIndividualsOneKey
+  translation: OneKey
+- id: navIndividualsStarcoinNodes
+  translation: Starcoin Nodes
+- id: navIndividualsHardcorePlayers
+  translation: Hardcore Players
+- id: navIndividualsGrant
+  translation: Grant
 - id: navLearnYoutubeStarmask
   translation: StarMask Guide
 - id: navLearnYoutubeStarmaskInstall
