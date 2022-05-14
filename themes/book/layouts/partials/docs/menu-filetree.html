@@ -1,4 +1,9 @@
-{{ $bookSection := "/developer" }}
+{{ $bookSection := "/developers" }}
+
+{{ if and (eq .Params.typeof `developers`) }}
+    {{ $bookSection = "/developers" }}
+{{ end }}
+<h1>{{.Params.typeof}}</h1>
 
 {{ with .Site.GetPage $bookSection }}
 {{ template "book-section-children" (dict "Section" . "CurrentPage" $) }}

@@ -4,23 +4,72 @@
 <head>
     {{ partial "docs/html-head" . }}
     {{ partial "docs/inject/head" . }}
-    {{ partial "base-page-inject/head" . }}
+    {{- if and (eq .Layout `main`) }}
+        {{ partial "base-page-inject/head" . }}
+        {{ partial "developers/inject/head" . }}
+    {{- else }}
+        {{ partial "developer/inject/head" . }}
+    {{- end }}
 </head>
 
 <body>
     {{ template "nav" . }}
+    
 
-    {{ template "main" . }}
+    {{- if and (eq .Layout `main`) }}
+        {{ template "main" . }}
+	{{- else }}
+        <div class="container-developer">
+                <div class="developer m-column-drawer">
+                    <div class="developer_left">
+                        {{$menuName := "developers"}}
+                        {{template "menu" .}}
+                    </div>
+                    <div class="developer_right">
 
+                        <!-- Page Content -->
+
+                        {{ template "menu-nav" . }}
+                        <div class="content m-d-content">
+                            {{ template "main" . }}
+
+                        </div>
+                    </div>
+                </div>
+                <div id="dev_fixed_back" class="code_fixed_back">
+                    <div class="code_model">
+                        <div class="head">
+                            <div id="popup_close" class="popup_close"><img src="/img/close.png" /></div>
+                        </div>
+                        <div class="m_dev_list">
+                            {{ partial "docs/menu-filetree" . }}
+                        </div>
+                    </div>
+                </div>
+        </div>
+    {{- end }}
     {{ template "footer" . }}
 
 </body>
 
 </html>
 
-
 {{ define "main" }}
-{{- .Content -}}
+    {{- if and (eq .Layout `main`) }}
+    {{- .Content -}}
+    {{- else }}
+    <article class="markdown">
+        {{- .Content -}}
+    </article>
+    {{- end}}
+{{ end }}
+
+{{ define "menu" }}
+{{ partial "docs/menu" . }}
+{{ end }}
+
+{{ define "menu-nav" }}
+{{ partial "docs/menu-nav" . }}
 {{ end }}
 
 {{ define "nav" }}

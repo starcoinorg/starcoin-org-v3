@@ -270,6 +270,16 @@ body {
 
 }
 
+.sub-link a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 0.1;
+}
+.sub-link a:hover{
+    text-decoration: none;
+    color: #03f47b;
+}
+
 .single-image img{
     display: block;
     margin: 5em auto;

@@ -1,6 +1,6 @@
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 768px) {
     .header li {
       float: left;
     }
@@ -77,63 +77,6 @@
         width:60%
     }
 
-}
-
-@media (max-width: 600px) {
-    h2{
-        font-size: 32px;
-    }
-    .btns{
-        width:40%
-    }
-    .sec-section p{
-        padding:0
-    }
-    .sec-section h2{
-        font-size: 32px;
-        text-align: left;
-    }
-    .fourth-section h2{
-        font-size: 32px;
-        text-align: left;
-    }
-    .ecosystem h2{
-        font-size: 28px;
-    }
-    .banner-title h2{
-        font-size: 32px;
-    }
-    .news h2{
-        font-size: 32px;
-    }
-    .blue-text{
-        text-align: left;
-    }
-    .blue, .green{
-        padding:2em
-    }
-    .fifth-section h2{
-        font-size: 28px;
-    }
-    .news-letter img{
-        display: none;
-    }
-    .signup-text{
-        text-align: center;
-        margin: 0 auto;
-    }
-    .four-points{
-        width:85%
-    }
-    .news p{
-        margin-left: 0em;
-    }
-    .mobile-blue-center{
-        text-align: center;
-    }
-}
-
-@media (max-width: 1240px) {
     .intro .btns{
         width:40%
     }
@@ -193,53 +136,7 @@
     .right-box h3{
         padding-right:0em
     }
-    
-}
-@media (max-width: 600px) {
-    .intro .btns{
-        width:80%
-    }
-    .move h2{
-        font-size:32px
-    }
-    .point .btns{
-        width:80%
-    }
-    .fifth-section-d-title{
-        font-size:32px !important;
-        padding-left:1em
-    }
-    .right-box img{
-        display: none;
-    }
-    .blue{
-        margin: 1em;
-    }
-    .green{
-        margin:1em
-    }
-    .intro-mobile{
-        margin:0 auto
-    }
-    .fifth-section-discovery p{
-        padding-left:2em !important
 
-    }
-
-}
-
-@media (max-width: 1240px) {
-   
-}
-@media (max-width: 600px) {
-    .side-text{
-        margin:0;
-      
-    }
-
-}
-
-@media (max-width: 1240px) {
     .article-i{
         text-align: center;
     }
@@ -297,9 +194,192 @@
         width:90%;
         margin:3em auto !important
     }
+
+    .node-d-3 p{
+        text-align: center;
+    }
+    .third-d .signup-text{
+        width:80%
+    }
+    .node-d{
+        width:50%
+    }
+    .node-d .btns{
+        width:50%
+    }
+    .ghost{
+        display: none;
+    }
+    .point {
+        margin: 1em 2em;
+    }
+    .dapp-1 p{
+        text-align: center;
+    }
+    .dapp .btns{
+        float: none;
+    }
+    .terms-2 p{
+        text-align: center;
+    }
+    .terms-2 h2{
+        text-align: center;
+    }
+    .box-30{
+        flex: 1 1 0 !important
+    }
+    .half-box{
+        width:50%;
+        margin:0 auto;
+    }
+    .third-section{
+        margin-top:0
+    }
+
+    .dome-c{
+        width:80%;
+        margin: 0 auto;
+
+    }
+    .grant .blue{
+        text-align: center;
+        margin:0 5em
+    }
+    .grant-1 .btns{
+        width:50%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+
+    }
+    .grant-1 {
+        display: block;
+        margin: 2em auto;
+        text-align: center;
+        float: none;
+    }
+    .dao-2 .blue{
+        margin:1em 5em;
+        text-align: center;
+    }
+    .dao-2 .green{
+        margin:1em 5em;
+        text-align: center;
+    }
+    .dao-2 .btns{
+        width:80%
+    }
+    .dao-2 h3{
+        text-align: center;
+    }
+    .col-30{
+        margin-left:5em
+    }
+    .branding{
+        width:80%
+    }
+    .branding .btns{
+        width:60%
+    }
+    .glow-c{
+        width:60%
+    }
+    .timeline{
+        width:80%;
+        margin: 0 auto;
+    }
+    .col-50-r{
+        width:80%
+    }
 }
 
 @media (max-width: 600px) {
+    h2{
+        font-size: 32px;
+    }
+    .btns{
+        width:40%
+    }
+    .side-text{
+        margin:0;
+    }
+    .sec-section p{
+        padding:0
+    }
+    .sec-section h2{
+        font-size: 32px;
+        text-align: left;
+    }
+    .fourth-section h2{
+        font-size: 32px;
+        text-align: left;
+    }
+    .ecosystem h2{
+        font-size: 28px;
+    }
+    .banner-title h2{
+        font-size: 32px;
+    }
+    .news h2{
+        font-size: 32px;
+    }
+    .blue-text{
+        text-align: left;
+    }
+    .blue, .green{
+        padding:2em
+    }
+    .fifth-section h2{
+        font-size: 28px;
+    }
+    .news-letter img{
+        display: none;
+    }
+    .signup-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .four-points{
+        width:85%
+    }
+    .news p{
+        margin-left: 0em;
+    }
+    .mobile-blue-center{
+        text-align: center;
+    }
+
+     .intro .btns{
+        width:80%
+    }
+    .move h2{
+        font-size:32px
+    }
+    .point .btns{
+        width:80%
+    }
+    .fifth-section-d-title{
+        font-size:32px !important;
+        padding-left:1em
+    }
+    .right-box img{
+        display: none;
+    }
+    .blue{
+        margin: 1em;
+    }
+    .green{
+        margin:1em
+    }
+    .intro-mobile{
+        margin:0 auto
+    }
+    .fifth-section-discovery p{
+        padding-left:2em !important
+
+    }
+
     .col-2-i{
         margin:2em
     }
@@ -365,53 +445,7 @@
     .f-title{
         margin-top:1.5em
     }
-}
 
-@media (max-width: 1240px) {
-    .node-d-3 p{
-        text-align: center;
-    }
-    .third-d .signup-text{
-        width:80%
-    }
-    .node-d{
-        width:50%
-    }
-    .node-d .btns{
-        width:50%
-    }
-    .ghost{
-        display: none;
-    }
-    .point {
-        margin: 1em 2em;
-    }
-    .dapp-1 p{
-        text-align: center;
-    }
-    .dapp .btns{
-        float: none;
-    }
-    .terms-2 p{
-        text-align: center;
-    }
-    .terms-2 h2{
-        text-align: center;
-    }
-    .box-30{
-        flex: 1 1 0 !important
-    }
-    .half-box{
-        width:50%;
-        margin:0 auto;
-    }
-    .third-section{
-        margin-top:0
-    }
-    
-    
-}
-@media (max-width: 600px) {
     .node-d-2 img{
         display: none;
     }
@@ -440,57 +474,7 @@
     .examples .blue-text{
         text-align: center !important;
     }
-}
 
-@media (max-width: 1240px) {
-    .dome-c{
-        width:80%;
-        margin: 0 auto;
-
-    }
-    .grant .blue{
-        text-align: center;
-        margin:0 5em
-    }
-    .grant-1 .btns{
-        width:50%;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        float: none;
-
-    }
-    .grant-1 {
-        display: block;
-        margin: 2em auto;
-        text-align: center;
-        float: none;
-    }
-    .dao-2 .blue{
-        margin:1em 5em;
-        text-align: center;
-    }
-    .dao-2 .green{
-        margin:1em 5em;
-        text-align: center;
-    }
-    .dao-2 .btns{
-        width:80%
-    }
-    .dao-2 h3{
-        text-align: center;
-    }
-    .col-30{
-        margin-left:5em
-    }
-    .branding{
-        width:80%
-    }
-    .branding .btns{
-        width:60%
-    }
-}
-@media (max-width: 600px) {
     .grant .blue{
         margin: 1em;
     }
@@ -516,21 +500,7 @@
         width:60%;
         float: left;
     }
-}
 
-@media (max-width: 1240px) {
-    .glow-c{
-        width:60%
-    }
-    .timeline{
-        width:80%;
-        margin: 0 auto;
-    }
-    .col-50-r{
-        width:80%
-    }
-}
-@media (max-width: 600px) {
     .glow-c{
         width:100%
     }
@@ -551,10 +521,6 @@
         display: none;
 
     }
-    
-}
-
-  @media (max-width: 600px) {
     ul.tl li .timestamp{
         font-size: 16px;
     }
@@ -596,10 +562,7 @@
         text-align: center;
     }
 
-}
-@media all and (max-width : 768px) {
-    
-	.header-nav > nav {
+    .header-nav > nav {
 		top: 2.5em;
 	}
 
@@ -697,151 +660,4 @@
 		display:block;
 		width: 94%;
 	}
-}
-
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform:  translate(0px,20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform:  translate(0px,-20px);
-    }
-}
-/* Media Queries
---------------------------------------------- */
-@media all and (max-width : 768px) {
-    .flex-box-icon-end{
-        justify-content: left;
-    }
-    
-    .top-header{
-        padding: 0;
-    }
-    .header {
-        padding:1em 0
-    }
-    
-	#logo {
-		display: block;
-		padding: 0;
-		width: 100%;
-		text-align: center;
-		float: none;
-        margin-top: 2.5em;
-	}
-    .mobile-center{
-        text-align: center;
-    }
-
-}
-
-
-
-@media all and (max-width : 768px) {
-    
-    .header-nav > nav {
-		top:2.5em;
-	}
-
-	/* Hide the navigation menu by default */
-	/* Also hide the  */
-	.toggle + a,
-	.menu {
-		display: none;
-	}
-
-	/* Stylinf the toggle lable */
-	.toggle {
-		display: block;
-		background-color: #000f3a;
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px;
-		text-decoration:none;
-		border:none;
-	}
-
-	.toggle:hover {
-		background-color: #000f3a;
-	}
-
-	/* Display Dropdown when clicked on Parent Lable */
-	[id^=drop]:checked + ul {
-		display: block;
-	}
-
-	/* Change menu item's width to 100% */
-	nav ul li {
-		display: block;
-		width: 100%;
-		}
-
-	nav ul ul .toggle,
-	nav ul ul a {
-		padding: 0 40px;
-	}
-
-	nav ul ul ul a {
-		padding: 0 80px;
-	}
-
-	nav a:hover,
- 	nav ul ul ul a {
-		background-color: #000f3a;
-	}
-  
-	nav ul li ul li .toggle,
-	nav ul ul a,
-  nav ul ul ul a{
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px; 
-	}
-  
-  
-	nav ul li ul li .toggle,
-	nav ul ul a {
-		background-color: #000f3a; 
-	}
-
-	/* Hide Dropdowns by Default */
-	nav ul ul {
-		float: none;
-		position:static;
-		color: #ffffff;
-		/* has to be the same number as the "line-height" of "nav a" */
-	}
-		
-	/* Hide menus on hover */
-	nav ul ul li:hover > ul,
-	nav ul li:hover > ul {
-		display: none;
-	}
-		
-	/* Fisrt Tier Dropdown */
-	nav ul ul li {
-		display: block;
-		width: 100%;
-	}
-
-	nav ul ul ul li {
-		position: static;
-		/* has to be the same number as the "width" of "nav ul ul li" */ 
-
-	}
-
-}
-
-@media all and (max-width : 330px) {
-
-	nav ul li {
-		display:block;
-		width: 94%;
-	}
-
 }
