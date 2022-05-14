@@ -35,12 +35,30 @@
   translation: News
 - id: navDiscoveryTechnology
   translation: Technology
+- id: navDiscoveryWhatIsStarcoin
+  translation: What Is Starcoin
 - id: navDiscoveryStarcoinMove
   translation: Starcoin & Move
 - id: navDiscoveryDesignIdeas
   translation: Design Ideas & Philosophy
+- id: navDiscoveryTeam
+  translation: Team
 - id: navDiscoveryRoadmap
   translation: Roadmap
+- id: navDevelopersBuilding
+  translation: Building
+- id: navDevelopersMiners
+  translation: Miners
+- id: navDevelopersValidators
+  translation: Validators
+- id: navIndividualsStarmask
+  translation: Starmask
+- id: navIndividualsNodeMining
+  translation: Node Mining
+- id: navIndividualsNodeCommand
+  translation: Node Command
+- id: navIndividualsToken
+  translation: Token
 - id: navIndividualsSTC
   translation: STC
 - id: navIndividualsWallets
@@ -53,6 +71,32 @@
   translation: Hardcore Players
 - id: navIndividualsGrant
   translation: Grant
+- id: navCommunityJoinUs
+  translation: Join Us
+- id: navCommunityDAO
+  translation: DAO
+- id: navCommunityGrant
+  translation: Grant
+- id: navCommunitySocialMedia
+  translation: Social Media
+- id: navCommunityBranding
+  translation: Branding
+- id: navCommunityBlog
+  translation: Blog
+- id: navEcosystemMiningPool
+  translation: Mining Pool
+- id: navEcosystemWallet
+  translation: Wallet
+- id: navEcosystemExchange
+  translation: Exchange
+- id: navEcosystemBridge
+  translation: Bridge
+- id: navEcosystemWeb3Protocols
+  translation: Web 3.0 Protocols
+- id: navEcosystemNFTMarketplace
+  translation: NFT Marketplace
+- id: navEcosystemGaming
+  translation: Gaming
 - id: navLearnYoutubeStarmask
   translation: StarMask Guide
 - id: navLearnYoutubeStarmaskInstall

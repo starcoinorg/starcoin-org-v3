@@ -7,16 +7,17 @@
                 <label for="drop" class="toggle mobile-center">Menu</label>
                 <input type="checkbox" id="drop" />
                     <ul class="menu">
-                        
                         <li>
                             <!-- First Tier Drop Down -->
                             <label for="drop-1" class="toggle">Discovery +</label>
                             <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery'>{{ i18n "navDiscovery" }}</a>
                             <input type="checkbox" id="drop-1"/>
                             <ul>
+                                <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#whatisstarcoin'>{{ i18n "navDiscoveryWhatIsStarcoin" }}</a></li>
                                 <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#technology'>{{ i18n "navDiscoveryTechnology" }}</a></li>
-                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#starcoin_move'>{{ i18n "navDiscoveryStarcoinMove" }}</a></li>
-                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#design_ideas'>{{ i18n "navDiscoveryDesignIdeas" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#starcoinmove'>{{ i18n "navDiscoveryStarcoinMove" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#designideas'>{{ i18n "navDiscoveryDesignIdeas" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#team'>{{ i18n "navDiscoveryTeam" }}</a></li>
                                 <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#roadmap'>{{ i18n "navDiscoveryRoadmap" }}</a></li>
                             </ul> 
         

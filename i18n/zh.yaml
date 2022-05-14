@@ -39,14 +39,32 @@
   translation: 生态系统
 - id: navNews
   translation: 新闻
+- id: navDiscoveryWhatIsStarcoin
+  translation: 什么是 STARCOIN
 - id: navDiscoveryTechnology
   translation: 相关技术
 - id: navDiscoveryStarcoinMove
   translation: Starcoin与Move
 - id: navDiscoveryDesignIdeas
   translation: 设计理念与准则
+- id: navDiscoveryTeam
+  translation: 团队
 - id: navDiscoveryRoadmap
   translation: 路线图
+- id: navDevelopersBuilding
+  translation: 建造
+- id: navDevelopersMiners
+  translation: 旷工
+- id: navDevelopersValidators
+  translation: 认证者
+- id: navIndividualsStarmask
+  translation: Starmask
+- id: navIndividualsNodeMining
+  translation: Node 挖矿
+- id: navIndividualsNodeCommand
+  translation: Node 命令
+- id: navIndividualsToken
+  translation: Token
 - id: navIndividualsSTC
   translation: STC
 - id: navIndividualsWallets
@@ -58,7 +76,33 @@
 - id: navIndividualsHardcorePlayers
   translation: 硬核玩家
 - id: navIndividualsGrant
-  translation: Grant
+  translation: 基金
+- id: navCommunityJoinUs
+  translation: 加入我们
+- id: navCommunityDAO
+  translation: DAO
+- id: navCommunityGrant
+  translation: 基金
+- id: navCommunitySocialMedia
+  translation: 社交平台
+- id: navCommunityBranding
+  translation: 品牌
+- id: navCommunityBlog
+  translation: 博客
+- id: navEcosystemMiningPool
+  translation: 矿池
+- id: navEcosystemWallet
+  translation: 钱包
+- id: navEcosystemExchange
+  translation: 交易
+- id: navEcosystemBridge
+  translation: Bridge
+- id: navEcosystemWeb3Protocols
+  translation: Web 3.0 协议
+- id: navEcosystemNFTMarketplace
+  translation: NFT 交易市场
+- id: navEcosystemGaming
+  translation: 游戏
 - id: navLearnYoutubeStarmask
   translation: StarMask使用教程
 - id: navLearnYoutubeStarmaskInstall
