@@ -58,11 +58,23 @@
 
 <script>
     $(document).ready(function () {
-        const url = window.location.href
+        const currentUrl = window.location.href
+
+        // Active nav bar item while switch between them
         const list = $("ul.menu > li > a")
         list.each((i) =>{
-            if (url.indexOf(list[i].href) === 0){
+            if (currentUrl.indexOf(list[i].href) === 0){
                 list[i].classList.add('active-nav')
+            }
+        })
+
+        // Switch i18n languages
+        $(".dropdown-content > a").click(function () {
+            const newLanguage = $(this).attr("language")
+            const oldLanguage = currentUrl.split("/")[3]
+            if (oldLanguage !== newLanguage){
+                const newUrl = currentUrl.replace(`/${oldLanguage}/`,`/${newLanguage}/`)
+                window.location.href = newUrl
             }
         })
     });
