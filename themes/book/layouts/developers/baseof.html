@@ -15,7 +15,6 @@
 <body>
     {{ template "nav" . }}
     
-
     {{- if and (eq .Layout `main`) }}
         {{ template "main" . }}
 	{{- else }}
