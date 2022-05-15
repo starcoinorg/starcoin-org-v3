@@ -1,5 +1,5 @@
 ---
-title: 合约部署实例
+title: NFT
 weight: 5
 typeof: developers
 ---

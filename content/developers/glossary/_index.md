@@ -1,5 +1,5 @@
 ---
-title: Node
+title: Glossary
 weight: 3
 bookCollapseSection: true
 typeof: developers

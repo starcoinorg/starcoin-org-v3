@@ -1,5 +1,5 @@
 ---
-title: 环境搭建
+title: environmental
 weight: 3
 typeof: developers
 ---

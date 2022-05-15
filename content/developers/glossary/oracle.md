@@ -1,5 +1,5 @@
 ---
-title: 合约部署实例
+title: Oracle
 weight: 5
 typeof: developers
 ---

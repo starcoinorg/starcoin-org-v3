@@ -1,5 +1,5 @@
 ---
-title: 合约部署实例
+title: contract upgrade
 weight: 5
 typeof: developers
 ---

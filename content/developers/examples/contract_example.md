@@ -1,5 +1,5 @@
 ---
-title: Compile
+title: contract example
 weight: 5
 typeof: developers
 ---

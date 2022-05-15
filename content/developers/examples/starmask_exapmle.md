@@ -1,5 +1,5 @@
 ---
-title: Compile
+title: starmask exapmle
 weight: 5
 typeof: developers
 ---
