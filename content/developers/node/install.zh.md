@@ -1,6 +1,6 @@
 ---
 title: 快速上手
-weight: 4
+weight: 2
 typeof: developers
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Run custom chain network
-weight: 7
+weight: 5
 typeof: developers
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Glossary
-weight: 3
+weight: 5
 bookCollapseSection: true
 typeof: developers
 ---

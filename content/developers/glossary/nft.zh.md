@@ -1,6 +1,6 @@
 ---
 title: NFT
-weight: 5
+weight: 10
 typeof: developers
 ---
 

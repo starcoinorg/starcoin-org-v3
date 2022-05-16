@@ -1,6 +1,6 @@
 ---
 title: DAO
-weight: 5
+weight: 12
 typeof: developers
 ---
 

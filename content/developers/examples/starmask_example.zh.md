@@ -1,6 +1,6 @@
 ---
 title: StarMask example
-weight: 5
+weight: 8
 typeof: developers
 ---
 

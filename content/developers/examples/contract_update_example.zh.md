@@ -1,6 +1,6 @@
 ---
 title: 合约升级实例
-weight: 5
+weight: 7
 typeof: developers
 ---
 

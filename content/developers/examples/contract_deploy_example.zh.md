@@ -1,6 +1,6 @@
 ---
 title: 合约部署实例
-weight: 5
+weight: 6
 typeof: developers
 ---
 

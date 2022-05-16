@@ -1,6 +1,6 @@
 ---
 title: Run by docker
-weight: 5
+weight: 3
 typeof: developers
 ---
 

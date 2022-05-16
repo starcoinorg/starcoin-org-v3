@@ -1,6 +1,6 @@
 ---
 title: contract update example
-weight: 5
+weight: 7
 typeof: developers
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 术语表
-weight: 3
+weight: 5
 bookCollapseSection: true
 typeof: developers
 ---

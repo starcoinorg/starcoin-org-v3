@@ -1,6 +1,6 @@
 ---
 title: Move
-weight: 3
+weight: 2
 typeof: developers
 bookCollapseSection: true
 ---

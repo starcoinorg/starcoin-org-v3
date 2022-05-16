@@ -1,6 +1,6 @@
 ---
 title: 形式化验证
-weight: 3
+weight: 9
 typeof: developers
 ---
 

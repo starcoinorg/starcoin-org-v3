@@ -1,6 +1,6 @@
 ---
 title: Command
-weight: 2
+weight: 6
 typeof: developers
 bookCollapseSection: true
 ---

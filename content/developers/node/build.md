@@ -1,6 +1,6 @@
 ---
 title: Build from Source
-weight: 5
+weight: 4
 typeof: developers
 ---
 

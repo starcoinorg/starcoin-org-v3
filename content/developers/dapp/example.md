@@ -1,6 +1,6 @@
 ---
 title: Example
-weight: 3
+weight: 7
 typeof: developers
 ---
 

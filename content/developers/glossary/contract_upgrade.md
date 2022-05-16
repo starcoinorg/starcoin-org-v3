@@ -1,6 +1,6 @@
 ---
 title: contract upgrade
-weight: 5
+weight: 13
 typeof: developers
 ---
 

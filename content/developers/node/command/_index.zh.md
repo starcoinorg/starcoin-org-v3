@@ -1,6 +1,6 @@
 ---
 title: 命令行工具
-weight: 2
+weight: 6
 typeof: developers
 bookCollapseSection: true
 ---

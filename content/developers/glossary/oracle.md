@@ -1,6 +1,6 @@
 ---
 title: Oracle
-weight: 5
+weight: 11
 typeof: developers
 ---
 

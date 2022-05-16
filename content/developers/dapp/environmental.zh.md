@@ -1,6 +1,6 @@
 ---
 title: 环境搭建
-weight: 3
+weight: 4
 typeof: developers
 ---
 

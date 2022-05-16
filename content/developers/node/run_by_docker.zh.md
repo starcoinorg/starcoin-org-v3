@@ -1,6 +1,6 @@
 ---
 title: Docker
-weight: 5
+weight: 3
 typeof: developers
 ---
 
