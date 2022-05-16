@@ -10,6 +10,6 @@ typeof: developers
 
 测试工具【全面覆盖，安全无死角】
 
-UT: [https://starcoin.org/zh/developer/blog/move_development/](/zh/developers/blog/move_development/)
+UT: [https://starcoin.org/zh/developer/blog/move_development/](/zh/developers/others/move_development/)
 
-FT: [https://starcoin.org/zh/developer/functional_test/functional_test/](/zh/developers/blog/functional_test/)
+FT: [https://starcoin.org/zh/developer/functional_test/functional_test/](/zh/developers/others/functional_test/)

@@ -12,7 +12,7 @@ Dapp是公链生态重要的组成，是公链生命力的重要体现。从开�
 Dapp【Dapp开发指南，轻松上手】
 
 [https://starcoin.org/zh/developer/how_to_dapp/how_to_dapp/](https://starcoin.org/zh/developer/how_to_dapp/how_to_dapp/)
-[https://starcoin.org/zh/developer/blog/starcoin_dapp/](/zh/developers/blog/starcoin_dapp/)
+[https://starcoin.org/zh/developer/blog/starcoin_dapp/](/zh/developers/others/starcoin_dapp/)
 
 <!--more-->
 
