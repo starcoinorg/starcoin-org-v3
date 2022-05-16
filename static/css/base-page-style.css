@@ -932,3 +932,13 @@ body {
 .cn-right-box h3{
     padding-right:2em
 }
+
+.custom-link-a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-link-a:hover {
+    color: #fff;
+    text-decoration: none;
+}
