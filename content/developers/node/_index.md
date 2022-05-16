@@ -5,6 +5,4 @@ bookCollapseSection: true
 typeof: developers
 ---
 
-<!--more-->
-
-{{< section >}}
+{{< todo >}}
