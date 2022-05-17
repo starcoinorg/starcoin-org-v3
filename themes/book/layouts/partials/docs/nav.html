@@ -167,12 +167,14 @@
 
         $(".m_nav_tap").click(function () {
             if ($(this).find("img").attr("src") == "/img/m_nav_more.png") {
+                $('.m_nav_top_bar')[0].style.background = 'transparent';
                 $(this).find("img").attr("src", "/img/m_nav_close.png")
                 $(".m_nav_model").show()
                 $(".m_nav_model").animate({ height: "100%" });
                 $(".scrollTop-nav").addClass("home-nav");
             } else {
                 $(this).find("img").attr("src", "/img/m_nav_more.png")
+                $('.m_nav_top_bar')[0].style.background = '#000f3a';
                 $(".scrollTop-nav").removeClass("home-nav");
                 $(".m_nav_model").animate({ height: "0%" });
                 $(".m_nav_model").hide()
