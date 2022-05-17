@@ -61,7 +61,6 @@ body {
     margin:5em 3em
 }
 .fourth-section .btns{
-    width:30%;
     margin: 0;
 }
 .columns{
@@ -79,7 +78,7 @@ body {
     justify-content: space-around;
 }
 .fifth-section .btns{
-    width:60%;
+    width: 60%;
     float: left;
     margin-top:1em
 }
@@ -161,7 +160,7 @@ body {
     text-align:left;
 }
 .ecosystem .btns{
-    width:50%;
+    width: 50%;
     float: left;
     margin-right:2em
 }
@@ -187,7 +186,7 @@ body {
 }
 .transparent-box-green .btns{
     float: right;
-    width:60%
+    width: 200px;
 
 }
 .transparent-box-green{
@@ -234,7 +233,6 @@ body {
 
 }
 .news .btns{
-    width:60%;
     margin:1em 0;
 
 }
@@ -262,9 +260,6 @@ body {
     text-align: left;
     
 }
-.node-d .btns{
-    width:80%
-}
 .node-d-2{
     margin-top:3em
 }
@@ -273,9 +268,6 @@ body {
 }
 .node-d-3 p{
     margin-left:3em
-}
-.node-d-3 .btns{
-    width:60%;
 }
 
 .node-d-point a{
@@ -328,8 +320,7 @@ body {
     text-align: left;
 }
 .dapp .btns{
-    width:40%;
-    float: right;
+    float: left;
 }
 .dapp-1, .dapp-2{
     margin:3em 2em
@@ -440,9 +431,6 @@ body {
 }
 .branding img{
     margin-top:2em
-}
-.branding .btns{
-    width:40%
 }
 .social .col-30{
     margin-top:3.5em
@@ -630,9 +618,7 @@ body {
     letter-spacing: 5px;
 }
 .intro .btns{
-    width:60%;
     float: left;
-    margin-top:2em
 }
 .white p{
     color:#fff
@@ -645,14 +631,9 @@ body {
 .article .box{
     margin:3em
 }
-.move{
-    width:90%;
-    margin: 0 auto
-}
+
 .move .btns{
-    width:70%;
     float:left;
-    font-size: 16px;
     
 }
 .move h2{
@@ -702,7 +683,6 @@ body {
     text-align:left;
 }
 .roadmap .btns{
-    width:40%;
     float: left;
     margin-top: 1em;
 
@@ -718,7 +698,6 @@ body {
     padding-right:3em
 }
 .right-box .flex-box-icon h3{
-    font-size:40px;
     padding:0 1em
 }
 .right-box .flex-box-icon{
@@ -785,7 +764,6 @@ body {
     text-align: left;
 }
 .third-section-i .btns{
-    width:70%;
     float: left;
     margin-top:1em
 
@@ -819,12 +797,10 @@ body {
     margin-top:2em
 }
 .blue-box-i .btns{
-    width:40%;
     float: left;
     margin-top:1em
 }
 .green-box-i .btns{
-    width:40%;
     float: left;
     margin-top:1em
 }
@@ -905,7 +881,6 @@ body {
 }
 .cn h3{
     font-family: 'source_han_sans_cnbold';
-    font-size:48px;
     letter-spacing: 5px;
 }
 .cn h4{

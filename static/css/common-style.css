@@ -34,7 +34,13 @@ h4{
     line-height:1.2;
     letter-spacing: 3px;
 }
-
+h5{
+    
+    font-family: 'unnamedregular';
+    font-size:18px;
+    line-height:1.2;
+    letter-spacing: 1px;
+}
 p{
     font-family: 'proxima_novaregular';
     font-size:16px;
@@ -92,7 +98,6 @@ p{
     margin: 0 auto;
     background-color: #03f47b;
     text-align: center;
-    width:20%;
     padding:0.5em 1em;
     border-radius: 35px;
    
@@ -118,6 +123,6 @@ p{
     margin-left:10px !important;
 }
 .p-title{
-    font-size:24px;
-    line-height:1;
+    font-size:22px;
+    line-height:1.2;
 }
