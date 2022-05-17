@@ -45,6 +45,18 @@
   translation: Team
 - id: navDiscoveryRoadmap
   translation: Roadmap
+- id: navDevelopersNode
+  translation: Node
+- id: navDevelopersMove
+  translation: Move
+- id: navDevelopersDapp
+  translation: Dapp
+- id: navDevelopersExamples
+  translation: Examples
+- id: navDevelopersGlossary
+  translation: Glossary
+- id: navDevelopersOthers
+  translation: Others
 - id: navDevelopersBuilding
   translation: Building
 - id: navDevelopersMiners

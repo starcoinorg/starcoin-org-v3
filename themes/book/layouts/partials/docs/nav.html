@@ -8,7 +8,6 @@
                 <input type="checkbox" id="drop" />
                     <ul class="menu">
                         <li>
-                            <!-- First Tier Drop Down -->
                             <label for="drop-1" class="toggle">Discovery +</label>
                             <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery'>{{ i18n "navDiscovery" }}</a>
                             <input type="checkbox" id="drop-1"/>
@@ -20,34 +19,43 @@
                                 <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#team'>{{ i18n "navDiscoveryTeam" }}</a></li>
                                 <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/discovery#roadmap'>{{ i18n "navDiscoveryRoadmap" }}</a></li>
                             </ul> 
-        
                         </li>
-                        <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers'>{{ i18n "navDevelopers" }}</a></li>
                         <li>
-        
-                        <!-- First Tier Drop Down -->
-                        <label for="drop-2" class="toggle">Web Design +</label>
-                        <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual'>{{ i18n "navIndividuals" }}</a>
-                        <input type="checkbox" id="drop-2"/>
-                         <ul>
-                            <li><a href="#">{{ i18n "navIndividualsSTC" }}</a></li>
-                            <li><a href="#">{{ i18n "navIndividualsWallets" }}</a></li>
-                            <li><a href="#">{{ i18n "navIndividualsOneKey" }}</a></li>
-                            <li><a href="#">{{ i18n "navIndividualsStarcoinNodes" }}</a></li>
-                            <li><a href="#">{{ i18n "navIndividualsHardcorePlayers" }}</a></li>
-                            <li><a href="#">{{ i18n "navIndividualsGrant" }}</a></li>
-                            <!-- <li>
-                                <label for="drop-3" class="toggle">Tutorials +</label>
-                                <a href="#">Tutorials</a>         
-                                <input type="checkbox" id="drop-3"/>
-            
-                                <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">jQuery</a></li>
-                                    <li><a href="#">Other</a></li>
-                                </ul>
-                            </li> -->
-                        </ul>
+                            <label for="drop-2" class="toggle">Developers +</label>
+                            <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers'>{{ i18n "navDevelopers" }}</a>
+                            <input type="checkbox" id="drop-2"/>
+                            <ul>
+                                <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#node'>{{ i18n "navDevelopersNode" }}</a></li>
+                                <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#move'>{{ i18n "navDevelopersMove" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#dapp'>{{ i18n "navDevelopersDapp" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#examples'>{{ i18n "navDevelopersExamples" }}</a></li>
+                                <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#glossary'>{{ i18n "navDevelopersGlossary" }}</a></li>
+                                <li> <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers#others'>{{ i18n "navDevelopersOthers" }}</a></li>
+                            </ul> 
+                        <li>
+                        <li>
+                            <label for="drop-3" class="toggle">Individuals +</label>
+                            <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual'>{{ i18n "navIndividuals" }}</a>
+                            <input type="checkbox" id="drop-3"/>
+                            <ul>
+                                <li><a href="#">{{ i18n "navIndividualsSTC" }}</a></li>
+                                <li><a href="#">{{ i18n "navIndividualsWallets" }}</a></li>
+                                <li><a href="#">{{ i18n "navIndividualsOneKey" }}</a></li>
+                                <li><a href="#">{{ i18n "navIndividualsStarcoinNodes" }}</a></li>
+                                <li><a href="#">{{ i18n "navIndividualsHardcorePlayers" }}</a></li>
+                                <li><a href="#">{{ i18n "navIndividualsGrant" }}</a></li>
+                                <!-- <li>
+                                    <label for="drop-4" class="toggle">Tutorials +</label>
+                                    <a href="#">Tutorials</a>         
+                                    <input type="checkbox" id="drop-4"/>
+                
+                                    <ul>
+                                        <li><a href="#">HTML/CSS</a></li>
+                                        <li><a href="#">jQuery</a></li>
+                                        <li><a href="#">Other</a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
                         </li>
                         <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community'>{{ i18n "navCommunity" }}</a></li>
                         <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem'>{{ i18n "navEcosystem" }}</a></li>
