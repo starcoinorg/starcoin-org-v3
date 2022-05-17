@@ -26,6 +26,24 @@
 <script src="/js/jquery.min.js"></script>
 <!-- <script src="/js/bootstrap.min.js"></script> -->
 <!-- <script src="/js/swiper.min.js"> </script> -->
+<script>
+    function addCssByLink(url){ 
+        var doc=document; 
+        var link=doc.createElement("link"); 
+        link.setAttribute("rel", "stylesheet"); 
+        link.setAttribute("type", "text/css"); 
+        link.setAttribute("href", url); 
+    
+        var heads = doc.getElementsByTagName("head"); 
+        if(heads.length) {
+
+            heads[0].appendChild(link); 
+        }
+        else {
+            doc.documentElement.appendChild(link); 
+        }
+    } 
+</script>
 <!-- <script>
     (function (doc, win) {
         const baseSize = 16

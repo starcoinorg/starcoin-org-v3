@@ -9,6 +9,7 @@
         {{ partial "developers/inject/head" . }}
     {{- else }}
         {{ partial "developer/inject/head" . }}
+        <link href="/css/media-query.css" rel="stylesheet" />
     {{- end }}
 </head>
 
@@ -52,6 +53,23 @@
 </body>
 
 </html>
+<script>
+	$(document).ready(function () {
+		$("#popup_close").click(function () {
+			$("#dev_fixed_back").hide()
+		});
+		
+		$(".m-d-title").click(function () {
+			$("#dev_fixed_back").show()
+		});
+
+		$(".developer_right a").each(function(index, element) {
+			if($(this).attr('href').indexOf('http') != -1){
+				$(this).attr('target', '_blank')
+			}
+		})
+	})
+</script>
 
 {{ define "main" }}
     {{- if and (eq .Layout `main`) }}

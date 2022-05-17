@@ -363,7 +363,8 @@
         width:100%
     }
     .news{
-        margin:2em
+        margin:2em;
+        padding-top: 170px;
     }
     .f-title{
         margin-top:1.5em

@@ -556,7 +556,7 @@ body {
   height: 100%;
   display: none;
   top: 0;
-  z-index: 101;
+  z-index: 9999999999;
   background: rgba(19, 22, 32, 0.61);
 }
 
