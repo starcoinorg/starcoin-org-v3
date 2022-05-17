@@ -122,6 +122,7 @@
 
 .m_nav_model .m_nav_wrap .item a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .m_nav_model .m_nav_wrap .select {
