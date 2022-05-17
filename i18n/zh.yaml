@@ -113,6 +113,10 @@
   translation: Web 3.0 协议
 - id: navEcosystemNFTMarketplace
   translation: NFT 交易市场
+- id: navEcosystemStablecoin
+  translation: 稳定币
+- id: navEcosystemDex
+  translation: 交易所
 - id: navEcosystemGaming
   translation: 游戏
 - id: navLearnYoutubeStarmask

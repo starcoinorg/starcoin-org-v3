@@ -57,8 +57,32 @@
                                 </li> -->
                             </ul>
                         </li>
-                        <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community'>{{ i18n "navCommunity" }}</a></li>
-                        <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem'>{{ i18n "navEcosystem" }}</a></li>
+                        <li>
+                            <label for="drop-3" class="toggle">Community +</label>
+                            <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community'>{{ i18n "navCommunity" }}</a>
+                            <input type="checkbox" id="drop-3"/>
+                            <ul class="anchor-link-wrap">
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community#joinus">{{ i18n "navCommunityJoinUs" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community#grant">{{ i18n "navCommunityGrant" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community#dao">{{ i18n "navCommunityDAO" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community#socialmedia">{{ i18n "navCommunitySocialMedia" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/community#branding">{{ i18n "navCommunityBranding" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/developers/others">{{ i18n "navCommunityBlog" }}</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label for="drop-3" class="toggle">Community +</label>
+                            <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem'>{{ i18n "navEcosystem" }}</a>
+                            <input type="checkbox" id="drop-3"/>
+                            <ul class="anchor-link-wrap">
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#wallet">{{ i18n "navEcosystemWallet" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#exchange">{{ i18n "navEcosystemExchange" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#mingpool">{{ i18n "navEcosystemMiningPool" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#nftmarketplace">{{ i18n "navEcosystemNFTMarketplace" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#stablecoin">{{ i18n "navEcosystemStablecoin" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem#dex">{{ i18n "navEcosystemDex" }}</a></li>
+                            </ul>
+                        </li>
                         <li><a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/news'>{{ i18n "navNews" }}</a></li>
                     </ul>
                 </nav>

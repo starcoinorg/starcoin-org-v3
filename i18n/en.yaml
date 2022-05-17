@@ -107,6 +107,10 @@
   translation: Web 3.0 Protocols
 - id: navEcosystemNFTMarketplace
   translation: NFT Marketplace
+- id: navEcosystemStablecoin
+  translation: Stablecoin
+- id: navEcosystemDex
+  translation: Dex
 - id: navEcosystemGaming
   translation: Gaming
 - id: navLearnYoutubeStarmask

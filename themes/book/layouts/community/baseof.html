@@ -18,6 +18,25 @@
 </body>
 
 </html>
+<script>
+$(document).ready(function () {
+    const href = window.location.href;
+        if (href.indexOf('#') !== -1) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1)
+
+            let anchor = ''
+            let fixTop = 150;
+            anchor = href.substring(href.indexOf('#') + 1);
+            const anchorElement = document.getElementById(anchor);
+            const anchorTop = $(anchorElement).offset().top;
+            $('html, body').animate({
+                scrollTop: anchorTop - fixTop
+            }, 20)
+        }
+})
+</script>
 
 
 {{ define "main" }}
