@@ -19,7 +19,7 @@
 
 </html>
 <script>
-	$(document).ready(function () {
+window.onload = () => {
         const href = window.location.href;
         if (href.indexOf('#') !== -1) {
             $('html, body').animate({
@@ -35,7 +35,7 @@
                 scrollTop: anchorTop - fixTop
             }, 20)
         }
-	})
+	};
 </script>
 
 

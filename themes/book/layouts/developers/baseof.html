@@ -54,7 +54,7 @@
 
 </html>
 <script>
-	$(document).ready(function () {
+window.onload = () => {
 		$("#popup_close").click(function () {
 			$("#dev_fixed_back").hide()
 		});
@@ -84,7 +84,7 @@
                 scrollTop: anchorTop - fixTop
             }, 20)
         }
-	})
+	}
 </script>
 
 {{ define "main" }}
