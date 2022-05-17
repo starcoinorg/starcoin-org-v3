@@ -34,9 +34,9 @@
 - id: navIndividuals
   translation: 个人用户
 - id: navCommunity
-  translation: 社区社群
+  translation: 社区
 - id: navEcosystem
-  translation: 生态系统
+  translation: 生态
 - id: navNews
   translation: 新闻
 - id: navDiscoveryWhatIsStarcoin
