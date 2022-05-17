@@ -753,6 +753,29 @@
 
 	}
 
+    .header {
+        display: none;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .m_header_top {
+        display: none;
+    }
+
+    .m_top {
+        margin: 0;
+    }
+
+    .banner {
+        margin-top: 0 !important;
+    }
+
+    .visible-xs {
+        display: block !important;
+    }
 }
 
 @media all and (max-width : 330px) {

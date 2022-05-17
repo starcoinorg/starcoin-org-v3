@@ -1,0 +1,194 @@
+.m_header_top {
+  height: 80px;
+}
+
+
+.m_top {
+  height: 66px;
+  padding: 0 18px;
+}
+
+.m_top .m_container {
+  height: 66px;
+  line-height: 66px;
+}
+
+.m_top .m_container .m_logo {
+  width: 120px;
+  height: 30px;
+  float: left;
+}
+
+.m_top .m_container .m_logo img {
+  width: 100%;
+}
+
+.m_top .m_container .m_nav {
+  width: 16px;
+  height: 14px;
+  float: right;
+}
+
+.m_top .m_container .m_nav img {
+  width: 100%;
+}
+
+.m_nav_model {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  display: none;
+  background: #1A1E2D;
+}
+
+.m_nav_model .m-language {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  background: #1A1E2D;
+}
+
+.m_nav_model .m-language .item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.m_nav_model .m-language .item .line {
+  width: 1px;
+  height: 13px;
+  background: #D8D8D8;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  margin-top: -6px;
+}
+
+.m_nav_model .nav {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.m_nav_model .nav .item {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  /* text-align: center; */
+  margin-bottom: 40px;
+  margin-left: 18px;
+}
+
+.m_nav_model .nav .item .more_nav {
+  margin-top: 10px;
+}
+
+.m_nav_model .nav .item .more_nav .box {
+  display: none;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
+.m_nav_model .nav .item .more_nav .box .li {
+  margin-top: 24px;
+}
+
+.m_nav_model .nav .item .more_nav .box .li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.m_nav_model .nav .item .more_nav .box .active a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.m_nav_model .nav .item a {
+  color: #FFFFFF;
+}
+
+.m_nav_model .nav .select {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.m_nav_model .nav .allSelect span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 90%;
+}
+
+.m_nav_model .nav .allSelect span:before {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  margin-top: 0px;
+  width: 10px;
+  height: 5px;
+  background: url("../img/m_nav_li_down.png") no-repeat;
+  background-size: 9px 6px;
+  content: " ";
+}
+
+.m_nav_model .nav .m_tab_select span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.m_nav_model .nav .m_tab_select span:before {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  margin-top: 0px;
+  width: 10px;
+  height: 5px;
+  background: url("../img/m_nav_li_up.png") no-repeat;
+  background-size: 9px 6px;
+  content: " ";
+}
+
+.m_nav_model .nav .m_tab_select .more_nav {
+  /*鼠标划入li时显示第二列表*/
+}
+
+.m_nav_model .nav .m_tab_select .more_nav .box {
+  -webkit-animation: move 0.3s 0s;
+  animation: move 0.3s 0s;
+  /*设置划入导航栏下拉的动画效果*/
+  display: block;
+}
+
+@keyframes move {
+
+  /*设置animation动画参数*/
+  0% {
+    /*动画开始时*/
+    height: 0px;
+  }
+
+  100% {
+    /*动画结束时*/
+    height: 310px;
+  }
+}
+
