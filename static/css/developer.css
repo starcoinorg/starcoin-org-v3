@@ -44,7 +44,7 @@ body {
   width: 300px;
   min-height: 1031px;
   position: relative;
-  background: #2E2F3E;
+  background: #005dff;
   border-radius: 10px 0px 0px 10px;
   padding: 40px 0 40px 25px;
 }
@@ -130,14 +130,14 @@ body {
 }
 
 .container-developer .developer .developer_left .developer_column_list li a:hover {
-  border-left: 2px solid #113EC5;
-  background-color: #262734;
+  border-left: 2px solid #262649;
+  background-color: #262649;
   color: #FFFFFF;
 }
 
 .container-developer .developer .developer_left .developer_column_list li a.active {
-  border-left: 2px solid #113EC5;
-  background-color: #262734;
+  border-left: 2px solid #262649;
+  background-color: #262649;
   color: #FFFFFF;
 }
 
@@ -373,7 +373,7 @@ body {
 .container-developer .developer .developer_right {
   width: 900px;
   min-height: 1031px;
-  background: #262734;
+  background: #262649;
   position: relative;
   border-radius: 0 10px 10px 0;
 }
