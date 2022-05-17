@@ -23,6 +23,19 @@
         flex:1 1 100% !important;
         align-items: center;
     }
+    .community-custom-media {
+        margin-left: 0 !important;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+    .developers-custom-mq-box p{
+        text-align: center !important;
+    }
+    .developers-custom-mq-box h2 {
+        text-align: center;
+    }
     .green{
         display: block;
         margin: 1em auto;
@@ -85,6 +98,9 @@
     }
     .btns{
         width:40%
+    }
+    .home-custom-btn {
+        width: 60%;
     }
     .sec-section p{
         padding:0
@@ -215,6 +231,9 @@
     .blue{
         margin: 1em;
     }
+    .developers-custom-flex {
+        margin: 0 auto !important;
+    }
     .green{
         margin:1em
     }
@@ -256,6 +275,17 @@
     .fourth-section-i {
         padding-left:1em
     }
+    .individual-custom-box {
+        margin: 2em;
+        padding: 0;
+        width: auto;
+    }
+    .individual-custom-seemore a{
+        margin-left: 0 !important;
+    }
+    .individual-custom-seemore {
+        margin-bottom: 2em;
+    }
     .left-p{
         padding-left:3em;
     }
@@ -293,6 +323,9 @@
     .fifth-section-i a{
         margin-left:3em
     }
+    .individual-custom-mq-more a{
+        margin-left: 4em;
+    }
     .col-2-i{
         margin:7em
     }
@@ -322,6 +355,9 @@
     .flex-box img{
         margin:0 auto;
     }
+    .individual-custom-icon img {
+        margin-bottom: 2em;
+    }
     .mobile-left img{
         margin:0
     }
@@ -330,6 +366,12 @@
     }
     .sec-section{
         width:80%
+    }
+    .community-custom-box p{
+        text-align: center !important;
+    }
+    .community-custom-box h2 {
+        text-align: center !important;
     }
     .blue-i, .green-i{
         padding: 2em;
@@ -367,8 +409,13 @@
         width:100%
     }
     .news{
-        margin:2em;
         padding-top: 170px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    .news_bg {
+        padding-top: 215px;
     }
     .f-title{
         margin-top:1.5em
@@ -497,6 +544,11 @@
     .branding .btns{
         width:60%
     }
+
+    .community-custom-btn {
+        width: 80% !important;
+    }
+
 }
 @media (max-width: 600px) {
     .grant .blue{
