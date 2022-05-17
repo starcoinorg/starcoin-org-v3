@@ -93,7 +93,7 @@
     <div class="header_top m_header_top"></div>
     <div class="m_nav_top_bar m_top scrollTop-nav">
         <div class="container m_container">
-            <a href="/">
+            <a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}">
                 <div class="m_logo"><img src="/images/new/starcoin.png"></div>
             </a>
             <div class="m_nav m_nav_tap">
