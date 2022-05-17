@@ -1,6 +1,8 @@
 ---
 title: 首页
 ---
+<link rel="stylesheet" type="text/css" href="/css/base-page-style.css" />
+<link rel="stylesheet" type="text/css" href="/css/media-query.css" />
 <div class="page-wrapper cn">
 	<div id="banner" class="banner margin-10">
 		<div class="banner-title top" data-aos="fade-up">
@@ -25,8 +27,8 @@ title: 首页
 				<span style="font-family: 'unnamedregular';font-size:36px">1,999</span>
 			</div>
 			<div class="box green-box">
-				<span>认证者节点</span><br>
-				<span style="font-family: 'unnamedregular';font-size:36px">1,999</span>
+				<span>当前全网算力(哈希/秒)</span><br>
+				<span style="font-family: 'unnamedregular';font-size:36px">74,951,553</span>
 			</div>
 
 		</div>
@@ -293,12 +295,4 @@ title: 首页
 
 	</div> -->
 </div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init({
-        offset: 200,
-        duration: 1000
-    });
-	addCssByLink('/css/base-page-style.css');
-    addCssByLink('/css/media-query.css');
-</script>
+<script src="/js/home.js"></script>
