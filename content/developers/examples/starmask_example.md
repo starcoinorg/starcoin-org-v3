@@ -1,11 +1,12 @@
 ---
-title: starmask exapmle
+title: StarMask exapmle
 weight: 8
 typeof: developers
 ---
 
-介绍如何通过Starcoin源码，编译出Starcoin Node。
+Introduces how the StarMask API is used,
+such as initiating StarMask for transaction signing.
 
 <!--more-->
 
-Compile【极客范，深入感受Starcoin节点】
+1. [How to use StarMask](https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-use.md)
