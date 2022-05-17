@@ -829,4 +829,7 @@
     .ecosystem .title-p{
         text-align: center;
     }
+    .margin-left-10px {
+        margin-left:0px !important;
+    }
 }

@@ -114,6 +114,9 @@ p{
 .margin-10{
     margin-top:13em !important;
 }
+.margin-left-10px{
+    margin-left:10px !important;
+}
 .p-title{
     font-size:24px;
     line-height:1;
