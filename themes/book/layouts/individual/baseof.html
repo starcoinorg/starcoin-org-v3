@@ -19,20 +19,26 @@
 </html>
 <script>
 	$(document).ready(function () {
+        console.log('ready');
         const href = window.location.href;
+        console.log('href', href);
         if (href.indexOf('#') !== -1) {
+            console.log('scroll initialized');
             $('html, body').animate({
                 scrollTop: 0
             }, 1)
+            console.log('scroll initialized end');
 
             let anchor = ''
             let fixTop = 150;
             anchor = href.substring(href.indexOf('#') + 1);
             const anchorElement = document.getElementById(anchor);
             const anchorTop = $(anchorElement).offset().top;
+            console.log('scroll starc');
             $('html, body').animate({
                 scrollTop: anchorTop - fixTop
             }, 20)
+            console.log('scroll end')
         }
 	})
 </script>
