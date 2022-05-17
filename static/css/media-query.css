@@ -776,6 +776,19 @@
     .visible-xs {
         display: block !important;
     }
+
+    .m_nav_top_bar {
+        width: 100%;
+        margin: 0 auto;
+        z-index: 100;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 88px;
+        z-index: 100;
+        background: transparent;
+    }
 }
 
 @media all and (max-width : 330px) {

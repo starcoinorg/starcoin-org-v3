@@ -20,19 +20,20 @@
 <script>
 	$(document).ready(function () {
         $('html, body').animate({
-                scrollTop: 0
-            }, 1)
+            scrollTop: 0
+        }, 1)
 
-		let anchor = ''
-
+        let anchor = ''
+        let fixTop = 150;
         const href = window.location.href;
-        if (href.indexOf('#')) {
+        if (href.indexOf('#') !== -1) {
             anchor = href.substring(href.indexOf('#') + 1);
         }
+
         const anchorElement = document.getElementById(anchor);
         const anchorTop = $(anchorElement).offset().top;
         $('html, body').animate({
-            scrollTop: anchorTop - 150
+            scrollTop: anchorTop - fixTop
         }, 20)
 	})
 </script>

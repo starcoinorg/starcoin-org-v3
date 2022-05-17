@@ -78,14 +78,14 @@
   margin-top: -6px;
 }
 
-.m_nav_model .nav {
+.m_nav_model .m_nav_wrap {
   padding-top: 100px;
   padding-bottom: 60px;
   overflow-y: scroll;
   height: 100%;
 }
 
-.m_nav_model .nav .item {
+.m_nav_model .m_nav_wrap .item {
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
@@ -94,50 +94,50 @@
   margin-left: 18px;
 }
 
-.m_nav_model .nav .item .more_nav {
+.m_nav_model .m_nav_wrap .item .more_nav {
   margin-top: 10px;
 }
 
-.m_nav_model .nav .item .more_nav .box {
+.m_nav_model .m_nav_wrap .item .more_nav .box {
   display: none;
   overflow: hidden;
   margin-left: 12px;
 }
 
-.m_nav_model .nav .item .more_nav .box .li {
+.m_nav_model .m_nav_wrap .item .more_nav .box .li {
   margin-top: 24px;
 }
 
-.m_nav_model .nav .item .more_nav .box .li a {
+.m_nav_model .m_nav_wrap .item .more_nav .box .li a {
   font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.m_nav_model .nav .item .more_nav .box .active a {
+.m_nav_model .m_nav_wrap .item .more_nav .box .active a {
   font-size: 14px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.m_nav_model .nav .item a {
+.m_nav_model .m_nav_wrap .item a {
   color: #FFFFFF;
 }
 
-.m_nav_model .nav .select {
+.m_nav_model .m_nav_wrap .select {
   font-size: 20px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.m_nav_model .nav .allSelect span {
+.m_nav_model .m_nav_wrap .allSelect span {
   position: relative;
   display: inline-block;
   cursor: pointer;
   width: 90%;
 }
 
-.m_nav_model .nav .allSelect span:before {
+.m_nav_model .m_nav_wrap .allSelect span:before {
   position: absolute;
   right: -15px;
   top: 50%;
@@ -149,13 +149,13 @@
   content: " ";
 }
 
-.m_nav_model .nav .m_tab_select span {
+.m_nav_model .m_nav_wrap .m_tab_select span {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-.m_nav_model .nav .m_tab_select span:before {
+.m_nav_model .m_nav_wrap .m_tab_select span:before {
   position: absolute;
   right: -15px;
   top: 50%;
@@ -167,11 +167,11 @@
   content: " ";
 }
 
-.m_nav_model .nav .m_tab_select .more_nav {
+.m_nav_model .m_nav_wrap .m_tab_select .more_nav {
   /*鼠标划入li时显示第二列表*/
 }
 
-.m_nav_model .nav .m_tab_select .more_nav .box {
+.m_nav_model .m_nav_wrap .m_tab_select .more_nav .box {
   -webkit-animation: move 0.3s 0s;
   animation: move 0.3s 0s;
   /*设置划入导航栏下拉的动画效果*/
@@ -192,3 +192,6 @@
   }
 }
 
+.nav-no-more span::before{
+  content: none !important;
+}
