@@ -4,8 +4,6 @@ weight: 9
 typeof: developers
 ---
 
-介绍如何通过Starcoin源码，编译出Starcoin Node。
+A starter DAPP that shows how you can quickly get started developing a DAPP based on Starcoin.
 
-<!--more-->
-
-Compile【极客范，深入感受Starcoin节点】
+{{< todo >}}

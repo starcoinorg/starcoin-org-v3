@@ -13,11 +13,26 @@ function formatNumber(nStr) {
     }
     return x1 + x2;
 }
+function getChainInfo() {
+    $.ajax({
+        url: "https://main-seed.starcoin.org",
+        type: 'POST',
+        dataType: 'json',
+        contentType: 'application/json',
+        processData: false,
+        data: '{"id":101, "jsonrpc":"2.0","method":"chain.info", "params":[]}',
+        success: function (data) {
+            const totalTransactions = formatNumber(data.result.block_info.txn_accumulator_info.num_leaves)
+            $('#totalTransactions').html(totalTransactions)
+        },
+        error: function () {
+            console.log("Cannot get data");
+        }
+    });
+}
 function getAverageHashRate() {
     $.getJSON('https://api.stcscan.io/v2/block/main/start_height/', function (blockList) {
         const blocksHit = blockList && blockList.contents && blockList.contents ? blockList.contents : [];
-        const blocks = blocksHit.slice(0, 12);
-        const metrics = [];
         if (blocksHit.length) {
             let totalDiff = 0;
             for (let i = 0; i < blocksHit.length; i++) {
@@ -34,6 +49,10 @@ function getAverageHashRate() {
 }
 
 $(function () {
+    getChainInfo();
     getAverageHashRate();
-    setInterval(() => getAverageHashRate(), 10000);
+    setInterval(() => {
+        getChainInfo();
+        getAverageHashRate();
+    }, 10000);
 });
