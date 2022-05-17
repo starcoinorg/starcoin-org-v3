@@ -763,3 +763,10 @@
 	}
 
 }
+
+@media all and (max-width : 768px) {
+
+    .ecosystem .title-p{
+        text-align: center;
+    }
+}
