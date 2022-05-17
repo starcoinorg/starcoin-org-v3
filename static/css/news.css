@@ -519,9 +519,9 @@ pre {
 
 	.news .news_list {
 		width: auto;
-    margin-top: 40px;
+		margin-top: 30px;
 		margin-bottom: 20px;
-    padding-bottom: 30px;
+		padding-bottom: 30px;
 	}
 
   .news .news_list ul{
