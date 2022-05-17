@@ -14,7 +14,7 @@ title: Individual
                
             </div>
             
-            <div class="article article-i margin-10 stc">
+            <div class="article article-i margin-10 stc" id="stc">
                 <h2>
                     STC
                 </h2>
@@ -58,7 +58,7 @@ title: Individual
 
                 </div>
             </div>
-            <div class="fourth-section fourth-section-i">
+            <div class="fourth-section fourth-section-i" id="wallets">
                 <div>
                     <p class="blue-text" style="text-align:left">Starcoin</p>
                     <h2>钱包 <img src="/images/new/arrows.png" width="100px" /></h2>
@@ -154,7 +154,7 @@ title: Individual
                  
 
              </div>
-             <div class="col-2-i">
+             <div class="col-2-i" id="onekey">
                 <h2>
                     ONEKEY
                 </h2>
@@ -180,10 +180,10 @@ title: Individual
                  </div>
 
              </div>
-             <div class="fourth-section-i margin-10 left-3 individual-custom-box">
+             <div class="fourth-section-i margin-10 left-3 individual-custom-box" id="starcoinnodes">
                 <p class="blue-text" style="text-align:left">Geeks, Own Your</p>
                 <h2 style="text-align:left">Starcoin <br>
-                    Nodes</h2>
+                    节点</h2>
                 <div>
                    
                     <div class="flex-box">
@@ -223,7 +223,7 @@ title: Individual
                         <div class="btns btn-hover color-5"><a href="/en/developer/cli/console/">Learn More</a></div>
                 </div>
             </div>
-            <div class="hardcore">
+            <div class="hardcore" id="hardcoreplayers">
                 <div class="flex-box">
                     <div class="box hardcore-1">
                         <p>
@@ -305,7 +305,7 @@ title: Individual
 
             </div>
 
-            <div class="roadmap flex-box">
+            <div class="roadmap flex-box" id="grant">
                 <div class="box">
                     <p class="blue-text">Starcoin</p>
                     <h2>GRANT</h2>
@@ -335,4 +335,19 @@ title: Individual
         offset: 200,
         duration: 1000
     });
+    $('html, body').animate({
+        scrollTop: 0
+    }, 1)
+
+    let anchor = ''
+
+    const href = window.location.href;
+    if (href.indexOf('#')) {
+        anchor = href.substring(href.indexOf('#') + 1);
+    }
+    const anchorElement = document.getElementById(anchor);
+    const anchorTop = $(anchorElement).offset().top;
+    $('html, body').animate({
+        scrollTop: anchorTop - 150
+    }, 20)
 </script>

@@ -37,13 +37,13 @@
                             <label for="drop-3" class="toggle">Individuals +</label>
                             <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual'>{{ i18n "navIndividuals" }}</a>
                             <input type="checkbox" id="drop-3"/>
-                            <ul>
-                                <li><a href="#">{{ i18n "navIndividualsSTC" }}</a></li>
-                                <li><a href="#">{{ i18n "navIndividualsWallets" }}</a></li>
-                                <li><a href="#">{{ i18n "navIndividualsOneKey" }}</a></li>
-                                <li><a href="#">{{ i18n "navIndividualsStarcoinNodes" }}</a></li>
-                                <li><a href="#">{{ i18n "navIndividualsHardcorePlayers" }}</a></li>
-                                <li><a href="#">{{ i18n "navIndividualsGrant" }}</a></li>
+                            <ul class="anchor-link-wrap">
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#stc">{{ i18n "navIndividualsSTC" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#wallets">{{ i18n "navIndividualsWallets" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#onekey">{{ i18n "navIndividualsOneKey" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#starcoinnodes">{{ i18n "navIndividualsStarcoinNodes" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#hardcoreplayers">{{ i18n "navIndividualsHardcorePlayers" }}</a></li>
+                                <li><a href="/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/individual#grant">{{ i18n "navIndividualsGrant" }}</a></li>
                                 <!-- <li>
                                     <label for="drop-4" class="toggle">Tutorials +</label>
                                     <a href="#">Tutorials</a>         
@@ -86,4 +86,5 @@
             }
         })
     });
+
 </script>

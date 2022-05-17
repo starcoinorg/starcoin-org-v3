@@ -68,6 +68,22 @@
 				$(this).attr('target', '_blank')
 			}
 		})
+        
+        $('html, body').animate({
+                scrollTop: 0
+            }, 1)
+
+		let anchor = ''
+
+        const href = window.location.href;
+        if (href.indexOf('#')) {
+            anchor = href.substring(href.indexOf('#') + 1);
+        }
+        const anchorElement = document.getElementById(anchor);
+        const anchorTop = $(anchorElement).offset().top;
+        $('html, body').animate({
+            scrollTop: anchorTop - 150
+        }, 20)
 	})
 </script>
 
