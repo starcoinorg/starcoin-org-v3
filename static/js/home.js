@@ -63,7 +63,7 @@ function getStcToUsd() {
             if (gasUse) {
                 const gasPrice = Number((Number(gasUse) / STCDECIMALS).toFixed(6));
                 const gasUsd = (rate * gasPrice).toFixed(6);
-                $('#avgGas').html(gasUsd);
+                $('#avgGas').html(Number(gasUsd));
             }
         });
     });
