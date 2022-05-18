@@ -48,11 +48,34 @@ function getAverageHashRate() {
     });
 }
 
+function getStcToUsd() {
+    $.getJSON('https://price-api.starcoin.org/main/v1/toUsdPriceFeeds?t=STC', function (data) {
+        const stc2usd = data && data.length ? data[0] : {};
+        const {latestPrice: price, decimals} = stc2usd;
+        const rate = Number((price / Number('1'.padEnd(decimals + 1, 0))).toFixed(3));
+        
+        $.getJSON('https://api.stcscan.io/v2/transaction/main/page/1', function (transactions) {
+            const list = transactions && transactions.contents ? transactions.contents : [];
+            const latestTransaction = list[0];
+            const gasUse = latestTransaction.gas_used ?? undefined;
+            const STCDECIMALS = 1000000000;
+
+            if (gasUse) {
+                const gasPrice = Number((Number(gasUse) / STCDECIMALS).toFixed(6));
+                const gasUsd = (rate * gasPrice).toFixed(6);
+                $('#avgGas').html(gasUsd);
+            }
+        });
+    });
+}
+
 $(function () {
     getChainInfo();
     getAverageHashRate();
+    getStcToUsd();
     setInterval(() => {
         getChainInfo();
         getAverageHashRate();
+        getStcToUsd();
     }, 10000);
 });
