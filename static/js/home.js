@@ -79,10 +79,38 @@ function getStcToUsd() {
     });
 }
 
+function getBlockTime() {
+    $.ajax({
+        url: "https://main-seed.starcoin.org",
+        type: 'POST',
+        dataType: 'json',
+        contentType: 'application/json',
+        processData: false,
+        data: '{"id":44, "jsonrpc":"2.0","method":"contract.get_resource", "params":["0x1", "0x1::Epoch::Epoch"]}',
+        success: function (data) {
+            const blockTimeTarget = data.result.value[4];
+            const [bttKey, bttValue] = blockTimeTarget;
+
+            if (bttKey === 'block_time_target') {
+                const times = ((bttValue.U64 ?? 0) / 1000).toFixed(0);
+                $('#targetBlockTime').html(times);
+            }
+            else {
+                $('#targetBlockTime').html(0);
+            }
+        },
+        error: function () {
+            console.log("Cannot get data");
+        }
+    });
+}
+
 $(function () {
     getChainInfo();
     getAverageHashRate();
     getStcToUsd();
+    getBlockTime();
+
     setInterval(() => {
         getChainInfo();
         getAverageHashRate();
