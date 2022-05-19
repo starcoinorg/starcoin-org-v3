@@ -29,6 +29,18 @@ body {
    font-size:14px;
    line-height:1.2;
 }
+
+/* homepage green-box span */
+.homepage-green-box-text {
+    font-family: 'unnamedregular' !important;
+    font-size: 34px !important;
+}
+
+.homepage-green-box-text-gas {
+    font-family: 'proxima_novabold' !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+}
 /* Why Starcoin */
 .sec-section{
     width:60%;
@@ -920,3 +932,4 @@ body {
 .anchor-href {
     height: 6em;
 }
+

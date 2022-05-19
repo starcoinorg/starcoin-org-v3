@@ -86,6 +86,9 @@ $(function () {
     setInterval(() => {
         getChainInfo();
         getAverageHashRate();
-        // getStcToUsd();
     }, 10000);
+
+    setInterval(() => {
+      getStcToUsd();
+    }, 60000);
 });
