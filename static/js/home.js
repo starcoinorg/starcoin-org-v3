@@ -56,14 +56,24 @@ function getStcToUsd() {
         
         $.getJSON('https://api.stcscan.io/v2/transaction/main/page/1', function (transactions) {
             const list = transactions && transactions.contents ? transactions.contents : [];
-            const latestTransaction = list[0];
-            const gasUse = latestTransaction.gas_used ?? undefined;
-            const STCDECIMALS = 1000000000;
+            const len = list.length;
 
-            if (gasUse) {
-                const gasPrice = Number((Number(gasUse) / STCDECIMALS).toFixed(6));
+            if (len) {
+                let allGas = 0;
+                for (let i = 0; i < len; i++) {
+                    const latestTransaction = list[i].gas_used ?? 0;
+                    allGas += Number(latestTransaction);
+                }
+                
+                const gasUseAverage = allGas / len;
+                const STCDECIMALS = 1000000000;
+                
+                const gasPrice = Number((gasUseAverage / STCDECIMALS).toFixed(6));
                 const gasUsd = (rate * gasPrice).toFixed(6);
                 $('#avgGas').html(Number(gasUsd));
+            }
+            else {
+                $('#avgGas').html(0);
             }
         });
     });
@@ -76,6 +86,6 @@ $(function () {
     setInterval(() => {
         getChainInfo();
         getAverageHashRate();
-        getStcToUsd();
+        // getStcToUsd();
     }, 10000);
 });
