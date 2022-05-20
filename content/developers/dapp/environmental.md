@@ -4,4 +4,6 @@ weight: 4
 typeof: developers
 ---
 
-{{< todo >}}
+Introduces how to build the environment required for DAPP development based on Starcoin.
+
+<!--more-->
