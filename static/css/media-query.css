@@ -129,7 +129,7 @@
         font-size:18px
     }
     .blue, .green{
-        padding:2em
+        padding:2.5em
     }
     .news-letter img{
         display: none;
@@ -380,6 +380,7 @@
     }
     .fifth-section p{
         padding:0;
+        font-size: 17px;
     }
     .flex-box img{
         margin:0 auto;
