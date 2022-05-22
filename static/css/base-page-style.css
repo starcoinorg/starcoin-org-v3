@@ -88,7 +88,6 @@ body {
     justify-content: space-around;
 }
 .fifth-section .btns{
-    width: 60%;
     float: left;
     margin-top:1em
 }
@@ -172,7 +171,6 @@ body {
     text-align:left;
 }
 .ecosystem .btns{
-    width: 50%;
     float: left;
     margin-right:2em
 }
@@ -910,11 +908,11 @@ body {
 .cn-nav a{
     font-family: 'source_han_sans_cnregular';
 }
-.cn h2{
+/* .cn h2{
     font-family: 'source_han_sans_cnbold';
     font-size:80px;
     letter-spacing: 5px;
-}
+} */
 .cn h3{
     font-family: 'source_han_sans_cnbold';
     letter-spacing: 5px;

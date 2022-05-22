@@ -134,3 +134,19 @@ p{
 .down img{
     margin-top:6em !important
 }
+.icon-text{
+    margin-top:3em
+}
+.icon-text img{
+    margin-top:2em
+}
+.title-p{
+    font-size:24px;
+    margin:1em 0
+}
+.side-text{
+    margin:0 3em;
+}
+.col-2-eco{
+    margin: 5em 3em
+}
