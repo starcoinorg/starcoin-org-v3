@@ -67,10 +67,11 @@ body {
 /* TECHNOLOGY */
 .fourth-section h2{
     text-align: left;
+    letter-spacing: 3px !important;
 }
 .fourth-section{
     width:60%;
-    margin:5em 3em
+    margin:5em 1em
 }
 .fourth-section .btns{
     margin: 0;
@@ -84,7 +85,7 @@ body {
 }
 /* TWO Cards */
 .fifth-section{
-    margin:8em 0em;
+    margin:5em 0em;
 }
 .fifth-section-home{
     justify-content: space-around;
@@ -96,8 +97,6 @@ body {
 }
 .fifth-section h2{
     text-align: left;
-    font-size: 36px;
-    
 }
 .fifth-section h4{
     display: none;
@@ -190,7 +189,7 @@ body {
     margin:0 auto
 }
 .community img{
-   
+   padding:5px;
     margin: 0;
 }
 .community h2{
@@ -215,10 +214,7 @@ body {
 .news-section-2{
     margin-top:3em
 }
-.news .p-title{
-    font-size: 28px;
-    line-height: 1.4;
-}
+
 /* NEWS */
 .news{
     /* margin:5em 0; */
@@ -265,7 +261,7 @@ body {
 }
 .node-d{
     width:90%;
-    margin: 3em auto;
+    margin: 5em auto 0;
 }
 .node-d h2{
     
@@ -308,7 +304,7 @@ body {
 }
 .fifth-section-discovery .blue-text{
     font-size:20px;
-    padding-left:1.5em
+    padding-left:1em
 }
 
 .single-image img{
@@ -341,9 +337,6 @@ body {
 .dapp-1 p{
     font-size:24px
 }
-.dapp-1 .signup-text{
-    margin-top:8em
-}
 .examples .box{
     margin:2em
 }
@@ -372,9 +365,6 @@ body {
     font-size: 14px;
 
 }
-.terms-2{
-    margin-top:10em
-}
 .terms-2 p{
     text-align: right;
 }
@@ -393,7 +383,6 @@ body {
 
 }
 .dome-c .btns{
-    width:40%;
     float: left;
 }
 .grant{
@@ -451,7 +440,7 @@ body {
     margin-top:1em
 }
 .social p{
-    line-height: 0.8;
+    line-height: 1.2;
 }
 .social h3{
     margin-top:1em
@@ -497,8 +486,9 @@ body {
 
 }
 .growth-main p{
-    
+     width:50%;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -520,7 +510,7 @@ body {
       min-height:50px;
       /*background: rgba(255,255,0,0.1);*/
       border-left:1px solid #03f47b;
-      padding:0 0 60px 30px;
+      padding:0 0 30px 30px;
       position:relative;
   }
   .history-tl-container ul.tl li:last-child{ border-left:0;}
@@ -620,14 +610,12 @@ body {
     margin: 3em auto;
 }
 .intro{
-    width:90%;
+    width:100%;
     margin: 3em auto; 
 }
 .intro h2{
     text-align:left;
-    font-size:36px;
     line-height:1.2;
-    letter-spacing: 5px;
 }
 .intro .btns{
     float: left;
@@ -641,7 +629,7 @@ body {
 }
 
 .article .box{
-    margin:3em
+    margin:1em
 }
 
 .move .btns{
@@ -650,17 +638,15 @@ body {
 }
 .move h2{
     text-align:center;
-    padding:1em;
 }
  .fifth-section-discovery h2{
     text-align:left;
-    font-size:56px;
-    padding:0 0.5em;
+    padding-left: .25em;
     
 }
 .h2-d{
-    letter-spacing: 5px;
-    font-size:36px
+    letter-spacing: 3px;
+    font-size:28px
 }
 .green .h2-d{
     color: #0a1239;
@@ -718,6 +704,26 @@ body {
 }
 .fifth-section .blue-text{
     font-size: 24px;
+}
+.phase{
+    font-size: 18px;
+    margin-bottom:0;
+    letter-spacing: 1px;
+    color: #03f47b;
+
+}
+.margin-half{
+    margin-top:0.5em;
+}
+.timeline-l{
+    margin-left:12em !important
+}
+
+.text-r{
+    text-align: right;
+}
+.margin-l-5{
+    margin-left: 5em;
 }
 .stc .box{
     margin:1em
@@ -862,8 +868,11 @@ body {
     display: block;
 }
 .left-3{
-    margin-left:3em
+    margin-left:0em
 }
+.fifth-section-i a{
+        margin-left:0em
+    }
 
 .cn-p{
     font-family: 'source_han_sans_cnregular';

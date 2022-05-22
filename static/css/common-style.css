@@ -25,7 +25,7 @@ h3{
     font-family: 'unnamedregular';
     font-size:28px;
     line-height:1.2;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 h4{
     
@@ -84,7 +84,6 @@ p{
 }
 .page-wrapper {
     max-width:1200px;
-    
     margin:0 auto;
 }
 .hidden {
@@ -119,10 +118,13 @@ p{
 .margin-10{
     margin-top:13em !important;
 }
+.banner-10{
+    margin-top:13em !important;
+}
 .margin-left-10px{
     margin-left:10px !important;
 }
 .p-title{
-    font-size:22px;
+    font-size:20px;
     line-height:1.2;
 }

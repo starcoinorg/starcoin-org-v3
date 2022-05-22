@@ -58,7 +58,7 @@
         text-align: center;
     }
     .fourth-section{
-        width:80%;
+        width:90%;
         margin:3em auto;
     }
     .columns{
@@ -79,7 +79,7 @@
         text-align: center;
     }
     .community img{
-        display: block;
+        display: inline-block;
         margin: 0 auto;
     }
     .news{
@@ -90,7 +90,10 @@
 
 @media (max-width: 600px) {
     h2{
-        font-size: 32px;
+        font-size: 28px;
+    }
+    .page-wrapper{
+        padding:1.5em
     }
     .btns{
         width:40%
@@ -108,11 +111,11 @@
         text-align: center !important;
     }
     .sec-section h2{
-        font-size: 32px;
+        font-size: 28px;
         text-align: left;
     }
     .fourth-section h2{
-        font-size: 32px;
+        font-size: 28px;
         text-align: left;
     }
     .ecosystem h2{
@@ -121,23 +124,17 @@
     .banner-title h2{
         font-size: 32px;
     }
-    .news h2{
-        font-size: 32px;
-    }
     .blue-text{
         text-align: left;
+        font-size:18px
     }
     .blue, .green{
         padding:2em
-    }
-    .fifth-section h2{
-        font-size: 28px;
     }
     .news-letter img{
         display: none;
     }
     .signup-text{
-        text-align: center;
         margin: 0 auto;
     }
     .four-points{
@@ -149,9 +146,18 @@
     .mobile-blue-center{
         text-align: center;
     }
+    .mobile-title{
+        font-size: 24px !important;
+    }
+    h3{
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 1240px) {
+    .timeline-l{
+        margin-left:6em !important
+    }
     
     .move .btns{
         float:none;
@@ -192,7 +198,7 @@
     }
     .roadmap .btns{
         display: block;
-        margin: 2em auto;
+        margin: 3em auto;
         text-align: center;
         float:none;
     }
@@ -213,15 +219,8 @@
     .intro .btns{
         width:80%
     }
-    .move h2{
-        font-size:32px
-    }
     .point .btns{
         width:80%
-    }
-    .fifth-section-d-title{
-        font-size:32px !important;
-        padding-left:1em
     }
     .right-box img{
         display: none;
@@ -238,9 +237,36 @@
     .intro-mobile{
         margin:0 auto
     }
-    .fifth-section-discovery p{
-        padding-left:2em !important
 
+    .margin-l-5{
+        margin-left: 0em;
+    }
+    .margin-l-2{
+        margin-left: 2em;
+    }
+    .text-r{
+        text-align: left;
+        margin-left: 1em;
+    }
+    .r-1 img{
+        width: 300px;
+    }
+    .row>*{
+        width:50%
+    }
+    .footer-social{
+        width:100%;
+        text-align: center;
+    }
+    .footer-social img{
+        margin: 0 auto;
+    }
+    .margin-10{
+        margin-top:5em !important;
+    }
+    .intro img{
+        width:120px;
+        margin-top:8em !important;
     }
 
 }
@@ -260,7 +286,9 @@
     .mobile-margin-2{
         margin-top:2em
     }
-
+     .margin-b{
+        margin-bottom:1em;
+    }
 }
 
 @media (max-width: 1240px) {
@@ -367,11 +395,8 @@
     .mobile-left img{
         margin:0
     }
-    .mobile-left{
-        margin-left:1em;
-    }
     .sec-section{
-        width:80%
+        width:90%
     }
     .community-custom-box p{
         text-align: center !important;
@@ -475,7 +500,7 @@
         flex: 1 1 0 !important
     }
     .half-box{
-        width:50%;
+        width:80%;
         margin:0 auto;
     }
     .third-section{
@@ -509,6 +534,9 @@
     }
     .examples .blue-text{
         text-align: center !important;
+    }
+    .node-d{
+        width:90%
     }
 }
 
@@ -583,8 +611,16 @@
         font-size:32px
     }
     .dome-c .btns{
-        width:60%;
         float: left;
+    }
+     .examples h5{
+        text-align: center;
+    }
+    .examples .margin-5{
+        margin-top: 0 !important;
+    }
+    .dapp h5{
+        text-align: center;
     }
 }
 
@@ -621,6 +657,17 @@
         display: none;
 
     }
+
+     .timeline{
+        width:95%;
+        margin: 0 auto;
+    }
+    .timeline-l{
+        margin-left:2em !important
+    }
+    .glow-c img{
+        display: none;
+    }
     
 }
 
@@ -636,6 +683,12 @@
     }
     .history-tl-container{
         margin-left:1em
+    }
+     .growth-main p{
+        width:100%
+    }
+    .growth h2{
+        text-align: center;
     }
 }
 
