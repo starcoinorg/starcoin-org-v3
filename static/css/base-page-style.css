@@ -955,3 +955,6 @@ body {
     height: 6em;
 }
 
+.break-text {
+    word-break: break-word;
+}
