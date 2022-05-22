@@ -53,9 +53,6 @@ body {
 }
 
 /* three points */
-.third-section{
-    margin-top:5em;
-}
 .third-section, .columns h3{
     font-family: 'unnamedregular';
     font-size:21px;
@@ -162,6 +159,10 @@ body {
     color:#0a1239;
 }
 
+.box-title{
+    font-size: 28px;
+}
+
 /* ECOSYSTEM */
 .ecosystem{
     width:95%;
@@ -217,8 +218,7 @@ body {
 
 /* NEWS */
 .news{
-    /* margin:5em 0; */
-    margin: 0 0 5em 0;
+    margin:5em 2em;
 }
 .news h2{
     text-align:left;
@@ -375,6 +375,16 @@ body {
     margin-left: 3em;
 }
 
+.node-d .blue-text{
+    text-align: left;
+}
+.dapp .blue-text{
+    text-align: left;
+}
+.terms-2 .blue-text{
+    text-align: right;
+}
+
 .dome-c{
     margin-top:5em
 }
@@ -389,7 +399,6 @@ body {
     margin-top:5em
 }
 .grant .btns{
-    width:80%;
     float: left;
 }
 .dao-2 .box{
@@ -414,10 +423,8 @@ body {
     color: #000f3a;
 }
 .social h2{
-    font-size:56px;
     line-height:1.2;
-    letter-spacing: 10px; 
-    text-align: left;
+   text-align: left;
 }
 .social {
     margin:0 auto;
@@ -641,7 +648,7 @@ body {
 }
  .fifth-section-discovery h2{
     text-align:left;
-    padding-left: .25em;
+    padding-left: .5em;
     
 }
 .h2-d{
@@ -674,7 +681,7 @@ body {
 }
 
 .roadmap{
-    width:100%;
+    width:90%;
     margin:5em auto;
 }
 .roadmap h2{
@@ -734,14 +741,9 @@ body {
 }
 .article-i h2{
     text-align: left;
-    font-size:56px;
 }
 .article-i img{
     margin:2em 0;
-}
-.article-i h3{
-    font-size:28px;
-    letter-spacing: 5px;
 }
 .blue-i, .green-i{
     padding:3em 5em 
@@ -766,9 +768,11 @@ body {
 .fifth-section-i h2{
     letter-spacing: 5px;
     text-align: left;
+    font-size: 28px;
 }
 .fourth-section-i{
-    width:100%
+    width:100%;
+    margin:5em 2em
 }
 .col-2-i{
     margin:5em 3em 0 ;
@@ -872,6 +876,17 @@ body {
 }
 .fifth-section-i a{
         margin-left:0em
+    }
+
+     .fourth-section-i{
+        width:85%;
+        margin:5em 2em
+    }
+    .hardcore-1{
+        order:2
+    }
+    .row{
+        margin-left: 0.25em;
     }
 
 .cn-p{
