@@ -112,8 +112,14 @@ p{
 .margin-3{
     margin-top:3em !important;
 }
+.margin-2 {
+    margin-top:2em !important;
+}
 .margin-5{
     margin-top:5em !important;
+}
+.section-margin{
+    margin-top:10em !important;
 }
 .margin-10{
     margin-top:13em !important;

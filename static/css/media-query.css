@@ -54,6 +54,9 @@
     .sec-section{
         margin-top: 5em;
     }
+    .discovery-banner {
+        margin-top: 5em !important;
+    }
     .point{
         text-align: center;
     }
@@ -155,6 +158,13 @@
     .margin-5-mobile{
         margin-top:0em
     }
+    .sec-section p{
+
+        width:100%
+    }
+     .section-margin{
+        margin-top:5em !important;
+    }
 }
 
 @media (max-width: 1240px) {
@@ -241,7 +251,7 @@
     }
     .text-r{
         text-align: left;
-        margin-left: 1em;
+        margin-left: 0.5em;
     }
     .r-1 img{
         width: 300px;
@@ -556,6 +566,11 @@
     .third-d .signup-text{
         text-align: center;
     }
+    .fifth-section-discovery .blue-text{
+
+        padding-left:0em;
+
+    }
 }
 
 @media (max-width: 1240px) {
@@ -709,14 +724,14 @@
     .history-tl-container ul.tl li{
         margin-left:70px
     }
-    .history-tl-container{
-        margin-left:1em
-    }
      .growth-main p{
         width:100%
     }
     .growth h2{
         text-align: center;
+    }
+     .history-tl-container ul.tl{
+        padding:0.5em
     }
 }
 
