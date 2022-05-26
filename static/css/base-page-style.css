@@ -47,6 +47,17 @@ body {
     margin: 5em auto 0;
 }
 
+.home-ecosystem {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-ecosystem .btns,
+.home-ecosystem img {
+    margin-left: 0 !important;
+}
 
 .sec-section p{
     width:75%;
@@ -202,7 +213,7 @@ body {
 }
 .transparent-box-green{
     text-align: right;
-    margin-top:-5em
+    margin-top:-8em
 
 }
 .transparent-box-green .p-title{
@@ -961,4 +972,27 @@ body {
 
 .break-text {
     word-break: break-word;
+}
+
+.homepage-ecosystem .transparent-box{
+    height: 320px;
+}
+
+.homepage-ecosystem .logos-home img {
+    width: 70%;
+}
+
+.developers-slogan-desc {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.developers-slogan-desc p {
+    font-size: 28px;
+}
+.developers-p-main {
+    height: 67px;
+}
+.developers-p-main.text-more-main {
+    height: 112px;
 }

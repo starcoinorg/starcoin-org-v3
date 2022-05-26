@@ -124,6 +124,9 @@
     .ecosystem h2{
         font-size: 28px;
     }
+    .home-page-slogan {
+        text-align: center;
+    }
     .banner-title h2{
         font-size: 32px;
     }
@@ -133,6 +136,9 @@
     }
     .blue, .green{
         padding:2.5em
+    }
+    .homepage-ecosystem .transparent-box{
+        height: auto;
     }
     .news-letter img{
         display: none;
@@ -695,6 +701,9 @@
     .banner-title h2{
         font-size:28px;
         text-align: center;
+    }
+    .developers-slogan-desc p {
+        font-size: 16px;
     }
     .growth img{
         display: none;
