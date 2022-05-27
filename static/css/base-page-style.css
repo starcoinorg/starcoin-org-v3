@@ -398,11 +398,9 @@ body {
     margin-top:5em
 }
 .dome-c h2{
-    text-align: left;
 
 }
 .dome-c .btns{
-    float: left;
 }
 .grant{
     margin-top:5em
@@ -895,9 +893,6 @@ body {
         width:85%;
         margin:5em 2em
     }
-    .hardcore-1{
-        order:2
-    }
     .row{
         margin-left: 0.25em;
     }
@@ -995,4 +990,7 @@ body {
 }
 .developers-p-main.text-more-main {
     height: 112px;
+}
+.custom-discovery-p {
+    width: 80% !important;
 }

@@ -146,6 +146,9 @@
     .signup-text{
         margin: 0 auto;
     }
+    .dapp h5{
+        text-align: center;
+    }
     .four-points{
         width:85%
     }
@@ -158,16 +161,29 @@
     .mobile-title{
         font-size: 24px !important;
     }
+    .hardcore-1{
+        order:2
+    }
     h3{
         font-size: 24px;
     }
     .margin-5-mobile{
         margin-top:0em
     }
+    .mq-reset-margin-top {
+        margin-top: 0 !important;
+    }
     .sec-section p{
 
         width:100%
     }
+    .custom-discovery-p {
+    width: 100% !important;
+}
+    br {
+        display: none;
+    }
+
      .section-margin{
         margin-top:5em !important;
     }
@@ -240,13 +256,20 @@
         width:80%
     }
     .point .btns{
-        width:80%
     }
     .right-box img{
         display: none;
     }
     .intro-mobile{
         margin:0 auto
+    }
+
+    .mq-customlink-a {
+        margin-left: 0 !important;
+    }
+
+    .mq-community-w {
+        width: 340px !important;
     }
 
     .margin-l-5{
@@ -924,7 +947,6 @@
         margin-left:0px !important;
     }
     .roadmap .btns {
-        width: 80%;
     }
 }
 
