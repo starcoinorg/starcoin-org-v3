@@ -322,13 +322,11 @@ body {
 }
 .third-d .signup-text{
     width:40%;
-    margin:0 auto
+    margin:0 auto;
+    text-align: center;
 }
 .third-d .signup-text p{
     font-size: 24px;
-}
-.third-d img{
-    margin-top:1em
 }
 .hidden-image img{
     display: none;
@@ -397,6 +395,12 @@ body {
 .dome-c{
     margin-top:5em
 }
+.dao p{
+    text-align: center;
+}
+.third-section-c .box{
+    flex: none;
+}
 .dome-c h2{
 
 }
@@ -440,12 +444,10 @@ body {
 .branding{
     width:50%;
     margin: 5em auto;
+    justify-content: center;
 }
 .branding p{
     text-align: center;
-}
-.branding img{
-    margin-top:2em
 }
 .social .col-30{
     margin-top:3.5em
@@ -462,7 +464,8 @@ body {
 
 .glow-c{
     width:50%;
-    margin:5em auto
+    margin:5em auto;
+    justify-content: center;
 
 }
 .glow-c h2{
@@ -499,10 +502,14 @@ body {
     letter-spacing: 5px;
 
 }
-.growth-main p{
+.growth-main h2{
      width:50%;
     text-align: center;
     margin: 0 auto;
+}
+
+.social .blue-text{
+    text-align: left;
 }
 
 
@@ -623,6 +630,10 @@ body {
     width:70%;
     margin: 3em auto;
 }
+.sec-section-d p{
+    width:80%;
+    margin: 3em auto;
+}
 .intro{
     width:100%;
     margin: 3em auto; 
@@ -646,9 +657,16 @@ body {
     margin:1em
 }
 
+.move .box{
+    flex: none;
+}
+
 .move .btns{
     float:left;
     
+}
+.move .point{
+    margin:1em;
 }
 .move h2{
     text-align:center;
@@ -788,6 +806,9 @@ body {
 .col-2-i{
     margin:5em 3em 0 ;
    
+}
+.col-2-i h5{
+    text-align: left;
 }
 .col-2-i a{
     color: #fff;

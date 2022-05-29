@@ -504,6 +504,26 @@
     .f-title{
         margin-top:1.5em
     }
+    .left-3{
+        margin-left:0em
+    }
+    .fifth-section-i a{
+        margin-left:0em
+    }
+    .fourth-section-i{
+        width:85%;
+        margin:5em 2em
+    }
+    .hardcore-1{
+        order:2
+    }
+    .row{
+        margin-left: 0.25em;
+    }
+    .green-box-i .btns{
+        float: none;
+
+    }
 }
 
 @media (max-width: 1240px) {
@@ -547,9 +567,7 @@
     .node-d-2 img{
         display: none;
     }
-    .third-d img{
-        display: none;
-    }
+
     .dapp-1 img{
         display: none;
     }
@@ -742,6 +760,17 @@
     }
     .glow-c img{
         display: none;
+    }
+
+    .social h2{
+
+        text-align: center;
+     }
+     .social .blue-text{
+        text-align: center;
+    }
+    .growth-main h2{
+        width:100%
     }
     
 }
