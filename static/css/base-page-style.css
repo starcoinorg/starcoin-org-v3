@@ -1,6 +1,6 @@
 @import url('/css/keyframes.css');
 @import url('/css/common-style.css');
-@import url('/css//media-query.css');
+@import url('/css/media-query.css');
 
 body {
     background-image: url('/images/bg-home.png');
