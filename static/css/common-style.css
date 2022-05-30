@@ -48,6 +48,10 @@ p{
     line-height: 1.4;
     letter-spacing: 1px;
 }
+.p-copyright {
+    line-height: 1.4;
+    vertical-align: bottom;
+}
 .green-text{
     color: rgb(3, 244, 123);
 }
