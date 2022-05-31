@@ -40,12 +40,17 @@ h5{
     font-size:18px;
     line-height:1.2;
     letter-spacing: 1px;
+    text-align: center;
 }
 p{
     font-family: 'proxima_novaregular';
     font-size:16px;
     line-height: 1.4;
     letter-spacing: 1px;
+}
+.p-copyright {
+    line-height: 1.4;
+    vertical-align: bottom;
 }
 .green-text{
     color: rgb(3, 244, 123);
@@ -109,6 +114,9 @@ p{
     letter-spacing: 1px;
     
 }
+.margin-1 {
+    margin-top:1em !important;
+    }
 .margin-3{
     margin-top:3em !important;
 }
@@ -117,6 +125,9 @@ p{
 }
 .margin-5{
     margin-top:5em !important;
+}
+.margin-4{
+    margin-top:4em
 }
 .section-margin{
     margin-top:10em !important;
