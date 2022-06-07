@@ -1017,6 +1017,9 @@ body {
 .developers-p-main.text-more-main {
     height: 112px;
 }
+.move-more-height .developers-p-main.text-more-main {
+    height: 160px;
+}
 .custom-discovery-p {
     width: 80% !important;
 }
