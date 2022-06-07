@@ -213,7 +213,8 @@ nav a:hover{
 }
 
 nav a:hover .uptriangle {
-    transform: rotate(0);
+  border-bottom-color: #03f47b;
+  transform: rotate(0);
 }
 
 #logo {
