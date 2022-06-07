@@ -369,4 +369,5 @@ li > a:only-child:after { content: ''; }
   bottom: 19px;
   transform: rotate(180deg);
   display: inline-block;
+  vertical-align: middle;
 }
