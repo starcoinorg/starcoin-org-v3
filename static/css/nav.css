@@ -287,6 +287,10 @@ nav ul ul {
 nav ul li:hover > ul {
 	display:inherit;
 }
+
+nav ul li:hover .uptriangle {
+  transform: rotate(0);
+}
 	
 /* Fisrt Tier Dropdown */
 nav ul ul li {
