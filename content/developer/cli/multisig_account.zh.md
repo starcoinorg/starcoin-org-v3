@@ -156,7 +156,7 @@ still require 1 signatures
 - `0x51888ec9961c09db913bfe2bfacd8ec1` 是 bob 地址。
 - `1000000000u128` 是要发送的 token 数量。
 
-该命令会生成原始交易，并用 alice 的私钥签名，生成的 txn 会以文件形式保存在当前目录下，文件名是 txn 的 short hash。
+该命令会生成原始交易，并用 tom 的私钥签名，生成的 txn 会以文件形式保存在当前目录下，文件名是 txn 的 short hash。
 
 命令行提示：该多签交易还需要一个签名。
 那么需要将生成的 txn 文件分发给该多签账户的其他参与者去签名。
