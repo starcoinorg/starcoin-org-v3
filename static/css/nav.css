@@ -195,6 +195,9 @@
   .active-nav {
     color: #03f47b !important;
 }
+.active-nav .uptriangle {
+  border-bottom-color: #03f47b;
+}
 
 /* Giving a background-color to the nav container. */
 .header-nav nav{ 
@@ -207,6 +210,11 @@
 }
 nav a:hover{
     color: #03f47b;
+}
+
+nav a:hover .uptriangle {
+  border-bottom-color: #03f47b;
+  transform: rotate(0);
 }
 
 #logo {
@@ -279,6 +287,10 @@ nav ul ul {
 nav ul li:hover > ul {
 	display:inherit;
 }
+
+nav ul li:hover .uptriangle {
+  transform: rotate(0);
+}
 	
 /* Fisrt Tier Dropdown */
 nav ul ul li {
@@ -305,7 +317,7 @@ nav ul ul ul li {
 }
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
+/* li > a:after { content:  ' +'; } */
 li > a:only-child:after { content: ''; }
 
 .language-btn{
@@ -350,4 +362,17 @@ li > a:only-child:after { content: ''; }
 }
 .ti-pinterest:before {
     content: "\e731";
+}
+
+.uptriangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  right: 37%;
+  bottom: 19px;
+  transform: rotate(180deg);
+  display: inline-block;
+  vertical-align: middle;
 }
