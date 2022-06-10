@@ -73,6 +73,9 @@ body {
 .point{
     margin:0 2em
 }
+.custom-point {
+    margin: 0 3em;
+}
 .point-h{
     max-width: 260px;
 }
