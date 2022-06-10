@@ -71,7 +71,7 @@
                             </ul>
                         </li>
                         <li>
-                            <label for="drop-3" class="toggle">Community +</label>
+                            <label for="drop-3" class="toggle">Ecosystem +</label>
                             <a href='/{{ cond (eq .Site.Language.Lang "en") "en" "zh" }}/ecosystem'>{{ i18n "navEcosystem" }} <i class="uptriangle"></i></a>
                             <input type="checkbox" id="drop-3"/>
                             <ul class="anchor-link-wrap">
@@ -106,10 +106,10 @@
             {{ partial "docs/nav-menu" . }}
         </div>
         <div class="m-language">
-            <!-- <div language="zh" class="item">
+            <div language="zh" class="item">
                 中文
                 <div class="line"></div>
-            </div> -->
+            </div>
             <div language="en" class="item">English</div>
         </div>
     </div>

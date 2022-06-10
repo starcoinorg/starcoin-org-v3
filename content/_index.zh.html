@@ -1,292 +1,366 @@
 ---
 title: 首页
 ---
-<link rel="stylesheet" type="text/css" href="/css/base-page-style.css" />
-<link rel="stylesheet" type="text/css" href="/css/media-query.css" />
-<div class="page-wrapper cn">
-	<div id="banner" class="banner banner-10">
-		<div class="banner-title top" data-aos="fade-up">
-			<h2>来自原力<span style="color:#03f47b" class="mobile-title">安全</span> <br>的价值赋能<br>
-				<span style="font-size:40px; ">在<span style="color:#03f47b;font-family: 'unnamedregular';">WEB 3.0</span>时代重新定义价值</span>
-			</h2>
-			
+<link rel="stylesheet" type="text/css" href="/css/style_cn.css" />
+<script>
+            (function(d) {
+              var config = {
+                kitId: 'cdp5jlc',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
 
-		</div>
-		<div class="btns btn-hover color-5 margin-3 cn-btns home-custom-btn"><a href="/zh/discovery/">发现STARCOIN</a></div>
-		<div class="four-points flex-box margin-3">
-			<div class="box green-box">
-				<span>目标区块时间(秒)</span><br>
-				<span class="homepage-green-box-text" id="targetBlockTime" style="display: block"></span>
-			</div>
-			<div class="box green-box">
-				<span>总交易量</span><br>
-				<span class="homepage-green-box-text" id="totalTransactions"></span>
-			</div>
-			<div class="box green-box">
-				<span>每笔交易平均花费</span><br>
-				<span class="homepage-green-box-text-gas" id="avgGas" style="display: block"></span>
-			</div>
-			<div class="box green-box">
-				<span>当前全网算力(哈希/秒)</span><br>
-				<span class="homepage-green-box-text" id="averageHashRate"></span>
-			</div>
+        <style>
+            body{
+                background-image: url('/images/new/bg-home.png');
+                background-repeat: no-repeat;
+                background-size: cover, contain;  
+            }
+            @media (max-width: 480px) {
+                body{
+                   background-image: url('/images/new/home-mobile.png');
+                   background-size: cover, contain;  
+                   
+                }
 
-		</div>
-	</div>
-	<div class="sec-section">
-		<p class="blue-text cn-blue">亮点</p>
-		<h2>选择 <span style="font-family: 'unnamedregular';">STARCOIN</span></h2>
-		<p>Starcoin ，基于最成熟的去中心化共识增强版 PoW 以及智能合约语言 Move 提供来自原力的安全，通过分层的灵活互操作性，为参与 WEB.3.0 生态搭建的人们提供价值赋的数字资产服务的分布式金融网络。
-		</p>
-	</div>
-	<div class="third-section flex-box">
-		<div class="point box">
-			<img src="/images/new/Asset 2@300x.png" width="100px"/>
-			<h4 class="top">可扩展性</h4>
-			<p>Starcoin 是高效、即时验证、可扩展的应用网络，具有安全的原生态跨层互操作性，以及无限扩展的区块链基础设施。</p>
-		</div>
-		<div class="point box">
-			<img src="/images/new/Asset 3@300x.png" width="100px"/>
-			<h4 class="top">安全</h4>
-			<p class="p-title top">共识</p>
-			<p style="margin-top:-1em">增强版的PoW共识，最安全的去中心化网络</p>
-			<p class="p-title top">智能合约</p>
-			<p style="margin-top:-1em">Move智能合约，最安全的智能合约</p>
-			<p class="p-title top">用户使用门槛</p>
-			<p style="margin-top:-1em">钱包及交易的安全保障</p>
-		</div>
-		<div class="point box">
-			<img src="/images/new/Asset 4@300x.png" width="100px" />
-			<h4 class="top">面向用户</h4>
-			<p>速度快，费用低</p>
-			<p>数字资产作为账户资源，易于管理</p>
-			<p>重制账户无需更改地址，安全且便捷</p>
-		</div>
-	</div>
-	<div class="fourth-section">
-		<div>
-			<p class="blue-text" style="text-align:left">Starcoin</p>
-			<h2>技术优势</h2>
-			<p>
-				基于增强版 PoW是最成熟的去中心化共识，专注为链上每个人的价值沉淀；基于面向资源的智能合约语言 Move 提供极致安全的价值赋能；为 DeFi、NFTs、Gaming 等去中心的生态搭建提供了便捷和高效的解决方案，轻松的让每个人享受web 3.0时代的价值再造。
-			</p>
-		</div>
-		<div class="three-points flex-box">
-			<div class="columns box">
-				<img src="/images/new/Asset 5@300x.png" width="100px"/>
-				<h4 class="top">安全的<br>
-					智能合约</h4>
-			</div>
-			<div class="columns box">
-				<img src="/images/new/Asset 6@300x.png" width="100px"/>
-				<h4 class="top">增强版<br>
-					<span style="font-family: 'unnamedregular';font-size:28px">POW</span> 共识</h4>
-			</div>
-			<div class="columns box">
-				<img src="/images/new/Asset 7@300x.png" width="100px"/>
-				<h4 class="top"><span style="font-family: 'unnamedregular';font-size:28px">LAYER 2</span><br>
-					的互操作性</h4>
-			</div>
-			   
-		</div>
-		<div class="btns btn-hover color-5 cn-btns" style="margin-top:3em"><a href="/zh/discovery#technology">了解更多</a></div>
-	</div>
+        }
+        </style>
+<div class="page-wrapper">
+            <div id="banner" class="banner banner-10 zh_banner">
+                <div class="banner-title top" data-aos="fade-up">
+                    <h2><span class="header-small">来自原力的</span><br><span style="color:#03f47b">安全</span>价值赋能<br></span><span class="">在<span style="font-family: 'unnamedregular'; color:hsl(150, 98%, 48%)">WEB <span style="letter-spacing: -1px;">3.0</span></span> 时代重新定义价值<br>                       
+                    </h2>
+                    
+    
+                </div>
+                <div class="btns btn-hover color-5 margin-3"><a href="/zh/discovery/">探索 STARCOIN</a></div>
+                <div class="four-points flex-box margin-3">
+                    <div class="box green-box">
+                        <span>每秒交易</span>
+                        <p id="targetBlockTime"></p>
+                    </div>
+                    <div class="box green-box">
+                        <span>总交易量</span>
+                        <p id="totalTransactions"></p>
+                    </div>
+                    <div class="box green-box">
+                        <span>每笔交易平均花费</span>
+                        <p id="avgGas"></p>
+                    </div>
+                    <div class="box green-box">
+                        <span>认证者节点</span>
+                        <p id="averageHashRate"></p>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="sec-section section-margin">
+                <p class="blue-text">Starcoin</p>
+                <h2>选择 <span style="font-family: 'unnamedregular';">Starcoin</span></h2>
+                <p>Starcoin, 是基于最成熟的去中心化共识增强版 PoW 以及智能合约语言 Move 提供来自原力的安全，通过分层的灵活互操作性，为参与 WEB.3.0 生态搭建的人们提供价值赋的数字资产服务的分布式金融网络。
+                </p>
+            </div>
+            <div class="third-section flex-box margin-5">
+                <div class="point box point-h">
+                    <img src="/images/new/Asset 2@300x.png" width="100px"/>
+                    <h4 class="top">可扩展性</h4>
+                    <p>Starcoin是高效、即时验证、可扩展的应用网络，具有安全的原生态跨层互操作性，以及无限扩展的区块链基础设施。</p>
+                </div>
+                <div class="point box point-h">
+                    <img src="/images/new/Asset 3@300x.png" width="100px"/>
+                    <h4 class="top">安全</h4>
+                    <p class="p-title top">共识</p>
+                    <p style="margin-top:-1em">增强版的PoW共识，最安全的去中心化网络</p>
+                    <p class="p-title top">智能合约</p>
+                    <p style="margin-top:-1em">Move智能合约，最安全的智能合约</p>
+                    <p class="p-title top">用户使用门槛</p>
+                    <p style="margin-top:-1em">钱包及交易的安全保障</p>
+                </div>
+                <div class="point box point-h">
+                    <img src="/images/new/Asset 4@300x.png" width="100px" />
+                    <h4 class="top">⽤户导向</h4>
+                    <p>快如闪电的最终交易，近乎零的Gas fees</p>
+                    <p>数字资产作为账户资源，易于管理</p>
+                    <p>重制账户无需更改地址，安全且便捷</p>
+                   
+                </div>
+            </div>
+            <div class="fourth-section section-margin">
+                <div>
+                    <p class="blue-text" style="text-align:left">Starcoin</p>
+                    <h2>相关技术</h2>
+                    <p>
+                        基于增强版PoW是最成熟的去中心化共识，专注为链上每个人的价值沉淀；基于面向资源的智能合约语言Move提供极致安全的价值赋能；为DeFi、NFTs、Gaming等去中心化的生态搭建提供了便捷和高效的解决方案，轻松的让每个人享受web 3.0时代的价值再造。
+
+                    </p>
+                </div>
+                <div class="three-points flex-box">
+                    <div class="columns box">
+                        <img src="/images/new/Asset 5@300x.png" width="100px"/>
+                        <h4 class="top">安全的<br>
+                            智能合约</h4>
+                    </div>
+                    <div class="columns box">
+                        <img src="/images/new/Asset 6@300x.png" width="100px"/>
+                        <h4 class="top">增强版<br>
+                            <span style="font-family: 'unnamedregular';">POW</span> 共识</h4>
+                    </div>
+                    <div class="columns box">
+                        <img src="/images/new/Asset 7@300x.png" width="100px"/>
+                        <h4 class="top"><span style="font-family: 'unnamedregular';">LAYER 2</span><br>
+                            的互操作性</h4>
+                    </div>
+                       
+                </div>
+                <div class="btns btn-hover color-5" style="margin-top:3em"><a href="/zh/discovery#technology">了解更多</a></div>
+            </div>
+           
+            <div class="fifth-section flex-box fifth-section-home">
+               <div class="blue" data-aos="fade-right">
+                <div class="box">
+                    <img src="/images/new/Asset 8@300x.png" width="100px" />
+                    <h2 class="top box-title">开发者
+                    </h2>
+                    <h4>效率即是价值</h4>
+                    
+                    
+                </div>
+                <div class="signup-text flex-box">
+                    <p><img src="/images/new/up-1.png" height="10px" />
+                    
+                        效率即是价值 
+
+                    
+                    <img src="/images/new/down-1.png" height="10px" /></p>
+                    
+
+                </div>
+                <div class="btns btn-hover color-5"><a href="/zh/developers">开始建造</a></div>
+               </div>
+               <div class="green" data-aos="fade-left">
+                <div class="box">
+                    <img src="/images/new/person.png" width="90px" />
+                    <h2 class="top box-title">个人用户
+                    </h2>
+                    <h4>Efficiency equals value</h4>
+                    
+                    
+                </div>
+                <div class="signup-text flex-box">
+                    <p><img src="/images/new/up-b.png" height="10px" />
+                        简单，即刻开始
+                    <img src="/images/new/down-b.png" height="10px" /></p>
+                    
+
+                </div>
+                <div class="btns btn-hover color-b"><a href="/zh/individual">了解更多</a></div>
+               </div>
+                
+    
+            </div>
+            <div class="ecosystem section-margin" id="ECOSYSTEM">
+                <p class="blue-text" style="text-align:left">Starcoin</p>
+                <h2>生态系统</h2>
+                <div class="flex-box margin-3">
+                    <div class="blue transparent-box">
+                        <div class="box">
+                            <p class="p-title">
+                                专注在 Web 3.0 时代的「价值再造」，重新定义价值。
    
-	<div class="fifth-section flex-box fifth-section-home">
-	   <div class="blue" data-aos="fade-right">
-		<div class="box">
-			<img src="/images/new/Asset 8@300x.png" width="100px" />
-			<h2 class="top">开发者
-			</h2>
-			<h4>效率即是价值</h4>
-			
-			
-		</div>
-		<div class="signup-text flex-box">
-			<p><img src="/images/new/l-arrow.png" height="20px" />
-			
-				效率即是价值
+                            </p>
+                            <div class="margin-3">
+                                <div class="btns btn-hover color-5 margin-b"><a href="/zh/ecosystem">探索生态系统</a></div>
+                                <img src="/images/new/arrows.png" width="80px" />
+                                
+                            </div>
+                            
+    
+                        </div>
+                    </div>
+                 
+                        <div class="box logos-home up">
+                            <div class="flex-box section-logo">
+                                <img src="/images/new/westar.png" width="70px"/>
+                                <img src="/images/new/cat.png" width="70px"/>
+                                <img src="/images/new/cat.png" width="70px"/>
+                                <img src="/images/new/cyberrare.png" width="70px"/>
 
-			
-			<img src="/images/new/r-arrow.png" height="20px" /></p>
-			
+                            </div>
+                            <div class="flex-box section-logo">
+                                <img src="/images/new/aswap.png" width="70px"/>
+                                <img src="/images/new/wen.png" width="70px"/>
+                                <img src="/images/new/bixin.png" width="70px"/>
+                                <img src="/images/new/coinex.png" width="70px"/>
 
-		</div>
-		<div class="btns btn-hover color-5 cn-btns"><a href="/zh/developers">了解更多</a></div>
-	   </div>
-	   <div class="green" data-aos="fade-left">
-		<div class="box">
-			<img src="/images/new/person.png" width="90px" />
-			<h2 class="top">个人用户
-			</h2>
-			<h4>Efficiency equals value</h4>
-			
-			
-		</div>
-		<div class="signup-text flex-box">
-			<p><img src="/images/new/blue-left.png" height="20px" />
-				简单，即刻开始
-			<img src="/images/new/blue-right.png" height="20px" /></p>
-			
+                            </div>
+                            <div class="flex-box section-logo">
+                                <img src="/images/new/poolin.png" width="70px"/>
+                                <img src="/images/new/gate.png" width="70px"/>
+                                <img src="/images/new/onekey.png" width="70px"/>
+                                <img src="/images/new/daxiang.png" width="70px"/>
 
-		</div>
-		<div class="btns btn-hover color-b cn-btns"><a href="/zh/individual">了解更多</a></div>
-	   </div>
-		
+                            </div>
+                            <div class="flex-box section-logo">
+                                <img src="/images/new/kele.png" width="70px"/>
+                                <img src="/images/new/viabtc.png" width="70px"/>
+                                <img src="/images/new/newbloc.png" width="70px"/>
+                                <img src="/images/new/daxiang.png" width="70px"/>
 
-	</div>
-	<div class="ecosystem">
-		<p class="blue-text" style="text-align:left">Starcoin</p>
-		<h2>生态</h2>
-		<div class="flex-box">
-			<div class="blue transparent-box">
-				<div class="box">
-					<p class="p-title">
-						专注在 Web 3.0 时代的「价值再造」，重新定义价值。
+                            </div>
+                                
+                                
+                         
+                            
+    
+                        </div>
+                    
+                    
 
-					</p>
-					<div>
-						<div class="btns btn-hover color-5 margin-b cn-btns"><a href="/zh/ecosystem">探索生态</a></div>
-						<img src="/images/new/arrows.png" width="80px"/>
-						
-					</div>
-					
+                </div>
+                
+                
 
-				</div>
-			</div>
-		 
-				<div class="box logos-home up">
-					
-						<img src="/images/new/logos.png" width="350px"/>
-						
-				 
-					
+            </div>
+            <div class="ecosystem community section-margin" id="COMMUNITY">
+                <p class="blue-text margin-5" style="text-align:left">Starcoin</p>
+                <h2>社区</h2>
+                <p class="p-title">存在就是价值</p>
+                <div class="flex-box">
+                    <div class="box top">
+                            <div>
+                                <a href="https://twitter.com/starcoinstc"><img src="/images/new/twitter.png" width="60px"/></a>
+                                <a href="http://t.me/Starcoin_STC"><img src="/images/new/tele.png" width="60px"/></a>
+                                <a href="https://starcoin.medium.com/"><img src="/images/new/medium.png" width="60px"/></a>
+                                <a href="http://discord.gg/starcoin"><img src="/images/new/discord.png" width="60px"/></a>
+                                <a href="https://www.youtube.com/channel/UCzza7YZWnyrgkVV8LmJnfbA"><img src="/images/new/youtube.svg" width="60px"/></a>
+                            </div>
+                            <div class="top"><img src="/images/new/right-arrow.png" width="100px"/></div>
+                     </div>
+                     <div class="green transparent-box-green">
+                        <div class="box">
+    
+                            <p class="p-title">和 Web 3.0 时代的探索者、倡议者和远见者成为朋友
+   
+                            </p>
+                            <div class="margin-3">
+                                <div class="btns btn-hover color-b"><a href="/zh/community">加入社区</a></div>
+                               
+                                
+                            </div>
+                            
+    
+                        </div>
+                    </div>
+                    
+                    
 
-				</div>
-			
-			
+                </div>
+                
+                
 
-		</div>
-		
-		
+            </div>
+            <div class="news section-margin" id="NEWS">
+                <p class="blue-text" style="text-align:left">Starcoin</p>
+                <h2>资讯</h2>
+                <div class="flex-box">
+                    <div class="box">
+                        <p class="p-title">
+                            了解 Starcoin今日资讯
 
-	</div>
-	<div class="ecosystem community margin-10">
-		<p class="blue-text" style="text-align:left">存在即是价值</p>
-		<h2>社区</h2>
-		<div class="flex-box">
-			<div class="box top">
-				<div>
-					<a href="https://twitter.com/starcoinstc" target="_blank"><img src="/images/new/twitter.png" width="60px"/></a>
-					<a href="http://t.me/Starcoin_STC" target="_blank"><img src="/images/new/tele.png" width="60px"/></a>
-					<a href="https://starcoin.medium.com/" target="_blank"><img src="/images/new/medium.png" width="60px"/></a>
-					<a href="http://discord.gg/starcoin" target="_blank"><img src="/images/new/discord.png" width="60px"/></a>
-					<a href="https://www.youtube.com/channel/UCzza7YZWnyrgkVV8LmJnfbA" target="_blank"><img src="/images/new/move.png" width="60px"/></a>
-				</div>
-				<div class="top"><img src="/images/new/right-arrow.png" width="100px"/></div>
-			 </div>
-			 <div class="green transparent-box-green">
-				<div class="box">
 
-					<p class="p-title cn-title">
-						和 Web 3.0 时代的探索者、倡议者和远见者成为朋友
+                        </p>
+                        <div class="btns btn-hover color-5 margin-3"><a href="/zh/news">浏览更多</a></div>
+                    </div>
+                    <div class="box">
+                        <div class="news-section mobile-margin-2 sub-link">
+                            <div class="flex-box-icon mobile-left">
+                                <img src="/images/new/single.png" height="20"/>
+                                <h4>新浪VR</h4>
+                                
+    
+                            </div>
+                            <p>
+                                <a class="custom-link-a" href="/zh/news/post/starcoin_let_the_metaverse_move/">Starcoin，让元宇宙Move起来</a>
+                            </p>
 
-					</p>
-					<div>
-						<div class="btns btn-hover color-b cn-btns"><a href="/zh/community">加入社区</a></div>
-					   
-						
-					</div>
-					
+                        </div>
+                        <div class="news-section news-section-2 sub-link" style="margin-top: 5em">
+                            <div class="flex-box-icon mobile-left">
+                                <img src="/images/new/single.png" height="20"/>
+                                <h4 class="starcoin">TechWeb</h4>
+                                
+    
+                            </div>
+                            <p>
+                                <a class="custom-link-a" href="/zh/news/post/starcoin_hackathon_final_concludes_defi_ecology_based_on_move_language_takes_shape/">Starcoin黑客松决赛落幕，基于Move语言的DeFi生态初成</a>
+                            </p>
 
-				</div>
-			</div>
-			
-			
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="box">
+                        <div class="news-section sub-link">
+                            <div class="flex-box-icon mobile-left">
+                                <img src="/images/new/single.png" height="20"/>
+                                <h4>彭博社</h4>
+                                
+    
+                            </div>
+                            <p>
+                                <a class="custom-link-a" target="_blank" href="https://www.bloomberg.com/press-releases/2021-09-22/westar-launches-first-permissionless-public-chain-starcoin">Westar 推出首个无需许可的公链 Starcoin</a>
+                            </p>
 
-		</div>
-		
-		
+                        </div>
+                        <div class="news-section news-section-2 sub-link">
+                            <div class="flex-box-icon mobile-left">
+                                <img src="/images/new/single.png" height="20"/>
+                                <h4>雅虎财经</h4>
+                                
+    
+                            </div>
+                            <p>
+                                <a class="custom-link-a" target="_blank" href="https://finance.yahoo.com/news/westar-launches-first-permissionless-public-022600415.html">Westar 推出首个无需许可的公链 Starcoin</a>
+                            </p>
 
-	</div>
-	<div class="news margin-10 custom-news-mq" id="NEWS">
-		<p class="blue-text home-page-custom-mq-title" style="text-align:left">Starcoin</p>
-		<h2>资讯</h2>
-		<div class="flex-box">
-			<div class="box">
-				<p class="p-title cn-title">
-					了解 Starcoin 今日资讯
-				</p>
-				<div class="btns btn-hover color-5 margin-3 cn-btns"><a href="/zh/news">浏览更多</a></div>
-			</div>
-			<div class="box">
-				<div class="news-section">
-					<div class="flex-box-icon mobile-left">
-						<img src="/images/new/single.png" height="20"/>
-						<h4>新浪VR</h4>
-					</div>
-					<p>
-						<a class="custom-link-a" target="_blank" href="http://vr.sina.com.cn/2021-11-25/doc-ikyamrmy5013055.shtml">Starcoin，让元宇宙Move起来</a>
-					</p>
-				</div>
-				<div class="news-section news-section-2 mobile-margin-2">
-					<div class="flex-box-icon mobile-left">
-						<img src="/images/new/single.png" height="20"/>
-						<h4>彭博社</h4>
-					</div>
-					<p>
-						<a class="custom-link-a" href="/zh/news/post/westar_launches_first_permissionless_public_chain_bloomburg/">Westar 推出首个无需许可的公链 Starcoin</a>
-					</p>
-				</div>
-			</div>
-			<div class="box">
-				<div class="news-section">
-					<div class="flex-box-icon mobile-left">
-						<img src="/images/new/single.png" height="20"/>
-						<h4>TechWeb</h4>
-					</div>
-					<p>
-						<a class="custom-link-a" target="_blank" href="http://prnews.techweb.com.cn/qiyenews/archives/219537.html">Starcoin黑客松决赛落幕，基于Move语言的DeFi生态初成</a>
-					</p>
-				</div>
-				<div class="news-section news-section-2">
-					<div class="flex-box-icon mobile-left">
-						<img src="/images/new/single.png" height="20"/>
-						<h4>雅虎财经</h4>
-					</div>
-					<p>
-						<a class="custom-link-a" href="/zh/news/post/westar_launches_first_permissionless_public_chain_yahoo/">Westar 推出首个无需许可的公链 Starcoin</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- <div class="news-letter flex-box">
-		<div class="signup-text flex-box">
-			<div><img src="images/l-arrow.png" height="50px" /></div>
-			<div>
-				<h3>RECEIVE TRANSMISSIONS</h3>
-				<p class="white">Unsubscribe at any time.</p>
-			</div>
-			<div><img src="images/r-arrow.png" height="50px" /></div>
-			
+                        </div>
+                        
+                        
+                    </div>
 
-		</div>
-		<div class="signup-form">
-			<div class="container">
-				<div class="content">
-				  <form class="subscription">
-					<input class="add-email" type="email" placeholder="Your Email">
-					<button class="submit-email" type="button">
-					  <span class="before-submit">Subscribe</span>
-					  <span class="after-submit">Thank you for subscribing!</span>
-					 </button>
-				  </form>
-				</div>
-			  </div>
+                </div>
+               
 
-		</div>
+            </div>
+            <!-- <div class="news-letter flex-box">
+                <div class="signup-text flex-box">
+                    <div><img src="images/l-arrow.png" height="50px" /></div>
+                    <div>
+                        <h3>RECEIVE TRANSMISSIONS</h3>
+                        <p class="white">Unsubscribe at any time.</p>
+                    </div>
+                    <div><img src="images/r-arrow.png" height="50px" /></div>
+                    
 
-	</div> -->
-</div>
+                </div>
+                <div class="signup-form">
+                    <div class="container">
+                        <div class="content">
+                          <form class="subscription">
+                            <input class="add-email" type="email" placeholder="Your Email">
+                            <button class="submit-email" type="button">
+                              <span class="before-submit">Subscribe</span>
+                              <span class="after-submit">Thank you for subscribing!</span>
+                             </button>
+                          </form>
+                        </div>
+                      </div>
+
+                </div>
+
+            </div> -->
+        </div>
 <script src="/js/home.js"></script>

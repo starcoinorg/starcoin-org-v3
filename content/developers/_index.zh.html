@@ -1,579 +1,567 @@
 ---
-title: Developer
+title: 开发者
 layout: main
 ---
-<link rel="stylesheet" type="text/css" href="/css/base-page-style.css" />
-<link rel="stylesheet" type="text/css" href="/css/media-query.css" />
+
+<link rel="stylesheet" type="text/css" href="/css/style_cn.css" />
+<style>
+            body{
+                background-image: url('/images/new/developer-bg.png');
+                background-repeat: no-repeat;
+                background-size: cover, contain;
+            }
+        </style>
+<script>
+            (function(d) {
+              var config = {
+                kitId: 'cdp5jlc',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
 <div class="page-wrapper">
-    <div id="banner" class="banner banner-10">
-        <div class="banner-title top" data-aos="fade-up">
-            <p class="blue-text mobile-blue-center">Starcoin 开发者</p>
-            <h2>更加安全<br>
-                更加自由.更加真实<br>
-            </h2>
-
-
-        </div>
-
-    </div>
-    <div class="sec-section">
-        <p> <a class="developers-link" href="/zh/developers/others/what_is_starcoin/">Starcoin 结合了安全智能合约和分层网络的好处
-                安全的智能合约和分层网络，使用Move（一种智能合约编程语言）来为链上资产提供更安全、更自由的操作环境。</a>
-        </p>
-    </div>
-    <div class="flex-box blue intro-d developers-custom-flex">
-        <div class="box">
-            <p>介绍</p>
-            <h2>STARCOIN</h2>
-
-        </div>
-        <div class="box">
-            <p>
-                Starcoin定制了一套底层标准，种类丰富，可自由组合，具有
-                开箱即用的功能。它使开发DAPP或DeFi应用程序变得非常安全和高效。
-                详情见下文：
-
-
-            </p>
-        </div>
-
-    </div>
-    <div class="third-section flex-box sub-link">
-        <div class="point box">
-            <p class="green-num">01</p>
-            <h4 class="top"><a href="/zh/developers/node">节点</a></h4>
-            <p>在这里你可以得到所有关于Starcoin节点的内容，包括快速入门，节点如何工作，命令行
-                的使用，以及更教程！
-            </p>
-        </div>
-        <div class="point box">
-            <p class="green-num">02</p>
-            <h4 class="top"><a href="/zh/developers/move">Move</a></h4>
-            <p>Starcoin 是一个高效、即时确认、可扩展的应用网络，具有安全的原生状态
-                跨层互操作性，无限扩展性的区块链基础设施。</p>
-        </div>
-        <div class="point box">
-            <p class="green-num">03</p>
-            <h4 class="top"><a href="/zh/developers/dapp">DAPP</a></h4>
-            <p> 在这里，你可以获得所有你需要的内容，来开发一个基于Starcoin's Layer1技术的DAPP。
-                包括建立一个开发环境，SDK，RPC，DAPP例子等。
-            </p>
-        </div>
-    </div>
-    <div class="third-section flex-box sub-link">
-        <div class="point box ghost">
-            <p class="green-num">01</p>
-            <h4 class="top"><a href="/zh/developers/node">节点</a></h4>
-            <p>在这里你可以得到所有关于Starcoin节点的内容，包括快速入门，节点如何工作，命令行
-                的使用，以及更教程！
-            </p>
-        </div>
-        <div class="point box">
-            <p class="green-num">04</p>
-            <h4 class="top"><a href="/zh/developers/examples">实例</a></h4>
-            <p> 在这里你可以得到基于Starcoin Layer 1的应用开发实例，包括以下实例
-                移动合约和DAPP，等等。
-            </p>
-        </div>
-        <div class="point box">
-            <p class="green-num">05</p>
-            <h4 class="top"><a href="/zh/developers/glossary">术语表</a></h4>
-            <p>在这里你可以得到 Starcoin's Layer 1 技术的基本信息和关键定义，包括
-                Stdlib，NFT协议，Oracle协议，关键术语，DAO，SIP等等。
-            </p>
-        </div>
-    </div>
-    <div class="flex-box node-d" id="node">
-        <div class="box developers-custom-mq-box">
-            <p class="blue-text" style="text-align: left;">Starcoin</p>
-            <h2>节点</h2>
-        </div>
-        <div class="box node-d-2">
-            <div class="signup-text flex-box">
-                <div><img src="/images/new/l-arrow.png" height="40px" /></div>
-                <div>
-                    <p class="p-title">快速掌握Starcoin，
- <br>
-                        从节点开始,</p>
+            <div id="banner" class="banner banner-10 zh_banner">
+                <div class="banner-title top" data-aos="fade-up">
+                    <p class="blue-text mobile-blue-center">Starcoin Developer</p>
+                    <h2>更安全，更自由<br>
+                        更值得信赖
+                    </h2>
+                    
+    
                 </div>
-                <div><img src="/images/new/r-arrow.png" height="40px" /></div>
-
-
-            </div>
-        </div>
-        <div class="box node-d-3">
-            <p>
-                <a class="developers-link" href="/zh/developers/node">了解的Starcoin，最好的方式是先启动一个节点。</a>
-            </p>
-            <!-- <div class="btns btn-hover color-5 margin-3"><a href="/zh/developers/">了解更多</a></div> -->
-        </div>
-
-    </div>
-    <div class="third-section flex-box">
-        <div class="point box node-d-point  margin-5">
-            <img src="/images/new/started.png" width="50px" />
-            <h4 class="top">快速上手</h4>
-            <p>介绍如何快速启动并运行一个 Starcoin Node。
-            </p>
-            <a href="/zh/developers/node/install">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/docker.png" width="38px" />
-            <h4 class="top">DOCKER</h4>
-            <p>介绍如何通过Docker镜像，快速运行Starcoin Node。
-            </p>
-            <a href="/zh/developers/node/run_by_docker">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/compile.png" width="60px" />
-            <h4 class="top">COMPILE</h4>
-            <p>介绍如何通过Starcoin源码，编译出Starcoin Node。
-            </p>
-            <a href="/zh/developers/node/build">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/network.png" width="50px" />
-            <h4 class="top">网络</h4>
-            <p>介绍Starcoin的不同网络以及作用,包括 Dev, Test, Halley, Proxima,
-                Barnard, Main等网络。
-            </p>
-            <a href="/zh/developers/node/runcustomnetwork">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/command.png" width="90px" />
-            <h4 class="top">命令行工具</h4>
-            <p>介绍Starcoin命令行的使用，例如账号管理、导入区块、发起交易等等。
-            </p>
-            <a href="/zh/developers/node/command">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box ghost">
-            <img src="/images/new/compile.png" width="70px" />
-            <h4 class="top">COMPILE</h4>
-            <p>Starcoin is an efficient, instantly confirmed, scalable application network, with safe native state
-                cross-layer interoperability, Infinity scalability blockchain infrastructure.</p>
-            <a href="/zh/developers/node/build">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-    <div class="single-image" id="move">
-        <img src="/images/new/V.png" width="100px" />
-
-    </div>
-    <div class="third-d margin-3" id="move">
-        <p class="blue-text" style="text-align:center">Starcoin</p>
-        <h2>MOVE</h2>
-        <div class="signup-text flex-box margin-3">
-            <div><img src="/images/new/l-arrow.png" height="50px" /></div>
-            <div>
-                <p style="font-size:28px">深入浅出，<br>Move权威指南
-                </p>
-            </div>
-            <div><img src="/images/new/r-arrow.png" height="50px" /></div>
-
-
-        </div>
-        <div class="signup-text flex-box hidden-image">
-            <div><img src="/images/new/l-arrow.png" height="30px" /></div>
-            <div>
-                <p style="font-size:18px"><a class="developers-link" href="/zh/developers/move">智能合约是公链表达能力的体现，是生态发展的关键。<br> 当前模块从各个角度深入介绍了智能合约语言Move，帮助您全方位了解Move合约开发。</a>
-                </p>
                 
             </div>
-            <div><img src="/images/new/r-arrow.png" height="30px" /></div>
+            <div class="sec-section sec-section-developer">
+                <p> <a class="developers-link" href="/zh/developers/others/what_is_starcoin/">Starcoin结合了安全的智能合约以及分层网络的优势，使用面向资源编程的智能合约语言Move，为链上资产提供更安全、更自由的运行环境。</a>
+            </div>
+            <div class="flex-box blue intro-d section-margin">
+                <div class="box">
+                    <p>带你了解</p>
+                    <h2 class="starcoin">STARCOIN</h2>
 
-
-        </div>
-
-        <!-- <div class="btns margin-3 btn-hover color-5"><a href="/zh/developers/">了解更多</a></div> -->
-
-    </div>
-
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/construction.png" width="60px" />
-            <h4 class="top">环境 <br>搭建</h4>
-            <p>介绍如何搭建Move开发环境。
-            </p>
-            <a href="/zh/developers/move/idebuild">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/grammar.png" width="41px" />
-            <h4 class="top">基本 <br>语法</h4>
-            <p>介绍Move语言的基础。
-            </p>
-            <a href="/zh/developers/move/grammar">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/tutorial.png" width="60px" />
-            <h4 class="top">进阶 <br>教程</h4>
-            <p>介绍Move的高级特性。
-            </p>
-            <a href="/zh/developers/move/advanced">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/example.png" width="45px" />
-            <h4 class="top">Move </br>
-                实例</h4>
-            <p>介绍Move的简单实例。
-            </p>
-            <a href="/zh/developers/move/example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/safety.png" width="50px" />
-            <h4 class="top">Move <br>安全</h4>
-            <p>深入对比Solidity，介绍Move的安全实践。
-            </p>
-            <a href="/zh/developers/move/security">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/tool.png" width="55px" />
-            <h4 class="top">测试<br>
-                工具</h4>
-            <p>介绍Move的Unit Test和Functional Test，如何通过测试来保障合约的正确性。
-            </p>
-            <a href="/zh/developers/move/test">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/form.png" width="50px" />
-            <h4 class="top">形式化<br>
-                验证</h4>
-            <p> 介绍Move的形式化验证，通过形式化验证工具，提升合约的安全性。
-            </p>
-            <a href="/zh/developers/move/validation">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point ghost">
-            <img src="/images/new/compile.png" width="60px" />
-            <h3 class="top">COMPILE</h3>
-            <p>Starcoin is an efficient, instantly confirmed, scalable application network, with safe native state
-                cross-layer interoperability, Infinity scalability blockchain infrastructure.</p>
-            <a href="/zh/developers/">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-
-    <div class="single-image">
-        <img src="/images/new/down.png" width="100px" />
-
-    </div>
-
-    <div class="flex-box-icon dapp" id="dapp">
-        <div class="box dapp-1">
-            <div class="signup-text flex-box">
-                <div><img src="/images/new/l-arrow.png" height="50px" /></div>
-                <div>
-                    <p>轻松上手， <br>掌握上链核心技术
-                    </p>
                 </div>
-                <div><img src="/images/new/r-arrow.png" height="50px" /></div>
-
-
-            </div>
-
-        </div>
-        <div class="box dapp-2 developers-custom-mq-box">
-            <div>
-                <p class="blue-text" style="text-align:left">Starcoin</p>
-                <h2>DAPP</h2>
-                <p style="text-align: left !important">
-                    <a class="developers-link" href="/zh/developers/dapp">Dapp是公链生态重要的组成，是公链生命力的重要体现。从开发者的角度看，DAPP主要包括两部分：合约开发、跟公链交互。</a>
-
-                </p>
-            </div>
-            <!-- <div class="btns margin-3 btn-hover color-5"><a href="/zh/developers/">了解更多</a></div> -->
-
-        </div>
-
-    </div>
-
-    <div class="flex-box margin-3 half-box">
-        <div class="box ghost box-20">
-
-        </div>
-        <div class="box box-30">
-            <h4><img src="/images/new/construction.png" width="35px" /><span style="margin-left:0.5em">环境搭建
-                    <br></h4>
-
-
-        </div>
-        <div class="box box-50">
-            <p>
-                介绍如何搭建基于Starcoin进行DAPP开发所需的环境。
-            </p>
-            <a href="/zh/developers/dapp/environmental">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-
-
-        </div>
-
-    </div>
-    <div class="flex-box top half-box margin-3">
-        <div class="box ghost box-20">
-
-        </div>
-        <div class="box box-30">
-            <h4><img src="/images/new/sdk.png" width="40px" /> SDK</span></h4>
-
-
-        </div>
-        <div class="box box-50">
-            <p>
-                介绍不同语言实现的SDK如何使用，主要包括JavaScript、Java、Golang、Python等等。
-            </p>
-            <a href="/zh/developers/dapp/sdk">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-
-
-        </div>
-
-    </div>
-    <div class="flex-box top half-box margin-3">
-        <div class="box ghost box-20">
-
-        </div>
-        <div class="box box-30">
-            <h4><img src="/images/new/wallet.png" width="40px" /> STARMASK</h4>
-
-
-        </div>
-        <div class="box box-50">
-            <p>
-                介绍StarMask API如何使用，<br> 例如唤起StarMask进行交易签名。
-
-            </p>
-            <a href="/zh/developers/dapp/starmask">了解更多 </a><img src="/images/new/single.png" width="10px" />
-
-
-        </div>
-
-    </div>
-    <div class="flex-box top half-box margin-3">
-        <div class="box ghost box-20">
-
-        </div>
-        <div class="box box-30">
-            <h4><img src="/images/new/example.png" width="40px" /> EXAMPLE</h4>
-
-
-        </div>
-        <div class="box box-50">
-            <p>
-                介绍简单的DAPP实例，<br>帮助快速上手开发DAPP。
-
-            </p>
-            <a href="/zh/developers/dapp/example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-
-
-        </div>
-
-    </div>
-    <div class="flex-box top half-box margin-3">
-        <div class="box ghost box-20">
-
-        </div>
-        <div class="box box-30">
-            <h4><img src="/images/new/rpc.png" width="40px" /> RPC</h4>
-
-
-        </div>
-        <div class="box box-50">
-            <p>
-                介绍Starcoin Node支持的RPC协议，可以基于RCP协议进行二次开发。
-
-            </p>
-            <a href="/zh/developers/dapp/rpc">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-
-
-        </div>
-
-    </div>
-
-    <div class="single-image">
-        <img src="/images/new/down-three.png" width="100px" />
-
-    </div>
-
-    <div class="flex-box-icon dapp examples" id="examples">
-
-        <div class="box">
-            <p class="blue-text" style="text-align: left;">Starcoin</p>
-            <h2>示例</h2>
-            <div class="signup-text flex-box">
-                <div><img src="/images/new/l-arrow.png" height="50px" /></div>
-                <div>
-                    <p class="p-title">全面覆盖，<br> 助力DAPP开发
+                <div  class="box margin-2">
+                    <p>
+                        Starcoin定制了一系列丰富的、可随意组合的、开箱即用的通用底层标准，基于Starcoin开发DAPP或者DeFi应用，将非常的安全和便捷，我们将从以下这些角度详细介绍：
 
                     </p>
                 </div>
-                <div><img src="/images/new/r-arrow.png" height="50px" /></div>
 
+            </div>
+            <div class="third-section flex-box sub-link section-margin">
+                <div class="point box">
+                    <p class="green-num">01</p>
+                    <h4 class="top starcoin"><a href="/zh/developers/node">Node</a></h4>
+                    <p>从这里您能获取到所有有关Starcoin节点的内容，包括快速上手、如何节点运行、命令行使用等等。
+                    </p>
+                </div>
+                <div class="point box">
+                    <p class="green-num">02</p>
+                    <h4 class="top starcoin"><a href="/zh/developers/move">Move</a></h4>
+                    <p>从这里您能获取到所有Move相关的内容，包括Move开发环境、Move教程、Move实例等等。</p>
+                </div>
+                <div class="point box">
+                    <p class="green-num">03</p>
+                    <h4 class="top starcoin"><a href="/zh/developers/dapp">DAPP</a></h4>
+                    <p> 从这里您能获取到基于Starcoin的Layer1开发DAPP需要涉及到的所有内容，包括搭建开发环境、SDK、RPC、DAPP 实例等等。
+
+                    </p>
+                </div>
+            </div>
+            <div class="third-section flex-box sub-link margin-5-mobile">
+                <div class="point box ghost">
+                    <p class="green-num">01</p>
+                    <h4 class="top"><a href="/zh/developers/node">Node</a></h4>
+                    <p>Starcoin is an efficient, instantly confirmed, scalable application network, with safe native state cross-layer interoperability, Infinity scalability blockchain infrastructure.</p>
+                </div>
+                <div class="point box">
+                    <p class="green-num">04</p>
+                    <h4 class="top"><a href="/zh/developers/examples">实例</a></h4>
+                    <p>从这里您能获取到基于Starcoin的Layer1开发应用的实例，包括Move合约实例、DAPP实例等等。
+                    </p>
+                </div>
+                <div class="point box">
+                    <p class="green-num">05</p>
+                    <h4 class="top"><a href="/zh/developers/glossary">术语表</a></h4>
+                    <p>从这里您能获取到Starcoin的Layer1的基本信息和关键术语，包括Stdlib、NFT 协议、Oracle 协议、关键术语、DAO、SIP 等等。
+                    </p>
+                </div>
+            </div>
+            <div class="flex-box node-d section-margin" id="node">
+                <div class="box">
+                    <p class="blue-text">Starcoin</p>
+                    <h2 class="starcoin">NODE</h2>
+                    <p>
+                        了解Starcoin，最好的方式是先启动一个节点。
+                    </p>
+                </div>
+                <div class="box node-d-2">
+                    <div class="signup-text flex-box">
+                        
+                            <h5><img src="/images/new/up-1.png" height="10px" /> 快速掌握<span class="starcoin">Starcoin</span>，<br>从节点开始 <img src="/images/new/down-1.png" height="10px" /></h5>
+                       
+                        
+    
+                    </div>
+                </div>
+               <!--  <div class="box node-d-3">
+                    
+                    <div class="btns btn-hover color-5 margin-3"><a href="#">Learn More</a></div>
+
+                </div> -->
+
+            </div>
+            <div class="third-section flex-box margin-5">
+                <div class="point box node-d-point">
+                    <img src="/images/new/started.png" width="50px"/>
+                    <h4 class="top">快速上手</h4>
+                    <p>介绍如何快速启动并运行一个Starcoin Node。
+                    </p>
+                    <a href="/zh/developers/node/install">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/docker.png" width="38px"/>
+                    <h4 class="top starcoin">DOCKER</h4>
+                    <p>介绍如何通过Docker 镜像，快速运行Starcoin Node。
+                    </p>
+                    <a href="/zh/developers/node/run_by_docker">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/compile.png" width="60px"/>
+                    <h4 class="top starcoin">COMPILE</h4>
+                    <p>介绍如何通过Starcoin源码，编译出Starcoin Node。
+                    </p>
+                    <a href="/zh/developers/node/build">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+
+            <div class="third-section flex-box margin-5-mobile">
+                <div class="point box node-d-point">
+                    <img src="/images/new/network.png" width="50px"/>
+                    <h4 class="top starcoin">NETWORK</h4>
+                    <p>介绍Starcoin的不同网络以及作用，包括 Dev、Test、Halley、Proxima、Barnard、Main 等网络。
+                    </p>
+                    <a href="/zh/developers/node/runcustomnetwork">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/command.png" width="90px"/>
+                    <h4 class="top starcoin">COMMAND</h4>
+                    <p>介绍Starcoin命令行的使用，例如账号管理、导入区块、发起交易等等。
+                    </p>
+                    <a href="/zh/developers/node/command">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box ghost">
+                    <img src="/images/new/compile.png" width="70px"/>
+                    <h4 class="top starcoin">COMPILE</h4>
+                    <p>Starcoin is an efficient, instantly confirmed, scalable application network, with safe native state cross-layer interoperability, Infinity scalability blockchain infrastructure.</p>
+                    <a href="/zh/developers/node/build">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+            <div class="single-image">
+                <img src="/images/new/V.png" width="100px"/>
+
+            </div>
+            <div class="third-d margin-3" id="move">
+                <p class="blue-text" style="text-align:center">Starcoin</p>
+                    <h2 class="starcoin">MOVE</h2>
+                    <div class="signup-text margin-3">
+                        
+                            <h5><img src="/images/new/up-1.png" height="10px" /> 深入浅出，<span class="starcoin">Move</span>权威指南
+                                <img src="/images/new/down-1.png" height="10px" /></h5>
+                      
+    
+                    </div>
+                    <div class="signup-text flex-box hidden-image">
+                        <div><img src="images/l-arrow.png" height="30px" /></div>
+                        <div>
+                            <p style="font-size:18px">智能合约是公链表达能力的体现，是生态发展的关键。当前模块从各个角度深入介绍了智能合约语言 Move，帮助您全方位了解Move合约开发。
+                            </p>
+                        </div>
+                        <div><img src="images/r-arrow.png" height="30px" /></div>
+                       
+    
+                    </div>
+                   
+                    <!-- <div class="btns margin-3 btn-hover color-5"><a href="#">了解更多</a></div> -->
 
             </div>
 
-        </div>
-        <div class="box dapp-2 margin-5">
-            <div>
-
-                <p class="margin-5">
-                    <a class="developers-link" href="/zh/developers/dapp/example">基于Starcoin生态，讲述如何快速开发DAPP，助力每一个开发者。</a>
-
-                </p>
+            <div class="third-section flex-box margin-5">
+                <div class="point box node-d-point">
+                    <img src="/images/new/construction.png" width="65px"/>
+                    <h4 class="top">环境搭建</h4>
+                    <p>介绍如何搭建Move开发环境。
+                    </p>
+                    <a href="/zh/developers/move/idebuild">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/grammar.png" width="41px"/>
+                    <h4 class="top">基本语法</h4>
+                    <p>介绍Move语言的基础。
+                    </p>
+                    <a href="/zh/developers/move/grammar">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/tutorial.png" width="60px"/>
+                    <h4 class="top">进阶教程</h4>
+                    <p>介绍Move的高级特性。
+                    </p>
+                    <a href="/zh/developers/move/advanced">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/example.png" width="45px"/>
+                    <h4 class="top"><span class="starcoin">Move </span>实例</br>
+                       </h4>
+                    <p>介绍Move的简单实例。
+                    </p>
+                    <a href="/zh/developers/move/example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
             </div>
-            <!-- <div class="btns margin-3 btn-hover color-5"><a href="/zh/developers/">了解更多</a></div> -->
-
-        </div>
-
-    </div>
-
-
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/example.png" width="50px" />
-            <h4 class="top">合约实例<br>
-                <p class="ghost">ghost</p>
-            </h4>
-            <p>介绍一些简单的Move入门实例。
-            </p>
-            <a href="/zh/developers/examples/contract_example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/rocket.png" width="25px" />
-            <h4 class="top">合约部署<br> 实例</h4>
-            <p>介绍基于Starcoin节点部署合约。</p>
-            <a href="/zh/developers/examples/contract_deploy_example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/circle-up.png" width="40px" />
-            <h4 class="top">合约升级<br> 实例</h4>
-            <p>介绍Starcoin合约托管和升级。
-            </p>
-            <a href="/zh/developers/examples/contract_update_example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/dapp.png" width="38px" />
-            <h4 class="top">StarMask <br>实例</h4>
-            <p>介绍StarMask API使用案例。
-            </p>
-            <a href="/zh/developers/examples/starmask_example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/wallet.png" width="50px" />
-            <h4 class="top">DAPP <br>实例</h4>
-            <p>通过一个简单的入门DAPP，介绍如何基于Starcoin快速上手开发DAPP。</p>
-            <a href="/zh/developers/examples/dapp_example">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point ghost">
-            <img src="/images/new/compile.png" width="60px" />
-            <h4 class="top">COMPILE</h4>
-            <p>Case studies on the use of StarMask API.
-            </p>
-            <a href="/zh/developers/">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-
-    <div class="single-image">
-        <img src="/images/new/down-arrow.png" width="100px" />
-
-    </div>
-
-    <div class="flex-box-icon dapp margin-5" id="glossary">
-        <div class="box dapp-1">
-            <div class="signup-text flex-box">
-                <img src="/images/new/l-arrow.png" height="35px" />
-                <h5>硬核剖析，<br>
-                        Starcoin基本原理和关键技术</h5>
-                <img src="images/r-arrow.png" height="30px" />
-
-            </div>
-            <p style="font-size:16px">
-                <a class="developers-link" href="/zh/developers/glossary">Starcoin不仅仅是公链，<br> 更是一个拥有完整生态的Web3平台。</a>
-            </p>
-            <!-- <div class="btns margin-3 btn-hover color-5"><a href="/zh/developers/">了解更多</a></div> -->
-
-        </div>
-        <div class="box dapp-2 terms-2">
-            <div>
-                <p class="blue-text">Starcoin</p>
-                <h2>术语表</h2>
+            <div class="third-section flex-box margin-5-mobile">
+                <div class="point box node-d-point">
+                    <img src="/images/new/safety.png" width="50px"/>
+                    <h4 class="top"><span class="starcoin">Move</span> 安全</h4>
+                    <p>深入对比Solidity，介绍Move的安全实践。
+                    </p>
+                    <a href="/zh/developers/move/security">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/tool.png" width="55px"/>
+                    <h4 class="top">测试工具</h4>
+                    <p>介绍Move的UnitTest和Functional Test，如何通过测试来保障合约的正确性。
+                    </p>
+                    <a href="/zh/developers/move/test">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/form.png" width="55px"/>
+                    <h4 class="top">形式化验证</h4>
+                    <p> 介绍 Move 的形式化验证，通过形式化验证工具，提升合约的安全性。
+                    </p>
+                    <a href="/zh/developers/move/validation">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point ghost">
+                    <img src="/images/new/compile.png" width="60px"/>
+                    <h3 class="top">形式化验证</h3>
+                    <p>Starcoin is an efficient, instantly confirmed, scalable application network, with safe native state cross-layer interoperability, Infinity scalability blockchain infrastructure.</p>
+                    <a href="/zh/developers/">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
             </div>
 
-        </div>
+            <div class="single-image">
+                <img src="/images/new/down.png" width="100px"/>
 
-    </div>
+            </div>
 
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/star-1.png" width="53px" />
-            <h4 class="top">Starcoin</h4>
-            <p>介绍什么是Starcoin、Starcoin的重要特性、Starcoin的核心优势、Starcoin的生态、Starcon黑客松，从宏观的角度，对Starcoin进行介绍。
-            </p>
-            <a href="/zh/developers/glossary/starcoin">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/search.png" width="40px" />
-            <h4 class="top">关键字</h4>
-            <p>介绍Starcoin的核心概念、关键原理、技术术语等等，统一规范和描述用语。
-            </p>
-            <a href="/zh/developers/glossary/keyword">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/sliders.png" width="50px" />
-            <h4 class="top">Stdlib</h4>
-            <p>介绍Starcoin的核心特性之一：Stdlib。Stdlib完全由Move实现，提供了一些基础的协议以及实现、工具库，为DAPP或者DeFi开发提供了很好的帮助。
-            </p>
-            <a href="/zh/developers/glossary/stdlib">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-    <div class="third-section flex-box">
-        <div class="point box node-d-point">
-            <img src="/images/new/coin.png" width="45px" />
-            <h4 class="top">Token</h4>
-            <p>介绍Starcoin的Token协议，安全可靠，是FT的关键协议。
-            </p>
-            <a href="/zh/developers/glossary/token">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/nft.png" width="38px" />
-            <h4 class="top">NFT</h4>
-            <p>介绍Starcoin制定的官方NFT协议，对于NFT应用开发有指导性作用。
-            </p>
-            <a href="/zh/developers/glossary/nft">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/eye.png" width="60px" />
-            <h4 class="top">ORACLE</h4>
-            <p>介绍Starcoin制定的官方Oracle协议，对于Oracle应用开发有指导性作用。
-            </p>
-            <a href="/zh/developers/glossary/oracle">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
-    <div class="third-section flex-box" style="margin-bottom:10em">
-        <div class="point box node-d-point">
-            <img src="/images/new/building.png" width="45px" />
-            <h4 class="top">DAO</h4>
-            <p> 介绍Starcoin的链上治理DAO，对于参与Starcoin社区治理、Starcoin链上合约升级都有很大的帮助。
-            </p>
-            <a href="/zh/developers/glossary/dao">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/update.png" width="53px" />
-            <h4 class="top">合约升级</h4>
-            <p>介绍Starcoin升级合约的多种方式，让合约在安全的情况下升级，是「代码既法律」的最好阐释。
-            </p>
-            <a href="/zh/developers/glossary/contract_upgrade">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-        <div class="point box node-d-point">
-            <img src="/images/new/sip.png" width="60px" />
-            <h4 class="top">SIP</h4>
-            <p>介绍Starcoin的SIP，对于Starcoin的发展、协议、社区讨论、开发均有指导性意义。</p>
-            <a href="/zh/developers/glossary/sip">了解更多 <img src="/images/new/single.png" width="10px" /></a>
-        </div>
-    </div>
 
-</div>
+            <div class="flex-box-icon dapp" id="dapp">
+                <div class="box dapp-1 margin-5">
+                    <div class="signup-text flex-box margin-2">
+
+                            <h5><img src="/images/new/up-1.png" height="10px" /> 轻松上手，掌握<br>上链核心技术
+                                 <img src="/images/new/down-1.png" height="10px" /></h5>
+                      
+                      
+    
+                    </div>
+
+                </div>
+                <div class="box dapp-2">
+                    <div>
+                        <p class="blue-text">Starcoin</p>
+                        <h2 class="starcoin">DAPP</h2>
+                        <p>
+                            Dapp是公链生态重要的组成，是公链生命力的重要体现。从开发者的角度看，DAPP主要包括两部分：合约开发、跟公链交互。
+                    </div>
+                    <!-- <div class="btns margin-3 btn-hover color-5"><a href="#">了解更多</a></div> -->
+
+                </div>
+
+            </div>
+            
+            <div class="flex-box margin-3 half-box">
+                <div class="box ghost box-20">
+
+                </div>
+                <div class="box box-30">
+                    <h4><img src="/images/new/construction.png" width="35px" /><span style="margin-left:0.5em">环境搭建</span></h4>
+
+
+                </div>
+                <div class="box box-50">
+                    <p>
+                        介绍如何搭建基于Starcoin进行DAPP开发所需的环境。
+
+                    </p>
+                    <a href="/zh/developers/dapp/environmental">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+
+
+                </div>
+
+            </div>
+            <div class="flex-box top half-box margin-3">
+                <div class="box ghost box-20">
+
+                </div>
+                <div class="box box-30">
+                    <h4 class="starcoin"><img src="/images/new/sdk.png" width="40px" /> SDK</span></h4>
+
+
+                </div>
+                <div class="box box-50">
+                    <p>
+                        绍不同语言实现的SDK如何使用，主要包括 JavaScript、Java、Golang、Python 等等。
+
+                    </p>
+                    <a href="/zh/developers/dapp/sdk">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+
+
+                </div>
+
+            </div>
+            <div class="flex-box top half-box margin-3">
+                <div class="box ghost box-20">
+
+                </div>
+                <div class="box box-30">
+                    <h4 class="starcoin"><img src="/images/new/wallet.png" width="40px" /> STARMASK</h4>
+
+
+                </div>
+                <div class="box box-50">
+                    <p>
+                        介绍StarMask API如何使用，例如唤起StarMask进行交易签名。
+
+                    </p>
+                    <a href="/zh/developers/dapp/starmask">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+
+
+                </div>
+
+            </div>
+            <div class="flex-box top half-box margin-3">
+                <div class="box ghost box-20">
+
+                </div>
+                <div class="box box-30">
+                    <h4 class="starcoin"><img src="/images/new/example.png" width="40px" /> EXAMPLE</h4>
+
+
+                </div>
+                <div class="box box-50">
+                    <p>
+                        介绍StarMask API如何使用，例如唤起StarMask进行交易签名。
+                    </p>
+                    <a href="/zh/developers/dapp/example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+
+
+                </div>
+
+            </div>
+            <div class="flex-box top half-box margin-3">
+                <div class="box ghost box-20">
+
+                </div>
+                <div class="box box-30">
+                    <h4 class="starcoin"><img src="/images/new/rpc.png" width="40px" /> RPC</h4>
+
+
+                </div>
+                <div class="box box-50">
+                    <p>
+                        介绍Starcoin Node支持的RPC协议，可以基于RCP协议进行二次开发。
+
+
+                    </p>
+                    <a href="/zh/developers/dapp/rpc">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+
+
+                </div>
+
+            </div>
+                
+            <div class="single-image">
+                <img src="/images/new/down-three.png" width="100px"/>
+
+            </div>
+            <div class="flex-box-icon dapp examples" id="examples">
+                
+                <div class="box">
+                    <p class="blue-text" style="text-align: left;">Starcoin</p>
+                    <h2>实例</h2>
+                    <p>
+                        基于Starcoin生态，讲述如何快速<br>开发DAPP，助力每一个开发者。
+
+                    </p>
+                   
+
+                </div>
+                <div class="box margin-5">
+                    <div class="signup-text flex-box margin-1">
+                       
+                        <div>
+                            <h5><img src="/images/new/up-1.png" height="10px" /> 全面覆盖，助力 DAPP开发 <img src="/images/new/down-1.png" height="10px" />
+                            </h5>
+                        </div>
+                       
+                      
+    
+                    </div>
+                    <!-- <div class="btns margin-3 btn-hover color-5"><a href="#">Learn More</a></div> -->
+
+                </div>
+
+            </div>
+            
+
+            <div class="third-section flex-box margin-5">
+                <div class="point box node-d-point">
+                    <img src="/images/new/example.png" width="50px"/>
+                    <h4 class="top">合约实例</h4>
+                    <p>介绍一些简单的Move入门实例。
+                    </p>
+                    <a href="/zh/developers/examples/contract_example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/rocket.png" width="25px"/>
+                    <h4 class="top">合约部署实例</h4>
+                    <p>介绍基于Starcoin节点部署合约。</p>
+                    <a href="/zh/developers/examples/contract_deploy_example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/circle-up.png" width="45px"/>
+                    <h4 class="top">合约升级实例</h4>
+                    <p>介绍Starcoin合约托管和升级。
+                    </p>
+                    <a href="/zh/developers/examples/contract_update_example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+
+            <div class="third-section flex-box margin-5-mobile">
+                <div class="point box node-d-point">
+                    <img src="/images/new/dapp.png" width="45px"/>
+                    <h4 class="top"><span class="starcoin">StarMask</span> 实例</h4>
+                    <p>介绍StarMask API使用案例。
+                    </p>
+                    <a href="/zh/developers/examples/starmask_example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/wallet.png" width="50px"/>
+                    <h4 class="top"><span class="starcoin">DAPP</span> 实例</h4>
+                    <p>通过一个简单的入门 DAPP，介绍如何基于Starcoin快速上手开发DAPP。
+                    </p>
+                    <a href="/zh/developers/examples/dapp_example">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point ghost">
+                    <img src="images/compile.png" width="60px"/>
+                    <h4 class="top">COMPILE</h4>
+                    <p>Case studies on the use of StarMask API.
+                    </p>
+                    <a href="/zh/developers/">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+
+            <div class="single-image">
+                <img src="/images/new/down-arrow.png" width="100px"/>
+
+            </div>
+
+            <div class="flex-box-icon dapp margin-5" id="glossary">
+                <div class="box dapp-1">
+                    <div class="signup-text flex-box margin-4">
+                       
+                            <h5><img src="/images/new/up-1.png" height="10px" /> 硬核剖析，<span class="starcoin">Starcoin</span>基本<br>原理和关键技术 <img src="/images/new/down-1.png" height="10px" /></h5>
+                      
+    
+                    </div>
+        
+                    <!-- <div class="btns margin-3 btn-hover color-5"><a href="#">Learn More</a></div> -->
+
+                </div>
+                <div class="box dapp-2 terms-2">
+                    <div>
+                        <p class="blue-text">Starcoin</p>
+                        <h2>术语表</h2>
+                        <p>
+                            <a class="developers-link" href="/zh/developers/glossary">Starcoin 不仅仅是公链，<br>更是一个拥有完整生态的Web3平台</a>
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="third-section flex-box margin-5">
+                <div class="point box node-d-point">
+                    <img src="/images/new/star-1.png" width="53px"/>
+                    <h4 class="top starcoin">Starcoin</h4>
+                    <p>介绍什么是Starcoin、Starcoin的重要特性、Starcoin的核心优势、Starcoin的生态、Starcoin黑客松，从宏观的角度，对Starcoin进行介绍。
+                    </p>
+                    <a href="/zh/developers/glossary/starcoin">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/search.png" width="40px"/>
+                    <h4 class="top">关键字</h4>
+                    <p>介绍Starcoin的核心概念、关键原理、技术术语等等，统一规范和描述用语。
+                    </p>
+                    <a href="/zh/developers/glossary/keyword">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/sliders.png" width="50px"/>
+                    <h4 class="top starcoin">Stdlib</h4>
+                    <p>介绍Starcoin的核心特性之一：Stdlib。Stdlib完全由Move实现，提供了一些基础的协议以及实现、工具库，为DAPP或者DeFi开发提供了很好的帮助。
+                    </p>
+                    <a href="/zh/developers/glossary/stdlib">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+            <div class="third-section flex-box margin-5-mobile">
+                <div class="point box node-d-point">
+                    <img src="/images/new/coin.png" width="45px"/>
+                    <h4 class="top starcoin">Token</h4>
+                    <p>介绍Starcoin的Token协议，安全可靠，是FT的关键协议。
+                    </p>
+                    <a href="/zh/developers/glossary/token">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/nft.png" width="38px"/>
+                    <h4 class="top starcoin">NFT</h4>
+                    <p>介绍 Starcoin 制定的官方 NFT 协议，对于 NFT 应用开发有指导性作用。
+                    </p>
+                    <a href="/zh/developers/glossary/nft">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/eye.png" width="60px"/>
+                    <h4 class="top starcoin">ORACLE</h4>
+                    <p>介绍Starcoin制定的官方Oracle 协议，对于Oracl应用开发有指导性作用。
+                    </p>
+                    <a href="/zh/developers/glossary/oracle">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+            <div class="third-section flex-box margin-5-mobile" style="margin-bottom:5em">
+                <div class="point box node-d-point">
+                    <img src="/images/new/building.png" width="45px"/>
+                    <h4 class="top starcoin">DAO</h4>
+                    <p> 介绍Starcoin的链上治理 DAO，对于参与Starcoin社区治理、Starcoin链上合约升级都有很大的帮助。
+                    </p>
+                    <a href="/zh/developers/glossary/dao">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/update.png" width="53px"/>
+                    <h4 class="top">合约升级</h4>
+                    <p>介绍Starcoin升级合约的多种方式，让合约在安全的情况下升级，是「代码既法律」的最好阐释。
+                    </p>
+                    <a href="/zh/developers/glossary/contract_upgrade">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+                <div class="point box node-d-point">
+                    <img src="/images/new/sip.png" width="65px"/>
+                    <h4 class="top starcoin">SIP</h4>
+                    <p>介绍Starcoin的 SIP，对于Starcoin的发展、协议、社区讨论、开发均有指导性意义。</p>
+                    <a href="/zh/developers/glossary/sip">了解更多 <img src="/images/new/single.png" width="12px" class="green-arrow"/></a>
+                </div>
+            </div>
+            
+ </div>
 <script>
     AOS.init({
         offset: 200,

@@ -121,6 +121,15 @@
 }
 
 
+@font-face {
+    font-family: 'sy';
+    src: url('SourceHanSansCN-Regular-Alphabetic.woff2') format('woff2'),
+        url('SourceHanSansCN-Regular-Alphabetic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 @font-face {

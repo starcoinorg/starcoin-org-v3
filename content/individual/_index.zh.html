@@ -1,14 +1,39 @@
 ---
-title: Individual
+title: 个人用户
 ---
-<link rel="stylesheet" type="text/css" href="/css/base-page-style.css" />
-<link rel="stylesheet" type="text/css" href="/css/media-query.css" />
+
+<link rel="stylesheet" type="text/css" href="/css/style_cn.css" />
+<script>
+            (function(d) {
+              var config = {
+                kitId: 'cdp5jlc',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+           <style>
+            body{
+                background-image: url('/images/new/individual-bg-min.png');
+                background-repeat: no-repeat;
+                background-size: cover, contain;  
+            }
+            @media (max-width: 480px) {
+                body{
+                   background-image: url('/images/new/home-mobile.png');
+                   background-size: cover, contain;  
+                   
+                }
+
+        }
+        </style>
 <div class="page-wrapper">
-            <div id="banner" class="banner margin-10">
+            <div id="banner" class="banner banner-10 zh_banner">
                 <div class="banner-title" data-aos="fade-up">
-                    <p class="blue-text mobile-blue-center">Starcoin Individuals</p>
-                    <h2>轻松玩转<br>
-                        Starcoin
+                    <p class="blue-text mobile-blue-center">Starcoin 个人用户</p>
+                    <h2>轻松玩儿转<br>
+                        <span class="starcoin">Starcoin</span>
                     </h2>
                     
     
@@ -16,23 +41,25 @@ title: Individual
                
             </div>
             
-            <div class="article article-i margin-10 stc" id="stc">
-                <h2>
+            <div class="article article-i margin-5 stc" id="stc">
+                <h2 class="starcoin">
                     STC
                 </h2>
                 <div class="flex-box sub-link">
                     <div class="box">
                         <img src="/images/new/trading.png" width="80px" />
-                        <h3><a href="#">CEX交易</a></h3>
+                        <h3 class="top"><a href="#"><span class="starcoin">CEX<br></span> 
+                            交易</a></h3>
                         <p>
-                            这是得到STC最简单的方式，可以通过Gate.io和CoinEx等交易所购买。
+                            这是得到STC最简单的方式，可以通过<br>Gate.io和CoinEx等交易所购买。
                         </p>
                     </div>
                     <div class="box">
                         <img src="/images/new/stc-2.png" width="80px" />
-                        <h3><a href="#">DEX交易</a></h3>
+                        <h3 class="top"><a href="#"><span class="starcoin">DEX</span><br>
+                            交易</a></h3>
                         <p>
-                            这是得到STC最前沿的方式，可以通过Starswap等DEX交易获取。
+                            这是得到STC最前沿的方式，<br>可以通过Starswap等DEX交易获取。
 
 
                         </p>
@@ -42,28 +69,29 @@ title: Individual
                 <div class="flex-box sub-link">
                     <div class="box">
                         <img src="/images/new/stc-3.png" width="80px" />
-                        <h3><a href="#">节点挖矿
-                            </a></h3>
+                        <h3 class="top"><a href="#">节点<br>
+                            挖矿</a></h3>
                         <p>
-                            这是得到STC最直接的方式，维护Starcoin网络安全，获得区块奖励。
+                            这是得到 STC 最直接的方式，<br>维护Starcoin 网络安全，获得区块奖励。
 
                         </p>
                     </div>
                     <div class="box">
                         <img src="/images/new/stc-4.png" width="80px" />
-                        <h3><a href="#">参与链上治理，<br> 推动社区发展</a></h3>
+                        <h3 class="top"><a href="">链上治理<br>
+                            推动社区发展</a></h3>
                         <p>
-                            拥有STC的用户，人人皆可参与链上治理，使用STC行使权力，推动社区发展。
+                            拥有STC的用户，人人皆可参与链上治理，<br>使用STC行使权力，推动社区发展。
 
                         </p>
                     </div>
 
                 </div>
             </div>
-            <div class="fourth-section fourth-section-i" id="wallets">
+            <div class="fourth-section fourth-section-i section-margin" id="wallets">
                 <div>
-                    <p class="blue-text" style="text-align:left">Starcoin</p>
-                    <h2>钱包 <img src="/images/new/arrows.png" width="100px" /></h2>
+                    <p class="blue-text" style="text-align:left">Starcoin初体验</p>
+                    <h2 class="starcoin">WALLETS <img src="/images/new/arrows.png" width="100px" /></h2>
                         
                     
                 </div>
@@ -73,10 +101,11 @@ title: Individual
             <div class="fifth-section flex-box fifth-section-i">
                 <div class="blue blue-i" data-aos="fade-right">
                  <div class="box">
-                     <h2 class="top">STARMASK</h2>
+                     <h2 class="top starcoin">STARMASK</h2>
                      <ul>
-                        <li>Support DeFi/Web3 functionality</li>
-                        <li>Support NFT galleries</li>
+                         <li>MetaMask的Move版本, Starcoin的一个非托管chrome扩展钱包</li>
+                        <li>支持DeFi/Web3功能</li>
+                        <li>支持NFT展馆</li>
                         <li>管理链上资产</li>
                         <li>DID</li>
                      </ul>
@@ -84,35 +113,30 @@ title: Individual
                 </div>
                 <div class="green green-i" data-aos="fade-left">
                     <div class="box">
-                        <h2 class="top">starmask <br>
+                        <h2 class="top starcoin"><span class="starcoin">starmask</span> <br>
                             教程</h2>
                             <p>
                                 玩转Starcoin，最快捷的方式是使用Chrome浏览器钱包StarMask。StarMask能非常方便的管理自己在Starcoin的链上数据，例如STC或者NFT，轻松操作账户。
                             </p>
                             
                      </div>
-                     <div class="individual-custom-mq-more">
-                         <div>
-                            <a target="_blank" href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/zh/how-to-install.md">1. 安装指南 </a><img src="/images/new/blue-arrow.png" width="10px"/>&nbsp;
-                        </div>
-                        <div>
-                            <a target="_blank" href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/zh/how-to-use.md">2. 使用教程 </a><img src="/images/new/blue-arrow.png" width="10px"/>
-                        </div>
+                    
+                     <a target="_blank" href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-install.md">StarMask使用教程 </a><img src="/images/new/blue-arrow.png" width="10px"/>
+                     <a target="_blank" href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-use.md"> Youtube视频教程 </a><img src="/images/new/blue-arrow.png" width="10px"/>
                 </div>
 
                  
      
              </div>
              <div class="blue fifth-section-i">
-                 <h2>下载StarMask 浏览器钱包</h2>
+                 <h2>下载<span class="starcoin">starmask</span></h2>
                  <div class="flex-box">
                      <div class="box">
-                        <div class="flex-box icon-text individual-custom-icon">
+                        <div class="flex-box icon-text">
                             <img src="/images/new/github.png" height="70px" />
                             <div class="side-text box">
                                 <p class="title-p">
-                                    Github<br> 
-                                    下载安装（推荐）
+                                    Github下载安装（推荐）
                                 </p>
                 
 
@@ -121,21 +145,18 @@ title: Individual
                         </div>
 
                          <p class="left-p">
-                            通过官方的Github仓库下载，紧跟官方最新版，任何地方都可以访问和下载。
+                            通过官方的Github仓库下载，紧跟官方最新版，<br>任何地方都可以访问和下载。
 
 
                          </p>
-                         <div class="individual-custom-seemore">
-                             <a target="_blank" href="https://github.com/starcoinorg/starmask-extension">See More </a><img src="/images/new/single.png" width="10px"/>
-                         </div>
+                         <a target="_blank" href="https://github.com/starcoinorg/starmask-extension">了解更多 </a><img src="/images/new/single.png" width="12px" class="green-arrow"/>
                      </div>
                      <div class="box">
-                        <div class="flex-box icon-text individual-custom-icon">
+                        <div class="flex-box icon-text">
                             <img src="/images/new/chrome.png" height="70px" />
                             <div class="side-text box">
                                 <p class="title-p">
-                                    Chrome <br>
-                                    网上应用商店下载
+                                    Chrome网上应用商店下载
                                 </p>
 
                             </div>
@@ -143,32 +164,27 @@ title: Individual
                         </div>
 
                          <p class="left-p">
-                            通过Google的Chrome网上应用商店下载，简单方便，但是部分地区需要掌握科学上网的方法。
+                            通过Google的Chrome网上应用商店下载，<br>简单方便，但是部分地区需要掌握科学上网的方法。
 
 
                          </p>
-                         <div class="individual-custom-seemore" style="margin-bottom: 0">
-                            <a target="_blank" href="https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk">See More </a><img src="/images/new/single.png" width="10px"/>
-                        </div>
+                         <a target="_blank" href="https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk">了解更多 </a><img src="/images/new/single.png" width="12px" class="green-arrow"/>
                      </div>
 
                  </div>
                  
 
              </div>
-             <div class="col-2-i" id="onekey">
-                <h2>
+             <div class="col-2-i section-margin" id="onekey">
+                <h2 class="starcoin">
                     ONEKEY
                 </h2>
-                <div class="flex-box">
+                <p>A Secure Blockchain Wallet for Advanced User. </p>
+                <div class="flex-box margin-3">
                     
                      <div class="box">
-                        <p class="p-title">
-                            为高级用户提供的安全区块链钱包， <br>
-                            支持Starcoin的硬件钱包。
-                        </p>
-                        <p>从这里查看<br>
-                            <a target="_blank" href="https://www.bilibili.com/video/BV1qQ4y1i7mw/">通过StarMask设置onekey钱包的视频教程</a><img src="/images/new/single.png" width="10px"/></p>
+                         <h5><img src="/images/new/up-1.png" height="10px" /> 一个给高级用户的安全区块链钱包， <br>一个支持<span class="starcoin">Starcoin</span>的硬件钱包 <img src="/images/new/down-1.png" height="10px" /></h5>
+                        <p>从这里查看通过StarMask <br> 设置onekey钱包的视频教程。 <a href="https://www.bilibili.com/video/BV1qQ4y1i7mw/"> 点击这里 </a> <img src="/images/new/single.png" width="12px" class="green-arrow"/></p>
     
                      </div>
                      <div class="box">
@@ -182,15 +198,14 @@ title: Individual
                  </div>
 
              </div>
-             <div class="fourth-section-i margin-10 left-3 individual-custom-box" id="starcoinnodes">
-                <p class="blue-text" style="text-align:left">Geeks, Own Your</p>
-                <h2 style="text-align:left">Starcoin <br>
-                    节点</h2>
+             <div class="fourth-section-i section-margin left-3" id="starcoinnodes">
+                <p class="blue-text" style="text-align:left">极客玩家，拥有自己的</p>
+                <h2 style="text-align:left"><span class="starcoin">Starcoin</span>节点</h2>
                 <div>
                    
                     <div class="flex-box">
                         <div class="box col-10">
-                            <p class="more-article">
+                            <p>
                                 玩转Starcoin的另一种比较极客的方式是使用Starcoin节点。Starcoin节点有全部的数据，所以拥有自己的Starcoin节点可以干很多很多的事情，常用的操作，比如：发起投票；Mint STC；查看任意账户的状态；所以，极客玩家可以考虑搭建属于自己的Starcoin节点，下面是节点的安装、启动和使用说明。
                             </p>
 
@@ -205,27 +220,28 @@ title: Individual
                 </div>
                 
             </div>
-            <div class="third-section flex-box third-section-i">
+            <div class="third-section flex-box third-section-i margin-5">
                 <div class="point box">
                     <img src="/images/new/node.png" width="100px"/>
-                    <h4 class="top" style="display: block">节点安装<br>
+                    <h4 class="top">节点安装<br>
                     <span class="ghost" >ghost</span></h4>
-                        <div class="btns btn-hover color-5"><a class="custom-indi-mq-a" href="/zh/developers/node/install/">浏览更多</a></div>
+                        <div class="btns btn-hover color-5"><a href="/zh/developers/node/install/">了解更多</a></div>
                 </div>
                 <div class="point box">
                     <img src="/images/new/line.png" width="100px"/>
-                    <h4 class="top" style="display: block">通过命令行启动节点</h4>
-                        <div class="btns btn-hover color-5"><a class="custom-indi-mq-a" href="/zh/developers/node/command/">浏览更多</a></div>
+                    <h4 class="top">通过命令行<br>
+                        启动节点</h4>
+                        <div class="btns btn-hover color-5"><a href="/zh/developers/node/command/">了解更多</a></div>
                 </div>
                 <div class="point box">
                     <img src="/images/new/console.png" width="95px"/>
-                    <h4 class="top" style="display: block">console命令行教程
+                    <h4 class="top"><span class="starcoin">Console</span><br>命令行教程
                     </h4>
 
-                        <div class="btns btn-hover color-5"><a class="custom-indi-mq-a" href="/zh/developers/node/command/console/">浏览更多</a></div>
+                        <div class="btns btn-hover color-5"><a href="/zh/developers/node/command/console/">了解更多</a></div>
                 </div>
             </div>
-            <div class="hardcore" id="hardcoreplayers">
+            <div class="hardcore section-margin" id="hardcoreplayers">
                 <div class="flex-box">
                     <div class="box hardcore-1">
                         <p>
@@ -236,8 +252,8 @@ title: Individual
                     <div class="box right-box top">
                         <div class="signup-text flex-box-icon">
                             <div class="mobile-center">
-                                <p class="blue-text">Geeks, Own Your</p>
-                                <h2>硬核玩家
+                                <p class="blue-text">贡献自己的力量</p>
+                                <h2>骨灰级玩家
                                 </h2>
                             </div>
                            
@@ -251,18 +267,18 @@ title: Individual
             <div class="flex-box blue-box-i" data-aos="zoom-in-left">
                 
                 <div class="box flex-box">
-                    <img src="/images/new/code.png" height="80px"/>
+                    <img src="/images/new/code.png" height="100px"/>
                     <h2>
                         贡献代码
 
                     </h2>
                 </div>
                 <div class="box">
-                    <p>
+                    <p class="mobile-margin-2">
                         Starcoin是一个开放式的开源社区。任何开发者可以根据自己的优势，通过Starcoin的代码仓库，发起issue、提交commit，给Starcoin贡献源代码。这是最直接的方式。
 
                     </p>
-                    <div class="btns btn-hover color-5 individual-custom-seemore indiv-custom-btn"><a target="_blank" href="https://github.com/starcoinorg">浏览更多</a></div>
+                    <div class="btns btn-hover color-5"><a target="_blank" href="https://github.com/starcoinorg">了解更多</a></div>
 
                 </div>
 
@@ -270,7 +286,7 @@ title: Individual
             <div class="flex-box green-box-i" data-aos="zoom-in-right">
                 
                 <div class="box flex-box">
-                    <img src="/images/new/write.png" height="80px"/>
+                    <img src="/images/new/write.png" height="100px"/>
                     <h2>
                         贡献文章
 
@@ -278,10 +294,11 @@ title: Individual
                     </h2>
                 </div>
                 <div class="box">
-                    <p>
-                       即便你不是开发者，也可以通过写关于Starcoin和Move的文章或者视频，深度地参与进去，让更多的人了解Starcoin。
+                    <p class="mobile-margin-2">
+                        即便你不是开发者，也可以通过写关于Starcoin和Move的文章或者视频，深度地参与进去，让更多的人了解Starcoin。
+
                     </p>
-                    <!-- <div class="btns btn-hover color-b"><a href="#">浏览更多</a></div> -->
+                   
 
                 </div>
 
@@ -290,46 +307,45 @@ title: Individual
             <div class="flex-box blue-box-i" data-aos="zoom-in-left">
                 
                 <div class="box flex-box">
-                    <img src="/images/new/world.png" height="80px"/>
+                    <img src="/images/new/world.png" height="100px"/>
                     <h2>
                         开发生态
 
                     </h2>
                 </div>
                 <div class="box">
-                    <p>
-                        Starcoin是一个开放的公链，任何个人或者团队都可以部署自己的合约。Starcoin使用Move作为智能合约。Move本身在NFT、DeFi等领域有独天得厚的优势。如果能够掌握Move，设计自己的合约产品，让更多人通过你的合约体验Starcoin和Move。
-                    </p>
-                    <!-- <div class="btns btn-hover color-5"><a href="#">浏览更多</a></div> -->
+                    <p class="mobile-margin-2">
+                        Starcoin是一个开放的公链，任何个人或者团队都可以部署自己的合约。Starcoin使用Move作为智能合约。Move本身在 NFT、DeFi 等领域有独天得厚的优势。如果能够掌握Move，设计自己的合约产品，让更多人通过你的合约体验Starcoin和Move。
 
                 </div>
 
             </div>
 
-            <div class="roadmap flex-box" id="grant">
+            <div class="roadmap flex-box section-margin grant-i" id="grant">
                 <div class="box">
                     <p class="blue-text">Starcoin</p>
                     <h2>基金</h2>
-                    <p>通过以上的这些深度参与的方式，在推动Starcoin发展，获取一手Starcoin动态的同时，还能收获STC的Grants。</p>
+                    <p>通过以上的这些深度参与的方式，在推动Starcoin发展，获取一手<br>Starcoin动态的同时，还能收获STC的基金。</p>
                 </div>
                 <div class="box top col-4-i">
                     <div class="flex-box-icon">
-                        <div  class="arrows"><img src="/images/new/l-arrow.png" height="80px" /></div>
+                        <div  class="arrows"><img src="/images/new/up-1.png" height="20px" /></div>
                        
                             <img src="/images/new/dollar.png"  height="100px"/>
-                            <p class="p-title indiv-custom-mq-title">申请资金 <br>
-                                为了您的 <br>
-                                Starcoin 项目</p>
+                            <p class="p-title">给你的<span class="starcoin">Starcoin</span><br>项目申请资金</p>
+
                         
-                        <div class="arrows"><img src="/images/new/r-arrow.png" height="80px" /></div>
-                        <div class="btns btn-hover color-5 individual-custom-seemore community-custom-btn"><a target="_blank" href="https://grant.starcoin.org/#/home">创建资助</a></div>
+
+                     
+                        
+                        <div class="arrows down"><img src="/images/new/down-1.png" height="20px" /></div>
+                        <div class="btns btn-hover color-5"><a target="_blank" href="https://grant.starcoin.org/#/home">创建基金</a></div>
     
                     </div>
                     
                 </div>
 
             </div>
-       </div>
        </div>
 <script>
     AOS.init({
