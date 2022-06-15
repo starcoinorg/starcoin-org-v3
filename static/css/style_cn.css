@@ -2464,8 +2464,8 @@ nav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
+/* li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; } */
 
 .language-btn{
     border: 2px #fff solid;
@@ -2507,6 +2507,10 @@ li > a:only-child:after { content: ''; }
 	}
     .mobile-center{
         text-align: center;
+    }
+
+    .zh_banner {
+        margin-top: 88px !important;
     }
 
 }
