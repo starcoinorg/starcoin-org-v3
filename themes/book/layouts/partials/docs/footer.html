@@ -81,7 +81,7 @@
                 </div>
                 <div class="copyright flex-box-icon top footer-social mobile-margin-2">
                     <img src="/images/footer/starcoin.png" height="50px" />
-                    <p style="margin-top: 1.5em">© 2022 Starcoin.org. {{ i18n "footerAllRightsReserved" }}.</p>
+                    <p style="margin-top: {{ cond (eq .Site.Language.Lang "en") "1.5em" "1.2em" }}">© 2022 Starcoin.org. {{ i18n "footerAllRightsReserved" }}.</p>
                 </div>
             </div>
         </div>

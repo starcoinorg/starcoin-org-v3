@@ -54,7 +54,7 @@ p{
     font-weight: 300;
 }
 .header-small{
-    font-size:48px; 
+    font-size:36px; 
     line-height:1px;
 }
 .starcoin{
@@ -130,6 +130,9 @@ p{
     letter-spacing: 2px;
     font-weight:600;
     
+}
+.height-developer{
+    height:100px
 }
 .margin-1 {
     margin-top:1em !important;
@@ -1084,6 +1087,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     .community .p-title{
         text-align: center;
     }
+    .height-developer{
+        height:130px
+    }
    
 }
 
@@ -1722,6 +1728,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     width:95%;
     margin:0 auto;
 }
+.sec-section-developer{
+    width:60%;
+    margin:2em auto;
+}
 .sec-section-developer p{
     width:72%;
     margin:0 auto;
@@ -1951,6 +1961,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
       
         padding-left:0em;
     
+    }
+    .sec-section-developer{
+        width:100%;
+        margin:2em auto;
     }
 }
 .dome-c{
@@ -2450,8 +2464,8 @@ nav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-/* li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; } */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
 
 .language-btn{
     border: 2px #fff solid;
@@ -2495,9 +2509,6 @@ li > a:only-child:after { content: ''; } */
         text-align: center;
     }
 
-    .zh_banner {
-        margin-top: 88px !important;
-    }
 }
 
 
