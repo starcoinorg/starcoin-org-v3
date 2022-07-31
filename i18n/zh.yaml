@@ -51,6 +51,8 @@
   translation: 团队
 - id: navDiscoveryRoadmap
   translation: 路线图
+- id: navDevelopersExplorer
+  translation: 浏览器
 - id: navDevelopersNode
   translation: 节点
 - id: navDevelopersMove
