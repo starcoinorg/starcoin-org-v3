@@ -45,6 +45,8 @@
   translation: Team
 - id: navDiscoveryRoadmap
   translation: Roadmap
+- id: navDevelopersExplorer
+  translation: Explorer
 - id: navDevelopersNode
   translation: Node
 - id: navDevelopersMove

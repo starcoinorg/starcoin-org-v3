@@ -96,6 +96,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .new_footer_top .f_social_icon a + a {
     margin-left: 4px;
+    margin-bottom: 8px;
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
