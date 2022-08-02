@@ -679,3 +679,8 @@ body {
     letter-spacing: 1px;
     margin-top: 0;
 }
+
+.img-phone img{
+  max-width: 50% !important;
+  margin: 16px 0;
+}

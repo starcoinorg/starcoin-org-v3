@@ -25,7 +25,7 @@ StarMask 钱包是第一个支持 Starcoin 区块链的 Chrome 浏览器插件�
 ![](/images/onekey/onekey-4.png)
 
 移动版 App(IOS/Android)
-![](/images/onekey/onekey-5.png)
+{{< figure src="/images/onekey/onekey-5.png" class="img-phone">}}
 
 接下来，我们就以移动版 App 和 Starswap 的交互为例，来说明如何在 OneKey App 里面使用 Starcoin 的 Dapps。
 
@@ -38,66 +38,66 @@ OneKey App 支持三种帐户：
 
 我们以 StarMask 的帐户，通过私钥导入为例。
 
-![](/images/onekey/onekey-6.png)
+{{< figure src="/images/onekey/onekey-6.png" class="img-phone">}}
 
-![](/images/onekey/onekey-7.png)
+{{< figure src="/images/onekey/onekey-7.png" class="img-phone">}}
 
-![](/images/onekey/onekey-12.png)
+{{< figure src="/images/onekey/onekey-12.png" class="img-phone">}}
 
 粘贴 StarMask 帐户的私钥：
-![](/images/onekey/onekey-13.png)
+{{< figure src="/images/onekey/onekey-13.png" class="img-phone">}}
 
 选择 STC 网络，输入帐户名字
-![](/images/onekey/onekey-14.png)
+{{< figure src="/images/onekey/onekey-14.png" class="img-phone">}}
 
 帐户创建成功
-![](/images/onekey/onekey-15.png)
+{{< figure src="/images/onekey/onekey-15.png" class="img-phone">}}
 
 接下来，我们切换到 OneKey App 的 Explore 菜单
 
-![](/images/onekey/onekey-16.png)
+{{< figure src="/images/onekey/onekey-16.png" class="img-phone">}}
 
 在底部的 Search 输入框，输入 Starswap 的网页地址: `https://starswap.xyz`
-![](/images/onekey/onekey-17.png)
+{{< figure src="/images/onekey/onekey-17.png" class="img-phone">}}
 
 在 swap 页面，点击 `连接钱包`
-![](/images/onekey/onekey-18.png)
+{{< figure src="/images/onekey/onekey-18.png" class="img-phone">}}
 
 选择 `StarMask`
-![](/images/onekey/onekey-19.png)
+{{< figure src="/images/onekey/onekey-19.png" class="img-phone">}}
 
 点击 Confirm
-![](/images/onekey/onekey-20.png)
+{{< figure src="/images/onekey/onekey-20.png" class="img-phone">}}
 
 接下来，我们兑换 STC-STAR
-![](/images/onekey/onekey-21.png)
+{{< figure src="/images/onekey/onekey-21.png" class="img-phone">}}
 
 选择 STAR
-![](/images/onekey/onekey-22.png)
+{{< figure src="/images/onekey/onekey-22.png" class="img-phone">}}
 
 输入 0.5 STC，点击 Swap
-![](/images/onekey/onekey-23.png)
+{{< figure src="/images/onekey/onekey-23.png" class="img-phone">}}
 
 点击 Confirm Swap
-![](/images/onekey/onekey-24.png)
+{{< figure src="/images/onekey/onekey-24.png" class="img-phone">}}
 
 在交易确认页面，点击 Confirm
-![](/images/onekey/onekey-25.png)
+{{< figure src="/images/onekey/onekey-25.png" class="img-phone">}}
 
 Close 弹窗
-![](/images/onekey/onekey-26.png)
+{{< figure src="/images/onekey/onekey-26.png" class="img-phone">}}
 
 切换到 Account 菜单，点击 History 栏目
-![](/images/onekey/onekey-27.png)
+{{< figure src="/images/onekey/onekey-27.png" class="img-phone">}}
 
 可以看到有一笔在 Pending 状态的交易
-![](/images/onekey/onekey-28.png)
+{{< figure src="/images/onekey/onekey-28.png" class="img-phone">}}
 
 等待交易在链上确认之后，
-![](/images/onekey/onekey-29.png)
+{{< figure src="/images/onekey/onekey-29.png" class="img-phone">}}
 
 可以点击这笔交易，在交易详情弹窗里面，点击 Hash 后面的按钮
-![](/images/onekey/onekey-30.png)
+{{< figure src="/images/onekey/onekey-30.png" class="img-phone">}}
 
 在浏览器里面查看交易详情
 ![](/images/onekey/onekey-31.png)
