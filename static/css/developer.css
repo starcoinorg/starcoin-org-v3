@@ -680,7 +680,9 @@ body {
     margin-top: 0;
 }
 
-.img-phone img{
-  max-width: 50% !important;
-  margin: 16px 0;
+@media (min-width: 767px) {
+  .img-phone img{
+    max-width: 50% !important;
+    margin: 16px 0;
+  }
 }
