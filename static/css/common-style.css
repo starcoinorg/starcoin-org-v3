@@ -167,3 +167,8 @@ p{
 .col-2-eco{
     margin: 5em 3em
 }
+
+.col-custom-3 {
+    flex: 0 0 auto;
+    width: 15.666667%;
+}

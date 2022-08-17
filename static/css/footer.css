@@ -149,3 +149,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .copyright p{
     margin:1em
 }
+
+.col-custom-3 {
+    flex: 0 0 auto;
+    width: 15.666667%;
+}
+
+.col-custom-5 {
+    flex: 0 0 auto;
+    width: 21%;
+}
