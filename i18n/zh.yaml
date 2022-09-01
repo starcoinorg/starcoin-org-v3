@@ -63,6 +63,8 @@
   translation: 示例
 - id: navDevelopersGlossary
   translation: 术语表
+- id: navCookbook
+  translation: Cookbook
 - id: navDevelopersOthers
   translation: 其它
 - id: navDevelopersBuilding

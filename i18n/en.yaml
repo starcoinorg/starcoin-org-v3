@@ -57,6 +57,8 @@
   translation: Examples
 - id: navDevelopersGlossary
   translation: Glossary
+- id: navCookbook
+  translation: Cookbook
 - id: navDevelopersOthers
   translation: Others
 - id: navDevelopersBuilding
