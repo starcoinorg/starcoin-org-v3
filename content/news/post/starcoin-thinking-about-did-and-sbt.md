@@ -1,6 +1,6 @@
 +++
 title = "Starcoin: Thinking about DID and SBT"
-date = "2022-10-5"
+date = "2022-10-05"
 summary = "Author:AIVE Recently users have been looking at DIDs, and Starcoin’s Name Service project is also known to be in development, and is currently experimenting with composable DIDs that combine SBT and..."
 author = "Starcoin"
 tags = [

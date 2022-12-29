@@ -1,6 +1,6 @@
 +++
 title = "Starcoin Easy Gas : More Flexible,More Easy"
-date = "2022-11-7"
+date = "2022-11-07"
 summary = "Present Web3 applications are not as user-friendly as the familiar web2 applications in terms of user experience and interaction. Almost every interaction with a DApp is a complex process for some users. A typical..."
 author = "Starcoin"
 tags = [
