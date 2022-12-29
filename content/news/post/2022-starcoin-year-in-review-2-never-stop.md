@@ -1,6 +1,6 @@
 +++
 title = "2022 Starcoin Year in Review （2）-Never Stop"
-date = "2022-12-02"
+date = "2022-12-26"
 summary = "No doubt that 2022 was a challenging year for the industry, but as you can see from Github, we’re never giving up. ..."
 author = "Starcoin"
 tags = [
