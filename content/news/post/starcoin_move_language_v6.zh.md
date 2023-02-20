@@ -17,7 +17,7 @@ Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级�
 ## 升级提案信息
 
 1. 提案 id：13
-2. 提案交易: https://stcscan.io/main/transactions/detail/ID (ID随提案在2023年2月22日13点提交会更新)
+2. 提案交易: https://stcscan.io/main/transactions/detail/ID (交易ID随提案在2023年2月22日13点创建后更新)
 3. 提案发起账号：0xed9ea1f3533c14e1b52d9ff6475776ba
 
 ## 升级流程

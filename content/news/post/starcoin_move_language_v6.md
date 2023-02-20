@@ -1,7 +1,7 @@
 +++
 title = "Starcoin Move Language upgrade voting is open"
 date = "2023-02-20"
-summary = "Voting for the Starcoin Move Language v6 upgrade is open. This upgrade can support move language support table(need upgrade stdlib) and new bytecode u16, u32, u256 and security improved"
+summary = "Voting for the Starcoin Move Language v6 upgrade is open. This upgrade support move language table(need upgrade stdlib) and new bytecode u16, u32, u256 and security improved"
 author = "nkysg"
 tags = [
     "Starcoin"
@@ -9,7 +9,7 @@ tags = [
 archives="2023"
 +++
 
-Voting for the Starcoin Move Language v6 upgrade is open. This upgrade can support move language support table(need upgrade stdlib), gas meter refactor, new bytecode u16, u32, u256 and security improved.
+Voting for the Starcoin Move Language v6 upgrade is open. This upgrade support table(need upgrade stdlib), gas meter refactor, new bytecode u16, u32, u256 and security improved.
 
 
 1. move language support table  , gas meter refactor and new bytecode u16, u32, u256 and security improved. (https://github.com/starcoinorg/starcoin/pull/3838)
@@ -17,7 +17,7 @@ Voting for the Starcoin Move Language v6 upgrade is open. This upgrade can suppo
 ## Upgrade proposal information
 
 1. Proposal id: 13
-2. Proposal transaction: https://stcscan.io/main/transactions/detail/ID (ID update on 2023-02-22 13:00 when proposal open)upda
+2. Proposal transaction: https://stcscan.io/main/transactions/detail/ID (Transaction ID will update on 2023-02-22 13:00 when proposal created)
 3. Proposer address: 0xed9ea1f3533c14e1b52d9ff6475776ba
 
 
