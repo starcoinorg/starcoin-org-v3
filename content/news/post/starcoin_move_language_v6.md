@@ -17,7 +17,7 @@ Voting for the Starcoin Move Language v6 upgrade is open. This upgrade can suppo
 ## Upgrade proposal information
 
 1. Proposal id: 13
-2. Proposal transaction: https://stcscan.io/main/transactions/detail/0x0237dba2eb4ea5971f7fb53693acb91f6879bfa12db3c15f1a6281e1661d9ee0 (TODO)
+2. Proposal transaction: https://stcscan.io/main/transactions/detail/ID (ID update on 2023-02-22 13:00 when proposal open)upda
 3. Proposer address: 0xed9ea1f3533c14e1b52d9ff6475776ba
 
 

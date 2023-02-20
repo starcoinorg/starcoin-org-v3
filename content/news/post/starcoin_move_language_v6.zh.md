@@ -1,6 +1,6 @@
 +++
 title = "Starcoin Move Language v6 版升级投票开始"
-date = "2023-02-20"
+date = "2023-02-22"
 summary = "Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级，主要包含..."
 author = "jolestar"
 tags = [
@@ -17,7 +17,7 @@ Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级�
 ## 升级提案信息
 
 1. 提案 id：13
-2. 提案交易: https://stcscan.io/main/transactions/detail/0x0237dba2eb4ea5971f7fb53693acb91f6879bfa12db3c15f1a6281e1661d9ee0 (TODO)
+2. 提案交易: https://stcscan.io/main/transactions/detail/ID (ID随提案在2023年2月22日13点提交会更新)
 3. 提案发起账号：0xed9ea1f3533c14e1b52d9ff6475776ba
 
 ## 升级流程
