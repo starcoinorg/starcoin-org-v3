@@ -9,7 +9,8 @@ tags = [
 archives="2023"
 +++
 
-Voting for the Starcoin Move Language v6 upgrade is open. This upgrade support table(need upgrade stdlib), gas meter refactor, new bytecode u16, u32, u256 and security improved.
+
+Voting for the Starcoin Move Language v6 upgrade is open. Voters need to update to the latest version  [v1.13.0](https://github.com/starcoinorg/starcoin/releases/tag/v1.13.0). This upgrade support table(need upgrade stdlib), gas meter refactor, new bytecode u16, u32, u256 and security improved.
 
 
 1. move language support table  , gas meter refactor and new bytecode u16, u32, u256 and security improved. (https://github.com/starcoinorg/starcoin/pull/3838)
