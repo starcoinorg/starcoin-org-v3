@@ -8,18 +8,20 @@ weight: 6
 # Modify DAO settings via governance mechanism
 
 For an introduction to on-chain governance, see Decentralized Organization Governance, an example of how on-chain governance is performed via CLI.
+
 The DAO itself also has several on-chain parameters, including:
 
+
+
 * voting_delay: The period during which the proposal is publicized.
-
 * voting_period: Voting period.
+* quorum_vote: voting rate.
+* min_action_delay: The minimum publicity period for the proposal to be executed.
 
-* quorum_vote: voting rate
+These parameters can also be voted on and modified by the DAO itself.
 
-* .min_action_delay: The minimum publicity period for the proposal to be executed.
+The default parameters for the STC's DAO governance in a DEV environment are:
 
-  These parameters can also be voted on and modified by the DAO itself.
-  The default parameters for the STC's DAO governance in a DEV environment are:
   ![img](https://lh3.googleusercontent.com/TNKwO5oeqr3L6S9uO1CkZ05vDMLMMvGVUdu5WcfUfyoEoyi19TRgR67zeFfnBXKwpTyXW6okKcRLB7quCVOAmtaH-roVl96EKwhtx8LfENseWrJYSyJ2FKNVX2gs-NIE-w2Yf_pRi-58yXxoXD1P5Po)
   The following CLI command demonstrates how to vote to change the proposal public period in the STC governance parameters to 60 * 60 * 1000 = 1h to explain the proposal-voting-execution process.
   **Note:** The following assumes that you are using a node in a DEV environment and that the node's default account is 0x84b4a430c50322a66007469a645a6a06. Where 0x84b4a430c50322a66007469a645a6a06 appears in the command, you need to replace it with your node's default account.
