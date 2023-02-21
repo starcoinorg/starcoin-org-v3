@@ -4,7 +4,7 @@ weight: 6
 typeof: developers
 ---
 
-关于链上治理的介绍请参看 [去中心化组织治理](../key_concepts/dao_governance/), 这是一个例子，演示如何通过 cli 进行链上治理。
+关于链上治理的介绍请参看 [Starcoin 去中心化治理](https://starcoin.org/zh/developer/key_concepts/dao_governance), 这是一个例子，演示如何通过 cli 进行链上治理。
 
 <!--more-->
 

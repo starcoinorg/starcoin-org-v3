@@ -9,6 +9,7 @@ tags = [
 archives="2023"
 +++
 
+
 Voting for the Starcoin Move Language v6 upgrade is open. Voters need to update to the latest version  [v1.13.0](https://github.com/starcoinorg/starcoin/releases/tag/v1.13.0). This upgrade support table(need upgrade stdlib), gas meter refactor, new bytecode u16, u32, u256 and security improved.
 
 
@@ -28,6 +29,6 @@ For voting methods, please refer to: [Starcoin Move Language upgrade v6 Guide](h
 
 For more information on Starcoin governance, please see.
 
-* [Governance section of the Starcoin technical white paper](https://developer.starcoin.org/en/sips/sip-2/)
-* [Lifecycle of on-chain governance](https://developer.starcoin.org/zh/key_concepts/dao_governance/)
-* [Modifying DAO settings through the governance mechanism](https://developer.starcoin.org/zh/cli/modify_dao_config/)
+* [Governance section of the Starcoin technical white paper](https://starcoin.org/en/overview/technology_whitepaper/)
+* [Lifecycle of on-chain governance](https://starcoin.org/en/developer/key_concepts/dao_governance/)
+* [Modifying DAO settings through the governance mechanism](https://starcoin.org/en/developer/cli/modify_dao_config/)
