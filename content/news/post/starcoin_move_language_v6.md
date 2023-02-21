@@ -28,6 +28,6 @@ For voting methods, please refer to: [Starcoin Move Language upgrade v6 Guide](h
 
 For more information on Starcoin governance, please see.
 
-* [Governance section of the Starcoin technical white paper](https://developer.starcoin.org/en/sips/sip-2/)
-* [Lifecycle of on-chain governance](https://developer.starcoin.org/zh/key_concepts/dao_governance/)
-* [Modifying DAO settings through the governance mechanism](https://developer.starcoin.org/zh/cli/modify_dao_config/)
+* [Governance section of the Starcoin technical white paper](https://starcoin.org/en/overview/technology_whitepaper/)
+* [Lifecycle of on-chain governance](https://starcoin.org/en/developer/key_concepts/dao_governance/)
+* [Modifying DAO settings through the governance mechanism](https://starcoin.org/en/developer/cli/modify_dao_config/)
