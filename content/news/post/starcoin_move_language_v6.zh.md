@@ -9,7 +9,7 @@ tags = [
 archives="2023"
 +++
 
-Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级，主要包含以下特性：
+Starcoin Move Language v6 版升级投票开始。投票需要将客户端升级到[v1.13.0](https://github.com/starcoinorg/starcoin/releases/tag/v1.13.0).本次 Move Language v6升级，主要包含以下特性：
 
 
 1. 支持Table, gas计费架构重构,字节码支持u16,u32,u256, 提升move安全性. (https://github.com/starcoinorg/starcoin/pull/3838)
@@ -17,7 +17,7 @@ Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级�
 ## 升级提案信息
 
 1. 提案 id：13
-2. 提案交易: https://stcscan.io/main/transactions/detail/ID (交易ID随提案在2023年2月22日13点创建后更新)
+2. 提案交易: https://stcscan.io/main/transactions/detail/0x786d69ec448b787690244df0adb7051d5990e8db32f06f5c555cad5fb5b7d4f5
 3. 提案发起账号：0xed9ea1f3533c14e1b52d9ff6475776ba
 
 ## 升级流程
