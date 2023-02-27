@@ -22,7 +22,7 @@ weight: 7
    
 
 
-![img](https://lh5.googleusercontent.com/UAO0fPWjVp22Oy_z_LlqqM49ojjyeSDUh5-6h9hBBslzzOmQE8R2UWNcFdONBlrkkVCSwixL37b8ojFakyoPBvNjgx_etB_K8CmhXf1zbh91-g5z8mWcbWibWiZI7xRPYmcIXQ_gx-fn0Kc4TglcPLE)
+![img](https://starcoin.org/img/starcoin_dao_functionality.png)
 
 
    One of the significant differences between Starcoin's DAO implementation and Ethereum's DAO implementation is that in Starcoin, each type of proposal is controlled by a separate contract module, which implements the proposal initiation and execution.
@@ -57,7 +57,7 @@ weight: 7
    
 
 
-![img](https://lh4.googleusercontent.com/Dqr8z1CLSBmEChmya3IjG0OfjofeOtSR254IXTxXhRPcJ99iEzdb5sFp6Vp8bDoI9iiWSE7g4FyXeqpWCNLGsiILD-j1pLPl7YeYde8ARv93KVkRGzJjpnVYD8l3lYR_EwnvaSQijKjHCeWJYqtJAa4)
+![img](https://starcoin.org/img/starcoin_dao_seq.png)
 
 
    Voting status notes：
