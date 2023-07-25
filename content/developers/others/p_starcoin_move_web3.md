@@ -55,7 +55,7 @@ Meduim(English): [https://starcoin.medium.com/](https://starcoin.medium.com/)
 
 Meduim(Chinese): [https://medium.com/@StarcoinZH](https://medium.com/@StarcoinZH)
 
-Discord: [http://discord.gg/starcoin](http://discord.gg/starcoin)
+Discord: [https://discord.com/invite/XJYmhRMQya](https://discord.com/invite/XJYmhRMQya)
 
 Starcoin Website: http://starcoin.org
 

@@ -138,6 +138,6 @@ I believe you now have a preliminary understanding of Starcoin. If you are also 
 - http://t.me/StarcoinZH (Chinese)
 - Meduim：https://starcoin.medium.com/ (English)
 - https://medium.com/@StarcoinZH (Chinese)
-- Discord: http://discord.gg/starcoin
+- Discord: https://discord.com/invite/XJYmhRMQya
 - Starcoin Website: http://starcoin.org
 

@@ -67,7 +67,7 @@ On May 18, 2021, Starcoin launched its own main network. Starcoin is a new gener
 
    Meduim(Chinese): [https://medium.com/@StarcoinZH](https://medium.com/@StarcoinZH)
 
-   Discord: [http://discord.gg/starcoin](http://discord.gg/starcoin)
+   Discord: [https://discord.com/invite/XJYmhRMQya](https://discord.com/invite/XJYmhRMQya)
 
    Starcoin Website: http://starcoin.org
 
