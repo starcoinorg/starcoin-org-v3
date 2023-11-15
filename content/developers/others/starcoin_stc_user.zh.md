@@ -54,13 +54,13 @@ Starmask除了常用的钱包功能之外，还能帮助你参与更多的事情
 
 ## Onekey钱包，老鸟用户的选择
 
-在安装完Starmask之后，如果你想妥善管理你的账户，可以考虑硬件钱包。Onekey是目前已经支持STC的硬件钱包，这里着重讲一下Starmask与onekey连接管理账户。
+在安装完Starmask之后，如果你想妥善管理你的账户，可以考虑硬件钱包。Onekey是目前已经支持STC的硬件钱包，这里着重讲一下Starmask与Onekey连接管理账户。
 
 1. 准备环境
 
    <img src="https://tva1.sinaimg.cn/large/008i3skNly1gxotwg1j1kj315h0u0juf.jpg" alt="onekey_client" style="zoom:33%;" />
 
-   这里你已经熟练使用Starmask，并且拿到了支持STC的onekey钱包了，然后，从这里[下载](https://www.onekey.so/download?client=desktop)并安装onekey钱包的客户端。
+   这里你已经熟练使用Starmask，并且拿到了支持STC的Onekey钱包了，然后，从这里[下载](https://www.onekey.so/download?client=desktop)并安装Onekey钱包的客户端。
 
 2. 打开Starmask并且点击①进入账户管理页面
 
@@ -90,7 +90,7 @@ Starmask除了常用的钱包功能之外，还能帮助你参与更多的事情
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNly1gxotqctu7wj315u0u0jt5.jpg" alt="starcoin_onekey_7" style="zoom:33%;" />
 
-9. 最后点击导出，onekey钱包设置完成
+9. 最后点击导出，Onekey钱包设置完成
 
    <img src="https://tva1.sinaimg.cn/large/008i3skNly1gxots0g6h5j31ho0u0jsg.jpg" alt="starcoin_onekey_8" style="zoom:33%;" />
 
@@ -104,7 +104,7 @@ Starmask除了常用的钱包功能之外，还能帮助你参与更多的事情
 除了前面介绍的Starmask，玩转Starcoin的另一种比较极客的方式是使用Starcoin节点。Starcoin节点有全部的数据，所以拥有自己的Starcoin节点可以干很多很多的事情，常用的操作，比如：
 
 1. 发起投票；
-2. Mint STC；
+2. Mine STC；
 3. 查看任意账户的状态；
 
 所以，极客玩家可以考虑搭建属于自己的Starcoin节点，下面是节点的安装、启动和使用说明。
