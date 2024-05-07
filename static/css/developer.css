@@ -14,7 +14,7 @@ ul {
 }
 
 .container-developer {
-  background: #0a1239 !important;
+  background: #030015 !important;
   padding-top: 80px;
 
 }
@@ -44,7 +44,7 @@ body {
   width: 300px;
   min-height: 1031px;
   position: relative;
-  background: #005dff;
+  background: #6fee87;
   border-radius: 10px 0px 0px 10px;
   padding: 40px 0 40px 25px;
 }
@@ -112,7 +112,7 @@ body {
   line-height: 44px;
   font-size: 14px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #000;
   padding-left: 13px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -126,7 +126,7 @@ body {
 }
 
 .container-developer .developer .developer_left .developer_column_list li ul a{
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .container-developer .developer .developer_left .developer_column_list li a:hover {
@@ -138,7 +138,7 @@ body {
 .container-developer .developer .developer_left .developer_column_list li a.active {
   border-left: 2px solid #262649;
   background-color: #262649;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .container-developer .developer .developer_left .developer_column_list li .arrow.active::before {
@@ -685,4 +685,8 @@ body {
     max-width: 50% !important;
     margin: 16px 0;
   }
+}
+
+.developer_right .markdown a {
+  color:#6fee87;
 }
