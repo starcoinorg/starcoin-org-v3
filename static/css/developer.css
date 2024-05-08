@@ -13,6 +13,16 @@ ul {
   padding-left: 0;
 }
 
+.page--developer {
+  background-color: #030015 !important;
+}
+
+.page--developer .new_footer_area {
+ 
+background: #000000;
+
+}
+
 .container-developer {
   background: #030015 !important;
   padding-top: 80px;
@@ -43,10 +53,29 @@ body {
 .container-developer .developer .developer_left {
   width: 300px;
   min-height: 1031px;
+  background: rgb(255 255 255 / .15);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  border-radius: 32px 0px 0px 32px;
+  padding: 40px 0 40px 0;
+  border: 1px solid rgb(255 255 255);
   position: relative;
-  background: #6fee87;
-  border-radius: 10px 0px 0px 10px;
-  padding: 40px 0 40px 25px;
+}
+
+
+.container-developer .developer .developer_left::before {
+  content: "";
+  position: absolute;
+  width: 686px;
+  height: 430px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  background: rgba(111, 238, 135, 0.5);
+  opacity: 0.2;
+  filter: blur(100px);
+  border-radius: 295px;
 }
 
 /* .container-developer .developer .developer_left .developer_column {
@@ -112,7 +141,7 @@ body {
   line-height: 44px;
   font-size: 14px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   padding-left: 13px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -126,19 +155,22 @@ body {
 }
 
 .container-developer .developer .developer_left .developer_column_list li ul a{
-  color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
 }
 
 .container-developer .developer .developer_left .developer_column_list li a:hover {
-  border-left: 2px solid #262649;
-  background-color: #262649;
+  background: rgba(111, 238, 135, 0.4);
+  border-left: 2px solid #C0C0E4;
   color: #FFFFFF;
 }
 
 .container-developer .developer .developer_left .developer_column_list li a.active {
-  border-left: 2px solid #262649;
-  background-color: #262649;
+
   color: #fff;
+
+background: rgba(111, 238, 135, 0.4);
+border-left: 2px solid #C0C0E4;
+
 }
 
 .container-developer .developer .developer_left .developer_column_list li .arrow.active::before {
@@ -373,9 +405,16 @@ body {
 .container-developer .developer .developer_right {
   width: 900px;
   min-height: 1031px;
-  background: #262649;
+  /* background: #262649; */
   position: relative;
-  border-radius: 0 10px 10px 0;
+  /* border-radius: 0 10px 10px 0; */
+ 
+background: rgba(111, 238, 135, 0.2);
+border: 1px solid #FFFFFF;
+border-left: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 32px 32px 0px;
+
 }
 
 .container-developer .developer .developer_right .m_mask {
